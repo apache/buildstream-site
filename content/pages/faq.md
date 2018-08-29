@@ -1,4 +1,4 @@
-title: Frquented Asked Questions
+title: Frequented Asked Questions
 
 # About BuildStream
 
