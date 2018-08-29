@@ -1,8 +1,9 @@
 ## Download BuildStream
 
-[[_TOC_]]
+{:.no_toc}
 
 Latest released version:
+
 | Version      | OS           | Download & MD5 sum       | Instructions |  Artifacts |
 | :----------: | :------:     | :----------------------: | :----------: |  :----------: |
 |              |              | Debian (.deb) Checksum xxxxx | Please read the following considerations before installing the .deb package  | xxxxxxxx |
