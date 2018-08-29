@@ -1,0 +1,10 @@
+image: python:3.7-alpine
+
+pages:
+  script:
+  - apk add --update make
+  - pip3 install -r requirements.txt
+  - make publish
+  artifacts:
+    paths:
+    - public/

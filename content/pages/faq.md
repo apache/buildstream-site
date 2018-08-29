@@ -1,3 +1,5 @@
+title: Frquented Asked Questions
+
 # About BuildStream
 
 A.1.- What is BuildStream?
