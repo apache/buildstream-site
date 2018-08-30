@@ -20,5 +20,9 @@ AUTHOR_FEED_RSS = None
 
 DEFAULT_PAGINATION = 10
 
+STATIC_PATHS = [
+    '.well-known/acme-challenge',
+]
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
