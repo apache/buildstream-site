@@ -4,6 +4,8 @@ title: Glossary
 
 ## BuildStream Glossary
 
+[[_TOC_]]
+
 ### B
 
 * build: <!-- vs integration -->

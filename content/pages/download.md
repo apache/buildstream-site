@@ -1,3 +1,5 @@
+title: Download
+
 ## Download BuildStream
 
 [[_TOC_]]

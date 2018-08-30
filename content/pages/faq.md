@@ -1,6 +1,9 @@
-title: Frequented Asked Questions
+title: Frequently Asked Questions
+## FAQ (Frequently Asked Qesutions)
 
-# About BuildStream
+[[_TOC_]]
+
+### About BuildStream
 
 A.1.- What is BuildStream?
 
@@ -20,7 +23,7 @@ A.4.- Which license is BuildStream using?
 A.5.- Who is developing BuildStream?
 
 
-## Use BuildStream
+### Use BuildStream
 
 U.1.- I want to give BuildStream a try. Where can I get it?
 
@@ -28,12 +31,12 @@ U.2.- Which BuildStream version should I try?
 
 U.3.- How do I install BuildStream?
 
-U.4.- I need help with BuildStream's installation, where can I get it?
+U.4.- I need help with BuildStream installation, where can I get it?
 
 U.5.- I have BuildStream installed, now what?
 
 
-## Contribute to BuildStream
+### Contribute to BuildStream
 
 C.1.- I found a bug, how can I report it?
 
