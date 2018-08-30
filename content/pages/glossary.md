@@ -4,7 +4,7 @@ title: Glossary
 
 ## BuildStream Glossary
 
-[[_TOC_]]
+[TOC]
 
 ### B
 

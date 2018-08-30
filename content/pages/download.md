@@ -2,7 +2,7 @@ title: Download
 
 ## Download BuildStream
 
-[[_TOC_]]
+[TOC]
 
 Latest released version:
 

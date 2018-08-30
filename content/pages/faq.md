@@ -1,7 +1,7 @@
 title: Frequently Asked Questions
 ## FAQ (Frequently Asked Qesutions)
 
-[[_TOC_]]
+[TOC]
 
 ### About BuildStream
 
