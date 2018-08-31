@@ -28,6 +28,7 @@ MARKDOWN = {
   'extension_configs': {
     'markdown.extensions.toc': {
       'title': 'Table of contents:'
-    }
-  }
+    },
+    'markdown.extensions.extra': {}
+  },
 }
