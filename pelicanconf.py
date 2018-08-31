@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'BuildStream'
-SITENAME = 'BuildStream Website'
+SITENAME = 'BuildStream'
 SITEURL = ''
 
 PATH = 'content'
@@ -10,6 +10,8 @@ PATH = 'content'
 TIMEZONE = 'Europe/London'
 
 DEFAULT_LANG = 'en'
+
+THEME = 'theme'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -32,3 +34,11 @@ MARKDOWN = {
     'markdown.extensions.extra': {}
   },
 }
+
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+MENUITEMS = (
+    ('Portfolio', '/pages/buildstream-portfolio.html'),
+    ('Download', '/pages/download.html'),
+    ('FAQ', '/pages/frequently-asked-questions.html'),
+)

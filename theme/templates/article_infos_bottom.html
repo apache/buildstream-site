@@ -1,0 +1,6 @@
+
+{% if PDF_PROCESSOR %}<p><a href="{{ SITEURL }}/pdf/{{ article.slug }}.pdf">PDF</a></p>{% endif %}
+
+{% import 'translations.html' as translations with context %}
+{{ translations.translations_for(article) }}
+
