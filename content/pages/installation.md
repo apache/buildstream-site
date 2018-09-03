@@ -291,6 +291,29 @@ you will need to uninstall and reinstall to ensure those dependencies
 are met, regardless of whether you have used the `-e` option at
 install time.
 
+<a id="install_tarball"></a>
+### Installing from tarball
+
+Tarballs are available on the [download page]({filename}download.md).
+
+You will additionally require:
+
+- pip for python3 (only required for setup)
+- Python 3 development libraries and headers
+
+Run the following commands from the unpacked tarball:
+
+```
+pip3 install --user .
+```
+
+This will install buildstream's pure python dependencies into
+your user's homedir in `~/.local` and will run BuildStream directly
+from the git checkout directory.
+
+Keep following the instructions below to ensure that the ``bst``
+command is in your `PATH` and to enable bash completions for it.
+
 ## Post install setup
 
 After having installed from source using any of the above methods, some
