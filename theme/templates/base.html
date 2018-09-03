@@ -50,29 +50,6 @@
     </div>
     <!-- End Main Content -->
 
-    <!-- Sidebar -->
-    <aside class="large-3 columns">
-
-        {% if LINKS %}
-        <h5 class="sidebar-title">Links</h5>
-        <ul class="side-nav">
-        {% for name, link in LINKS %}
-            <li><a href="{{ link }}">{{ name }}</a></li>
-        {% endfor %}
-        </ul>
-        {% endif %}
-		
-        <h5 class="sidebar-title">Posts</h5>
-        <table class="table-archive">
-        <tbody>
-        {% for article in dates %}
-            <tr>
-            <td><a href='{{ article.url }}'>{{ article.title }}</a></td>
-            </tr>
-        {% endfor %}
-
-    </aside> <!-- End Sidebar -->
-
 </div> <!-- End Main Content and Sidebar -->
 
 
