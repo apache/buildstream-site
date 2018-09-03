@@ -1,4 +1,5 @@
 title: Installation
+save_as: installation.html
 
 [TOC]
 

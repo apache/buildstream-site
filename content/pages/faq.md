@@ -1,5 +1,7 @@
 title: Frequently Asked Questions
-# FAQ (Frequently Asked Questions)
+save_as: faq.html
+
+## FAQ (Frequently Asked Qesutions)
 
 [TOC]
 

@@ -1,4 +1,5 @@
 title: Community
+save_as: community.html
 
 <!-- This is the so called project page  -->
 

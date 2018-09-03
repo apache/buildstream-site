@@ -1,4 +1,5 @@
 title: Download
+save_as: download.html
 
 [TOC]
 
