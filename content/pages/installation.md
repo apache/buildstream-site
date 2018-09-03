@@ -228,7 +228,7 @@ pip install --user --upgrade BuildStream
 
 <a id="install_git_checkout"></a>
 
-## Installing from a git checkout
+### Installing from a git checkout
 
 To install directly from the [git repository](https://gitlab.com/BuildStream/buildstream.git)
 using python's `pip` package manager, you will additionally require:
