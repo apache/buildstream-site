@@ -3,6 +3,7 @@ import urllib.parse
 import json
 import re
 import os
+import pickle
 from html.parser import HTMLParser
 
 class ExtractLinks(HTMLParser):
@@ -23,13 +24,23 @@ class ExtractLinks(HTMLParser):
     def handle_data(self, data):
         pass
 
-url_cache = {}
+url_cache = None
 
 def get_url(url):
+    global url_cache
+    if url_cache is None:
+        try:
+            with open('public/url_cache.pickle', 'rb') as f:
+                url_cache = pickle.load(f)
+        except FileNotFoundError:
+            url_cache = {}
+
     if url in url_cache:
         return url_cache[url]
     with urllib.request.urlopen(url) as f:
         url_cache[url] = f.read()
+        with open('public/url_cache.pickle', 'wb') as f:
+            pickle.dump(url_cache, f, pickle.HIGHEST_PROTOCOL)
         return url_cache[url]
 
 def get_links(url):
