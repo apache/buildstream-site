@@ -32,7 +32,29 @@ A.5.- Who is developing BuildStream?
 
 U.1.- I want to give BuildStream a try. Where can I get it?
 
+We recommend for new users to follow our [installation guide]({filename}installation.md).
+
 U.2.- Which BuildStream version should I try?
+
+New users should get what the [installation guide]({filename}installation.md)
+recommends, which might depends on their platform.
+
+For users requiring the last features, install the latest stable
+version from source. For contributors, or those wanting to test coming
+up features, use the last development snapshot. See the [download
+page]({filename}download.md).
+
+<a id="install_semantic_versioning"></a>
+
+Please note BuildStream follows the Semantic Versioning Convention
+([SemVer](https://semver.org/)) and uses even minor point numbers to
+denote releases intended for users while odd minor point numbers
+represent development snapshops.
+
+For example, for a given version number `X.Y.Z`
+
+ - The `X.<even number>.*` versions are releases intended for users.
+ - The `X.<odd number>.*` versions are development spanshots intended for testing.
 
 U.3.- How do I install BuildStream?
 

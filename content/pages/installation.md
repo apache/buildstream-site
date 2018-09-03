@@ -3,30 +3,6 @@ save_as: installation.html
 
 [TOC]
 
-<a id="install_semantic_versioning"></a>
-
-# Semantic Versioning
-
-BuildStream follows the Semantic Versioning Convention ([SemVer](https://semver.org/))
-and uses even minor point numbers to denote releases intended for users while
-odd minor point numbers represent development snapshops.
-
-For example, for a given version number `X.Y.Z`
- - The `X.<even number>.*` versions are releases intended for users.
- - The `X.<odd number>.*` versions are development spanshots intended for testing.
-
-If you are [installing from git](#install_git_checkout), please look
-for the latest tag to ensure you're getting the latest release.
-
- - Latest release:
-
-<object style="vertical-align: middle" data="https://buildstream.gitlab.io/buildstream/_static/release.svg" type="image/svg+xml">
-</object>
-
- - Latest development snapshot:
-
-<object style="vertical-align: middle" data="https://buildstream.gitlab.io/buildstream/_static/snapshot.svg" type="image/svg+xml">
-</object>
 
 <a id="install_linux_distro"></a>
 
@@ -215,7 +191,7 @@ python package as a regular user.
 
 ### Installing from PyPI (recommended)
 
-Since we only ever publish [release versions](#install_semantic_versioning) on
+Since we only ever publish [release versions]({filename}faq.md#install_semantic_versioning) on
 PyPI, it is currently recommended to use this installation path. This will
 ensure that you always have the latest recommended version of BuildStream that
 we recommend.
@@ -265,7 +241,7 @@ Before installing, please check the existing tags in the git repository
 and determine which version you want to install, and whether you want
 to install an official release version (recommended), or a development snapshot
 to help us out testing the bleeding edge of development. Follow the
-[semantic versioning guide](#install_semantic_versioning) to determine
+[semantic versioning]({filename}faq.md#install_semantic_versioning) to determine
 which tag you intend to install.
 
 Run the following commands:
