@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'BuildStream'
-SITENAME = 'BuildStream'
+SITENAME = 'BuildStream, the software integration tool'
 SITEURL = ''
 
 PATH = 'content'
