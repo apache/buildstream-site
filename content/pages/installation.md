@@ -1,8 +1,15 @@
 title: Installation
 save_as: installation.html
 
-[TOC]
+For users of Arch Linux and Fedora we recommend installing BuildStream from packages. Please follow section [Installing from distro packages](#install_linux_distro).
 
+Users of other distributions should manually [install dependencies](#installing_dependencies) then install BuildStream [using PyPI](#install_pypi). Finally finish with [post install](#post_install).
+
+For development snapshots, [install dependencies](#installing_dependencies) and then [install from git](#install_git_checkout). Finally finish with [post install](#post_install).
+
+To install from source tarball, [install dependencies](#installing_dependencies) and then [install from tarball](#install_tarball). Finally finish with [post install](#post_install).
+
+[TOC]
 
 <a id="install_linux_distro"></a>
 
@@ -38,6 +45,7 @@ documentation in Devhelp or GNOME Builder.
 Until BuildStream is available in [your distro](#install_linux_distro), you will
 need to install it yourself from source.
 
+<a id="installing_dependencies"></a>
 ## Installing dependencies
 
 Before installing BuildStream from source, it is necessary to first install
@@ -183,12 +191,12 @@ or [ostree](https://github.com/ostreedev/ostree) are available in the official r
 You will need to install them in whichever way you see fit. Refer the the upstream documentation
 for advice on this.
 
-
 ## Installing
 
 Once you have the base system dependencies, you can install the BuildStream
 python package as a regular user.
 
+<a id="install_pypi"></a>
 ### Installing from PyPI (recommended)
 
 Since we only ever publish [release versions]({filename}faq.md#install_semantic_versioning) on
@@ -314,6 +322,7 @@ from the git checkout directory.
 Keep following the instructions below to ensure that the ``bst``
 command is in your `PATH` and to enable bash completions for it.
 
+<a id="post_install"></a>
 ## Post install setup
 
 After having installed from source using any of the above methods, some
