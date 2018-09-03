@@ -1,13 +1,8 @@
-title: BuildStream, the software integration tool.
+title: Welcome to the BuildStream project
 save_as: index.html
 
-<!-- Once sentence about what is BuildStream for: BuildStream is an Open Source projects that delivers a software integration tool-set, also called BuildStream, the manages the integration process and build complex software systems and applications (example)  -->
+BuildStream is a Free Software project that delivers an homonym toolset for integrating software stacks.
 
-<!-- Once or two sentences about who is BuildStream for: application developers and system integrators -->
+The BuildsStream integration toolset targets application developers and system integrators who create production ready software at scale using modern methodologies, that need to be maintained for long periods of time while keeping high levels of efficiency and flexibility.
 
-New to BuildStream? Find out more (link to the first section of the FAQ).
-
-Download BuildStream (link to the download page)
-
-<!-- Should we include the link to the download page in the main menu?  -->
-<!-- include beever somewhere  -->
+New to BuildStream? Find out more in our [Frequently Asked Questions](https://buildstream.build/pages/frequently-asked-questions.html) page.
