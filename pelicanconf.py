@@ -26,7 +26,14 @@ STATIC_PATHS = [
   '.well-known/acme-challenge',
 ]
 
+import sys
+sys.path.append('.')
+from get_releases import DownloadTable
+
 MARKDOWN = {
+  'extensions': [
+      DownloadTable()
+  ],
   'extension_configs': {
     'markdown.extensions.toc': {
       'title': 'Table of contents:'
