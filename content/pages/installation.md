@@ -87,11 +87,6 @@ The default plugins with extra host dependencies are:
 - patch
 - tar
 
-If you intend to push built artifacts to a remote artifact server,
-which requires special permissions, you will also need:
-
-- ssh
-
 ## Arch Linux
 
 Install the dependencies with:
