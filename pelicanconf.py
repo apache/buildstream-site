@@ -13,6 +13,7 @@ ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}/index.html'
 INDEX_SAVE_AS = 'updates.html'
 STATIC_PATHS = [
     '.well-known/acme-challenge',
+    'favicon.ico',
 ]
 
 TIMEZONE = 'Europe/London'
