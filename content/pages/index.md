@@ -12,9 +12,9 @@ make, meson, qmake), and can create outputs in a range of formats (e.g. debian
 packages, flatpak runtimes, sysroots, system images) for multiple platforms and
 chipsets.
 
-Our core users are application developers and system integrators who create 
+Our core users are application developers and system integrators who create
 production-ready software systems that need to be maintained efficiently and
 reliably over the long term.
 
-New to BuildStream? Find out more in our 
+New to BuildStream? Find out more in our
 [Frequently Asked Questions](faq.html) page.
