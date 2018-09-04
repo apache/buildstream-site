@@ -99,6 +99,15 @@ class DownloadTablePP(markdown.preprocessors.Preprocessor):
         super(DownloadTablePP, self).__init__(md)
 
     def run(self, lines):
+        try:
+            with open('anouncements.json', 'r') as f:
+                release_anouncements = json.load(f)
+        except:
+            # Pelican swallows errors, so we print it.
+            import traceback
+            traceback.print_exc()
+            release_anouncements = {}
+
         output = []
         for line in lines:
             if line.startswith('_download_table_stable:') or line.startswith('_download_table_unstable:'):
@@ -116,6 +125,7 @@ class DownloadTablePP(markdown.preprocessors.Preprocessor):
                     else:
                         env['news'] = ''
                         env['news-basename'] = ''
+                    env['anouncement'] = release_anouncements.get(env['version'], '')
                     newline = pattern.format(**env)
                     newline = re.sub(r'[[](?P<txt>[^]]*)[]][(][)]', r'\g<txt>', newline)
                     output.append(newline)

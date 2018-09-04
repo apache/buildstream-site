@@ -1,14 +1,6 @@
 title: Download
 save_as: download.html
 
-[TOC]
-
-# Installation
-
-It is recommended to follow the [installation guide](installation.html).
-
-# Source
-
 ## Releases
 
 Latest version:
@@ -17,9 +9,9 @@ Latest version:
 </object>
 [See the new features]({filename}feature_page.md).
 
-| Version | URL | SHA256 | Changes |
-|:-------:|:---:|:------:|:-------:|
-_download_table_stable:| {version} | [{basename}]({uri}) | {sha256} | [{news-basename}]({news}) |
+| Version | URL | SHA256 |
+|:-------:|:---:|:------:|
+_download_table_stable:| [{version}]({anouncement}) | [{basename}]({uri}) | {sha256} |
 
 ## Development snapshots
 
@@ -28,6 +20,6 @@ Latest version:
 (your browser does not support SVG, please find releases at [https://download.gnome.org/sources/BuildStream/](https://download.gnome.org/sources/BuildStream/).
 </object>
 
-| Version | URL | SHA256 | Changes |
-|:-------:|:---:|:------:|:-------:|
-_download_table_unstable:| {version} | [{basename}]({uri}) | {sha256} | [{news-basename}]({news}) |
+| Version | URL | SHA256 |
+|:-------:|:---:|:------:|
+_download_table_unstable:| [{version}]({anouncement}) | [{basename}]({uri}) | {sha256} | [{news-basename}]({news}) |
