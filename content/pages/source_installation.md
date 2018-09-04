@@ -161,7 +161,7 @@ for advice on this.
 Once you have the base system dependencies, you can install the BuildStream
 python package as a regular user.
 
-Since we only ever publish [release versions](download.html) on
+Since we only ever publish [release versions](releases.html) on
 PyPI, it is currently recommended to use this installation path. This will
 ensure that you always have the latest recommended version of BuildStream that
 we recommend.
@@ -185,7 +185,7 @@ command is in your `PATH` and to enable bash completions for it.
 
 If you want a specific version of BuildStream, you can install it
 using `pip install --user BuildStream==<version-number>`. Available
-can be found versions on the [download page](download.html). Note that some
+can be found versions in the [releases](releases.html). Note that some
 of the oldest versions are not available on PyPI.
 
 #### Upgrading from PyPI
@@ -211,7 +211,7 @@ using python's `pip` package manager, you will additionally require:
 Before installing, please check the existing tags in the git repository
 and determine which version you want to install, and whether you want
 to install an official release version (recommended), or a development snapshot
-to help us out testing the bleeding edge of development. Available versions can be found on the [download page](download.html).
+to help us out testing the bleeding edge of development. Available versions can be found in the [releases](releases.html).
 
 Run the following commands:
 
@@ -264,7 +264,7 @@ install time.
 
 ### Installing from tarball
 
-Tarballs are available on the [download page](download.html).
+Tarballs are available in the [releases](releases.html).
 
 You will additionally require:
 

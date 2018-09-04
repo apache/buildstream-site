@@ -1,5 +1,5 @@
-title: Download
-save_as: download.html
+title: Releases
+save_as: releases.html
 
 <a id="install_semantic_versioning"></a>
 
