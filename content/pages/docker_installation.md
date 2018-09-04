@@ -4,7 +4,7 @@ save_as: docker_installation.html
 If your system cannot provide the base system requirements for BuildStream, then it is possible to run buildstream within a Docker image.
 
 The BuildStream project provides
-[Docker images](https://hub.docker.com/r/buildstream/buildstream-fedora>)
+[Docker images](https://hub.docker.com/r/buildstream/buildstream-fedora)
 containing BuildStream and its dependencies.
 This gives you an easy way to get started using BuildStream on any Unix-like
 platform where Docker is available, including Mac OS X.
