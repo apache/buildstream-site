@@ -5,7 +5,7 @@ save_as: download.html
 
 # Installation
 
-It is recommended to follow the [installation guide]({filename}installation.md).
+It is recommended to follow the [installation guide](installation.html).
 
 # Source
 
