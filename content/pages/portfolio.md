@@ -11,6 +11,7 @@ save_as: portfolio.html
 The BuildStream project develops, deliver and maintain an integration toolset called BuildStream specially designed for software application developers and integrators of complex systems that follow modern delivery methodologies to ship software that should be in production for a long time. At the same time, as Free Software project, BuildStream ships versions of the tools set advancing the features that will be shipped in the future for those who want to evaluate where the toolset is heading or test them. Finally, BuildStream toolset development mostly takes place in the master branch of the buildstream repository, which the project refers to as Master. 
 
 So BuildStream portfolio includes three deliverables:
+
 * BuildStream releases, which target software application and system integrators.
 * Development snapshots, which target testers and those interested in evaluate what's coming.
 * Master, which target contributors who participate in the BuildStream development.
@@ -26,6 +27,7 @@ BuildStream releases are "ready to use" versions of the toolset that will receiv
 Currently, the latest BuildStream release is <object style="vertical-align: middle" data="https://buildstream.gitlab.io/buildstream/_static/release.svg" type="image/svg+xml"></object>.
 
 In order to learn more about this specific release, the following links will be of help:
+
 * The publication of BuildStream releases is announced on this website through a [Release Announcement](https://buildstream.build/articles/2018/BuildStream-1.2-is-out!/).
 * You can find [What's New](https://buildstream.build/feature.html) on each release by reading the release feature page, which includes also relevant information for those who want to consider installing BuildStream for the very first time.
 * In order to Download and Install/Deploy BuildStream the next recommended step is to visit the [Download page](https://buildstream.build/download.html) and the [Installation and Deployment Instructions](https://buildstream.build/installation.html) which will provide you a step by step guidance on the process.
@@ -41,6 +43,7 @@ BuildStream delivers Development Snapshots regularly for developers and integrat
 Currently the latest Development Snapshot is <object style="vertical-align: middle" data="https://buildstream.gitlab.io/buildstream/_static/snapshot.svg" type="image/svg+xml"></object>.
 
 If you are interested in these Development Snapshots we recommend you the following:
+
 * [Find the Snapshot](https://buildstream.build/download.html#development-snapshots) you are interested on. We strongly recommend the latest one.
 * Download it and [Install/Deploy](https://buildstream.build/installation.html#installing) it or update it if you already have a previous snapshot installed. Visit the [Known Issues](https://buildstream.build/known-issues.html) page if you have any issue during the installation or deployment process.
 * Go to the [specific section of the FAQ](https://buildstream.build/faq.html#contribute-to-buildstream) where you will find how to reach out to the developers, get the code or open a bug in case you detect an issue and want to report. 
@@ -57,10 +60,10 @@ If you are interested in contributing to the development of BuildStream or pleas
 
 BuildStream deliverable versions follow the Semantic Versioning Convention ([SemVer](https://semver.org/)) and uses even minor point numbers to denote BuildStream Releases while odd minor point numbers represent Development Snapshops.
 
-For example, for a given version number `X.Y.Z`:
+For example, for a given version number `X.Y.Z`
 
-- The `X.<even number>.*` versions are BuildStream Releases.
-- The `X.<odd number>.*` versions are Development Spanshots.
+* The `X.<even number>.*` versions are BuildStream Releases.
+* The `X.<odd number>.*` versions are Development Spanshots.
 
 If you are [installing from git](#install_git_checkout), please look for the latest tag to ensure you're getting the latest release.
 

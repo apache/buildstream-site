@@ -2,30 +2,54 @@ title: Community
 save_as: community.html
 
 <!-- This is the so called project page  -->
-
 [TOC]
 
+## BuildStream Manifest
 
-Paragraph describing BuildStream as an Open Source project.
+Coming soon.
 
-# BuildStream Manifest
+## BuildStream Governance
+<!-- This section describes the governance aspects of the project, including the licenses (link to the license page of the buildstream repo) and the project sponsors, as well as the relation with GNOME. -->
+BuildStream is a Free Software project hosted by the [GNOME Foundation] so it inherits its Governance model and [Code of Conduct]. 
 
-Paragraph describing BuildStream principles, mission and target audiences (users and contributors)
+## License
 
-# BuildStream Governance
+BuildStream code and technical documentation is licensed under the [LGPL2.1] license. The website contents are licensed under [CC-BY-SA 4.0].
 
-This section describes the governance aspects of the project, including the licenses (link to the licensce page of the buildstream repo) and the project sponsors, as well as the relation with GNOME.
+## Participate in the BuildStream project
 
-# Participate in the BuildStream project
+The BuildStream project welcome and promotes the participation and contributions of any person. The following links will redirect you to what you need to know in order to participate:  
 
-This section includes the information required to participate in the project including:
-* Consume BuildStream (download page)
-* Report bugs:  link to FAQ where this question is answered. Include context.
-* Test the latest features: context and link to the development snapshots in the download page.
+* The most obvious way to participate is to [use BuildStream].
+* If you are interested in testing the new features developed by the BuildStream community, install/deploy the latest [Development Snapshot].
+   * It would be great to hear back about your experience. Join us on the #buildstream channel on the [GNOME IRC server] or the [BuildStream Community] mailing list. Feel free to provide support to other users through these channels.
+      * You might also be interested in checking the [mailing list archive].
+   * One of the most valuable ways to participate is [reporting potential bugs]. You can find a detailed explanation about how to do so in the FAQ.
 * Develop BuildStream
-   * You should be entitled to the principles and general governance rules. Accept the license. We use gitlab. No CLA and No CoO.
-   * Link to Master
-   * Review code: link to MR list in BuildStream repo
-* Support other users or any othet type of contribution:
-   * Communication channels and through (provide context)
-   * Wiki front page (provide context)
+   * The [repository buildstream] host the core code. Sign-up on [Gitlab.com] and request becoming a member of the [BuildStream Group].
+   * Make sure you read and understand the BuildStream [development policies and guidelines].
+   * We recommend you to start by evaluating and potentially fixing [simple bugs], then move into reviewing [Merge Requests] already submitted and once you gain enough confidence, start submitting patches.
+* Every [BuildStream meeting] are open to contributors, users and those simply interested in the project. Check the [BuildStream calendar] to find out about the next meeting.
+* Very cool but, I am not a developer!
+   * As mentioned above, BuildStream welcomes contributors with different skills. You can add value [reviewing and developing contents], helping out on the [website], doing translations, promoting the tool etc. Join the mailing list, open a ticket, show up in one of our meetings, ping us through IRC, reach out to a community member at any event... everybody is welcome.
+   
+[GNOME Foundation]: https://wiki.gnome.org/Foundation/Bylaws
+[Code of Conduct]: https://wiki.gnome.org/action/show/Foundation/CodeOfConduct?action=show&redirect=CodeOfConduct
+[LGPL2.1]: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html
+[CC-BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/
+[use BuildStream]: https://buildstream.build/download.html#releases
+[Development Snapshot]: https://buildstream.build/download.html#development-snapshots
+[reporting potential bugs]: https://buildstream.build/faq.html#contribute-to-buildstream
+[GNOME IRC server]: https://wiki.gnome.org/Community/GettingInTouch/IRC
+[BuildStream Community]: https://mail.gnome.org/mailman/listinfo/buildstream-list
+[mailing list archive]: https://mail.gnome.org/archives/buildstream-list/
+[repository buildstream]: https://gitlab.com/BuildStream/buildstream
+[Gitlab.com]: http://www.gitlab.com
+[BuildStream Group]: https://gitlab.com/BuildStream
+[development policies and guidelines]: https://buildstream.gitlab.io/buildstream/HACKING.html
+[simple bugs]: https://gitlab.com/BuildStream/buildstream/boards/580464?=&label_name[]=Bug
+[Merge Requests]: https://gitlab.com/BuildStream/buildstream/merge_requests
+[BuildStream meeting]: https://wiki.gnome.org/Projects/BuildStream/Monthly-Meeting
+[BuildStream calendar]: https://calendar.google.com/calendar?cid=Y29kZXRoaW5rLmNvLnVrX21wZ2FoMHVqNTM4aG5ic2Y0bDdiNHJjaHRzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
+[reviewing and developing contents]: https://buildstream.gitlab.io/buildstream/main_about.html
+[website]: https://gitlab.com/BuildStream/website
