@@ -39,6 +39,7 @@ def get_url(url):
         return url_cache[url]
     with urllib.request.urlopen(url) as f:
         url_cache[url] = f.read()
+        os.makedirs('public', exist_ok=True)
         with open('public/url_cache.pickle', 'wb') as f:
             pickle.dump(url_cache, f, pickle.HIGHEST_PROTOCOL)
         return url_cache[url]
