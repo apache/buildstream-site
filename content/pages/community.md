@@ -22,16 +22,16 @@ The BuildStream project welcome and promotes the participation and contributions
 
 * The most obvious way to participate is to [use BuildStream].
 * If you are interested in testing the new features developed by the BuildStream community, install/deploy the latest [Development Snapshot].
-   * It would be great to hear back about your experience. Join us on the #buildstream channel on the [GNOME IRC server] or the [BuildStream Community] mailing list. Feel free to provide support to other users through these channels.
-      * You might also be interested in checking the [mailing list archive].
-   * One of the most valuable ways to participate is [reporting potential bugs]. You can find a detailed explanation about how to do so in the FAQ.
+      * It would be great to hear back about your experience. Join us on the #buildstream channel on the [GNOME IRC server] or the [BuildStream Community] mailing list. Feel free to provide support to other users through these channels.
+            * You might also be interested in checking the [mailing list archive].
+      * One of the most valuable ways to participate is [reporting potential bugs]. You can find a detailed explanation about how to do so in the FAQ.
 * Develop BuildStream
-   * The [repository buildstream] host the core code. Sign-up on [Gitlab.com] and request becoming a member of the [BuildStream Group].
-   * Make sure you read and understand the BuildStream [development policies and guidelines].
-   * We recommend you to start by evaluating and potentially fixing [simple bugs], then move into reviewing [Merge Requests] already submitted and once you gain enough confidence, start submitting patches.
+      * The [repository buildstream] host the core code. Sign-up on [Gitlab.com] and request becoming a member of the [BuildStream Group].
+      * Make sure you read and understand the BuildStream [development policies and guidelines].
+      * We recommend you to start by evaluating and potentially fixing [simple bugs], then move into reviewing [Merge Requests] already submitted and once you gain enough confidence, start submitting patches.
 * Every [BuildStream meeting] are open to contributors, users and those simply interested in the project. Check the [BuildStream calendar] to find out about the next meeting.
 * Very cool but, I am not a developer!
-   * As mentioned above, BuildStream welcomes contributors with different skills. You can add value [reviewing and developing contents], helping out on the [website], doing translations, promoting the tool etc. Join the mailing list, open a ticket, show up in one of our meetings, ping us through IRC, reach out to a community member at any event... everybody is welcome.
+      * As mentioned above, BuildStream welcomes contributors with different skills. You can add value [reviewing and developing contents], helping out on the [website], doing translations, promoting the tool etc. Join the mailing list, open a ticket, show up in one of our meetings, ping us through IRC, reach out to a community member at any event... everybody is welcome.
    
 [GNOME Foundation]: https://wiki.gnome.org/Foundation/Bylaws
 [Code of Conduct]: https://wiki.gnome.org/action/show/Foundation/CodeOfConduct?action=show&redirect=CodeOfConduct
