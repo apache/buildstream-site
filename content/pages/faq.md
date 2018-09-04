@@ -41,8 +41,7 @@ recommends, which might depends on their platform.
 
 For users requiring the last features, install the latest release
 version from source. For contributors, or those wanting to test coming
-up features, use the last development snapshot. See the [download
-page]({filename}download.md).
+up features, use the last development snapshot. See the [releases](release.html).
 
 U.3.- How do I install BuildStream?
 
