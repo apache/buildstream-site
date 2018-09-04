@@ -13,7 +13,7 @@ test:
   except:
   - master
 
-deploy:
+pages:
   script:
   - make publish
   - mv output public
