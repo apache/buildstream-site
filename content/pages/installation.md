@@ -1,5 +1,5 @@
-title: Installation
-save_as: installation.html
+title: Install
+save_as: install.html
 
 <object style="vertical-align: middle" data="https://buildstream.gitlab.io/buildstream/_static/release.svg" type="image/svg+xml">
 (your browser does not support SVG, please find releases at [https://download.gnome.org/sources/BuildStream/](https://download.gnome.org/sources/BuildStream/).
@@ -15,7 +15,7 @@ platforms, along with any installation related materials.
 <p>
 BuildStream is currently only supported natively on Linux. Users of
 Unix-like systems where Docker is available can still use BuildStream
-by following the <a href="docker_installation.html">Docker install guide</a>.
+by following the <a href="docker_install.html">Docker install guide</a>.
 </p>
 </div>
 
@@ -25,8 +25,8 @@ by following the <a href="docker_installation.html">Docker install guide</a>.
 BuildStream is available on a limited number of Linux distributions already,
 here are some simple instructions to install BuildStream for these distributions.
 
- * [Arch Linux](package_installation.html#arch)
- * [Fedora](package_installation.html#fedora)
+ * [Arch Linux](package_install.html#arch)
+ * [Fedora](package_install.html#fedora)
 
 ## From source
 
@@ -34,17 +34,17 @@ If BuildStream is not available on your distribution of choice, or if your
 distribution does not have a recent enough version of BuildStream yet, you will
 need to install from source code.
 
-First follow the [guide to install the dependencies for your distribution](source_installation.html#installing_dependencies), and then use
+First follow the [guide to install the dependencies for your distribution](source_install.html#installing_dependencies), and then use
 one of the following techniques to install from source:
 
-* [PyPI (recommended)](source_installation.html#install_pypi)
-* [Tarball](source_installation.html#install_tarball)
-* [Git](source_installation.html#install_git)
+* [PyPI (recommended)](source_install.html#install_pypi)
+* [Tarball](source_install.html#install_tarball)
+* [Git](source_install.html#install_git)
 
-Then finish with the [post installation](source_installation.html#post_install).
+Then finish with the [post installation](source_install.html#post_install).
 
 ## Using Docker
 
 BuildStream provides a docker image which allows you to easily run
 BuildStream inside a Docker container. To use the Docker container
-please follow [these instructions](docker_installation.html).
+please follow [these instructions](docker_install.html).

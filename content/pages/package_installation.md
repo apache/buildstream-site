@@ -1,5 +1,5 @@
-title: Installation from packages
-save_as: package_installation.html
+title: Install from packages
+save_as: package_install.html
 
 BuildStream is available on some linux distributions, here are
 some install instructions for the linux distributions which

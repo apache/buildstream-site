@@ -1,5 +1,5 @@
 title: BuildStream inside Docker
-save_as: docker_installation.html
+save_as: docker_install.html
 
 If your system cannot provide the base system requirements for BuildStream, then it is possible to run buildstream within a Docker image.
 

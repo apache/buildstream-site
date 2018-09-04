@@ -1,5 +1,5 @@
-title: Installing from source
-save_as: source_installation.html
+title: Install from source
+save_as: source_install.html
 
 [TOC]
 
