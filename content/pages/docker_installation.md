@@ -21,8 +21,11 @@ chmod +x ~/.local/bin/bst-here
 ```
 
 Check if `~/.local/bin` appears in your `PATH` environment variable -- if it
-doesn't, you should
-[edit your `~/.profile` so that it does](https://stackoverflow.com/questions/14637979/).
+doesn't, you should edit your `~/.bashrc` so that it does:
+
+```
+export PATH="${PATH}:${HOME}/.local/bin"
+```
 
 Once the script is available in your `PATH`, you can run `bst-here` to open a
 shell session inside a new container based off the latest version of the
