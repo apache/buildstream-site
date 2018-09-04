@@ -57,9 +57,10 @@ If you are interested in contributing to the development of BuildStream or pleas
 
 BuildStream deliverable versions follow the Semantic Versioning Convention ([SemVer](https://semver.org/)) and uses even minor point numbers to denote BuildStream Releases while odd minor point numbers represent Development Snapshops.
 
-For example, for a given version number `X.Y.Z`
- - The `X.<even number>.*` versions are BuildStream Releases.
- - The `X.<odd number>.*` versions are Development Spanshots.
+For example, for a given version number `X.Y.Z`:
+
+- The `X.<even number>.*` versions are BuildStream Releases.
+- The `X.<odd number>.*` versions are Development Spanshots.
 
 If you are [installing from git](#install_git_checkout), please look for the latest tag to ensure you're getting the latest release.
 
