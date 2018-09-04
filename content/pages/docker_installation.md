@@ -14,18 +14,16 @@ We recommend using the
 which automates the necessary container setup. You can download it and make
 it executable like this:
 
-```
-mkdir -p ~/.local/bin
-curl --get https://gitlab.com/BuildStream/buildstream/raw/master/contrib/bst-here > ~/.local/bin/bst-here
-chmod +x ~/.local/bin/bst-here
-```
+    ::shell
+    mkdir -p ~/.local/bin
+    curl --get https://gitlab.com/BuildStream/buildstream/raw/master/contrib/bst-here > ~/.local/bin/bst-here
+    chmod +x ~/.local/bin/bst-here
 
 Check if `~/.local/bin` appears in your `PATH` environment variable -- if it
 doesn't, you should edit your `~/.bashrc` so that it does:
 
-```
-export PATH="${PATH}:${HOME}/.local/bin"
-```
+    ::shell
+    export PATH="${PATH}:${HOME}/.local/bin"
 
 Once the script is available in your `PATH`, you can run `bst-here` to open a
 shell session inside a new container based off the latest version of the

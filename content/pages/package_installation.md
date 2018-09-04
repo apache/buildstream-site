@@ -24,10 +24,9 @@ Two different package versions are available:
 BuildStream is not yet in the official Fedora repositories, but you can
 install it from a Copr:
 
-```
-sudo dnf copr enable bochecha/buildstream
-sudo dnf install buildstream
-```
+    :::shell
+    sudo dnf copr enable bochecha/buildstream
+    sudo dnf install buildstream
 
 Optionally, install the `buildstream-docs` package to have the BuildStream
 documentation in Devhelp or GNOME Builder.

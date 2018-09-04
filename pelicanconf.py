@@ -38,7 +38,8 @@ MARKDOWN = {
         'markdown.extensions.toc': {
             'title': 'Table of contents:'
         },
-        'markdown.extensions.extra': {}
+        'markdown.extensions.extra': {},
+        'markdown.extensions.codehilite': {}
     },
 }
 
