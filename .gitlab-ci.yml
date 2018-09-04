@@ -1,10 +1,22 @@
 image: python:3.7-alpine
 
-pages:
+before_script:
+- apk add --update make
+- pip3 install -r requirements.txt
+
+test:
   script:
-  - apk add --update make
-  - pip3 install -r requirements.txt
+  - make html
+  artifacts:
+    paths:
+    - output/
+  except:
+  - master
+
+deploy:
+  script:
   - make publish
+  - mv output public
   artifacts:
     paths:
     - public/

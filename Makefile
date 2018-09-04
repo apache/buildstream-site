@@ -1,10 +1,10 @@
 PY?=python3
 PELICAN?=pelican
-PELICANOPTS=
+PELICANOPTS=--fatal warnings
 
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
-OUTPUTDIR=$(BASEDIR)/public
+OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 

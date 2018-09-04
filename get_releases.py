@@ -30,7 +30,7 @@ def get_url(url):
     global url_cache
     if url_cache is None:
         try:
-            with open('public/url_cache.pickle', 'rb') as f:
+            with open('output/url_cache.pickle', 'rb') as f:
                 url_cache = pickle.load(f)
         except FileNotFoundError:
             url_cache = {}
@@ -39,8 +39,8 @@ def get_url(url):
         return url_cache[url]
     with urllib.request.urlopen(url) as f:
         url_cache[url] = f.read()
-        os.makedirs('public', exist_ok=True)
-        with open('public/url_cache.pickle', 'wb') as f:
+        os.makedirs('output', exist_ok=True)
+        with open('output/url_cache.pickle', 'wb') as f:
             pickle.dump(url_cache, f, pickle.HIGHEST_PROTOCOL)
         return url_cache[url]
 
