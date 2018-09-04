@@ -1,31 +1,24 @@
 Title: BuildStream 1.2 is out!
-Date: 2018-07-05 12:00
+Date: 2018-09-05 12:00 
 Category: release
 Tags: 1.2, 
-Slug: BuildStream 1.2 has been released.
+Slug: BuildStream-1.2-is-out!
 Authors: toscalix
 Summary: BuildStream 1.2 has been released with new features and siginificant improvements.
 
-<!-- Message: a sentence summarising the most important point of this release -->
 
-The BuildStream project releases the first mature version of the integration toolset.
+##### *The BuildStream project releases the first mature version of the integration toolset,* **[BuildStream 1.2](https://buildstream.build/download.html).**
 
-<!-- Content of the release announcement -->
-Paragraphs
+The BuildStream project is happy to announce the release of the latest version of its integration toolset, **[BuildStream 1.2](https://buildstream.build/download.html)**. This version represents a remarkable step forward with the inclusion of several new features required in production environments. Almost every previously available feature has been improved and many bugs have been fix during the development cycle that led to this 1.2 release.
 
-* news
+Among the most relevant news we highlight a new artifact cache based on CAS, that significantly speed up build times, a new structure of the tool's configuration file which together with new capabilities to fetch from multiple sources increase BuildStream flexibility and various minor features and improvement that provides a better onboarding experience to those using BuildStream for the very first time as well as a raise in productivity to BuildStream veterans.
 
-<!-- The key links are the download page and the feature page -->
+In order to now more about this new version, please visit the **[BuildStream 1.2 Feature](https://buildstream.build/feature.html)** page.
 
-* who is for
-* Improvements
+## Who is BuildStream for?
 
-<!-- This pagagraph target those who already know about BuildStream. The link to include is BuildStream in Detail -->
+BuildStream aims to be the default integration solution for integrators of complex systems and applications that will be in production for a long time, which requires that the toolset is not just powerful, scalable, flexible and efficient, among other qualities, but also reliable and cost effective in the mid term. The project also envision to meet strict requirements coming from safety critical environments.
 
+## About BuildStream
 
-
-
-
-# About BuildStream
-
-<!-- Asentence about BuildStream and then a couple of links to FAQ, community (project) page and portfolio page -->
+BuildStream is a Free Software project. You can learn more about what it is by visiting the [Frequently Asked Questions](https://buildstream.build/faq.html#about-buildstream) page and the [BuildStream Project](https://buildstream.build/community.html) page. If you are interested in learning more about what BuildStream delivers, please visit our [BuildStream Portfolio](https://buildstream.build/portfolio.html) page.
