@@ -37,8 +37,8 @@ The BuildStream project welcome and promotes the participation and contributions
 [Code of Conduct]: https://wiki.gnome.org/action/show/Foundation/CodeOfConduct?action=show&redirect=CodeOfConduct
 [LGPL2.1]: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html
 [CC-BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/
-[use BuildStream]: https://buildstream.build/download.html#releases
-[Development Snapshot]: https://buildstream.build/download.html#development-snapshots
+[use BuildStream]: https://buildstream.build/releases.html#releases
+[Development Snapshot]: https://buildstream.build/releases.html#development-snapshots
 [reporting potential bugs]: https://buildstream.build/faq.html#contribute-to-buildstream
 [GNOME IRC server]: https://wiki.gnome.org/Community/GettingInTouch/IRC
 [BuildStream Community]: https://mail.gnome.org/mailman/listinfo/buildstream-list

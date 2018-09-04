@@ -30,7 +30,7 @@ In order to learn more about this specific release, the following links will be 
 
 * The publication of BuildStream releases is announced on this website through a [Release Announcement](https://buildstream.build/articles/2018/BuildStream-1.2-is-out!/).
 * You can find [What's New](https://buildstream.build/feature.html) on each release by reading the release feature page, which includes also relevant information for those who want to consider installing BuildStream for the very first time.
-* In order to Download and Install/Deploy BuildStream the next recommended step is to visit the [Download page](https://buildstream.build/download.html) and the [Installation and Deployment Instructions](https://buildstream.build/installation.html) which will provide you a step by step guidance on the process.
+* In order to Download and Install/Deploy BuildStream the next recommended step is to visit the [releases page](https://buildstream.build/releases.html) and the [Installation and Deployment Instructions](https://buildstream.build/installation.html) which will provide you a step by step guidance on the process.
 * If you encounter any problem through this process, please visit the [Known Issues](https://buildstream.build/known-issues.html) page. Hopefully you will find your problem described there together with a workaround to overcome it while the BuildStream developers fix the issue. A link to the issue tracker will allow you to follow the progress on it.
 * Finally, the recommendation is to visit the [FAQ](https://buildstream.build/faq.html#use-buildstream) (Frequently Asked Questions) page in order to find out more about BuildStream, how to get in contact with those who might help you, where can I find examples of how to use the tool and further interesting information.
 
@@ -44,7 +44,7 @@ Currently the latest Development Snapshot is <object style="vertical-align: midd
 
 If you are interested in these Development Snapshots we recommend you the following:
 
-* [Find the Snapshot](https://buildstream.build/download.html#development-snapshots) you are interested on. We strongly recommend the latest one.
+* [Find the Snapshot](https://buildstream.build/releases.html#development-snapshots) you are interested on. We strongly recommend the latest one.
 * Download it and [Install/Deploy](https://buildstream.build/installation.html#installing) it or update it if you already have a previous snapshot installed. Visit the [Known Issues](https://buildstream.build/known-issues.html) page if you have any issue during the installation or deployment process.
 * Go to the [specific section of the FAQ](https://buildstream.build/faq.html#contribute-to-buildstream) where you will find how to reach out to the developers, get the code or open a bug in case you detect an issue and want to report. 
 

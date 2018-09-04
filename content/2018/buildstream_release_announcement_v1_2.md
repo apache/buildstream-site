@@ -7,9 +7,9 @@ Authors: toscalix
 Summary: BuildStream 1.2 has been released with new features and siginificant improvements.
 
 
-##### *The BuildStream project releases the first mature version of the integration toolset,* **[BuildStream 1.2](https://buildstream.build/download.html).**
+##### *The BuildStream project releases the first mature version of the integration toolset,* **[BuildStream 1.2](https://buildstream.build/releases.html).**
 
-The BuildStream project is happy to announce the release of the latest version of its integration toolset, **[BuildStream 1.2](https://buildstream.build/download.html)**. This version represents a remarkable step forward with the inclusion of several new features required in production environments. Almost every previously available feature has been improved and many bugs have been fix during the development cycle that led to this 1.2 release.
+The BuildStream project is happy to announce the release of the latest version of its integration toolset, **[BuildStream 1.2](https://buildstream.build/releases.html)**. This version represents a remarkable step forward with the inclusion of several new features required in production environments. Almost every previously available feature has been improved and many bugs have been fix during the development cycle that led to this 1.2 release.
 
 Among the most relevant news we highlight a new artifact cache based on CAS, that significantly speed up build times, a new structure of the tool's configuration file which together with new capabilities to fetch from multiple sources increase BuildStream flexibility and various minor features and improvement that provides a better onboarding experience to those using BuildStream for the very first time as well as a raise in productivity to BuildStream veterans.
 
