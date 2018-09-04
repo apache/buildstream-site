@@ -44,18 +44,6 @@ version from source. For contributors, or those wanting to test coming
 up features, use the last development snapshot. See the [download
 page]({filename}download.md).
 
-<a id="install_semantic_versioning"></a>
-
-Please note BuildStream follows the Semantic Versioning Convention
-([SemVer](https://semver.org/)) and uses even minor point numbers to
-denote releases intended for users while odd minor point numbers
-represent development snapshops.
-
-For example, for a given version number `X.Y.Z`
-
- - The `X.<even number>.*` versions are releases intended for users.
- - The `X.<odd number>.*` versions are development spanshots intended for testing.
-
 U.3.- How do I install BuildStream?
 
 U.4.- I need help with BuildStream installation, where can I get it?

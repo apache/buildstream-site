@@ -1,6 +1,18 @@
 title: Download
 save_as: download.html
 
+<a id="install_semantic_versioning"></a>
+
+Please note BuildStream follows the Semantic Versioning Convention
+([SemVer](https://semver.org/)) and uses even minor point numbers to
+denote releases intended for users while odd minor point numbers
+represent development snapshops.
+
+For example, for a given version number `X.Y.Z`
+
+ - The `X.<even number>.*` versions are releases intended for users.
+ - The `X.<odd number>.*` versions are development spanshots intended for testing.
+
 ## Releases
 
 Latest version:
