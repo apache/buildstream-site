@@ -161,7 +161,7 @@ for advice on this.
 Once you have the base system dependencies, you can install the BuildStream
 python package as a regular user.
 
-Since we only ever publish [release versions]({filename}faq.md#install_semantic_versioning) on
+Since we only ever publish [release versions](download.html) on
 PyPI, it is currently recommended to use this installation path. This will
 ensure that you always have the latest recommended version of BuildStream that
 we recommend.
