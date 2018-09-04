@@ -1,31 +1,50 @@
 title: Installation
 save_as: installation.html
 
-BuildStream is available on some linux distributions, here are
-some install instructions for the linux distributions which
-have packaged BuildStream.
+<object style="vertical-align: middle" data="https://buildstream.gitlab.io/buildstream/_static/release.svg" type="image/svg+xml">
+(your browser does not support SVG, please find releases at [https://download.gnome.org/sources/BuildStream/](https://download.gnome.org/sources/BuildStream/).
+</object>
+<object style="vertical-align: middle" data="https://buildstream.gitlab.io/buildstream/_static/snapshot.svg" type="image/svg+xml">
+(your browser does not support SVG, please find releases at [https://download.gnome.org/sources/BuildStream/](https://download.gnome.org/sources/BuildStream/).
+</object>
 
-If your distribution is not listed in this page, please [install from source using PyPI](source_installation.html).
+This page provides instructions for installing BuildStream on various
+platforms, along with any installation related materials.
 
-[TOC]
+<div class="note">
+<p>
+BuildStream is currently only supported natively on Linux. Users of
+Unix-like systems where Docker is available can still use BuildStream
+by following the <a href="docker_installation.html">Docker install guide</a>.
+</p>
+</div>
 
-## Arch Linux
 
-Packages for Arch exist in [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages).
-Two different package versions are available:
+## From your Linux distribution
 
- - Latest release: [buildstream](https://aur.archlinux.org/packages/buildstream)
- - Latest development snapshot: [buildstream-git](https://aur.archlinux.org/packages/buildstream-git)
+BuildStream is available on a limited number of Linux distributions already,
+here are some simple instructions to install BuildStream for these distributions.
 
-## Fedora
+ * [Arch Linux](package_installation.html#arch)
+ * [Fedora](package_installation.html#fedora)
 
-BuildStream is not yet in the official Fedora repositories, but you can
-install it from a Copr:
+## From source
 
-```
-sudo dnf copr enable bochecha/buildstream
-sudo dnf install buildstream
-```
+If BuildStream is not available on your distribution of choice, or if your
+distribution does not have a recent enough version of BuildStream yet, you will
+need to install from source code.
 
-Optionally, install the `buildstream-docs` package to have the BuildStream
-documentation in Devhelp or GNOME Builder.
+First follow the [guide to install the dependencies for your distribution](source_installation.html#installing_dependencies), and then use
+one of the following techniques to install from source:
+
+* [PyPI (recommended)](source_installation.html#install_pypi)
+* [Tarball](source_installation.html#install_tarball)
+* [Git](source_installation.html#install_git)
+
+Then finish with the [post installation](source_installation.html#post_install).
+
+## Using Docker
+
+BuildStream provides a docker image which allows you to easily run
+BuildStream inside a Docker container. To use the Docker container
+please follow [these instructions](docker_installation.html).

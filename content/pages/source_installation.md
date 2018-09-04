@@ -152,13 +152,11 @@ or [ostree](https://github.com/ostreedev/ostree) are available in the official r
 You will need to install them in whichever way you see fit. Refer the the upstream documentation
 for advice on this.
 
-## Installing from PyPI
+## Installing
 
-<!-- FIXME, let's use extension for notes -->
-<div class="note">
-Alternatively you can install from tarballs for <code>git</code>. See
-<a href="alternative_installation.html">alternative installations</a>.
-</div>
+<a id="install_pypi"></a>
+
+### Installing from PyPI
 
 Once you have the base system dependencies, you can install the BuildStream
 python package as a regular user.
@@ -185,10 +183,12 @@ dependencies into your user's homedir in `~/.local`.
 Keep following the instructions below to ensure that the `bst`
 command is in your `PATH` and to enable bash completions for it.
 
-If you want a specific version of BuildStream, you can install it using
-`pip install --user BuildStream==<version-number>`
+If you want a specific version of BuildStream, you can install it
+using `pip install --user BuildStream==<version-number>`. Available
+can be found versions on the [download page](download.html). Note that some
+of the oldest versions are not available on PyPI.
 
-### Upgrading from PyPI
+#### Upgrading from PyPI
 
 Once you have already installed BuildStream from PyPI, you can later update
 to the latest recommended version like so:
@@ -196,6 +196,93 @@ to the latest recommended version like so:
 ```
 pip install --user --upgrade BuildStream
 ```
+
+<a id="install_git"></a>
+
+### Installing from a git checkout
+
+To install directly from the [git repository](https://gitlab.com/BuildStream/buildstream.git)
+using python's `pip` package manager, you will additionally require:
+
+- pip for python3 (only required for setup)
+- Python 3 development libraries and headers
+- git (to checkout BuildStream)
+
+Before installing, please check the existing tags in the git repository
+and determine which version you want to install, and whether you want
+to install an official release version (recommended), or a development snapshot
+to help us out testing the bleeding edge of development. Available versions can be found on the [download page](download.html).
+
+Run the following commands:
+
+```
+git clone https://gitlab.com/BuildStream/buildstream.git
+cd buildstream
+git checkout <desired release tag>
+pip3 install --user -e .
+```
+
+This will install buildstream's pure python dependencies into
+your user's homedir in `~/.local` and will run BuildStream directly
+from the git checkout directory.
+
+Keep following the instructions below to ensure that the ``bst``
+command is in your `PATH` and to enable bash completions for it.
+
+We recommend the ``-e`` option because you can upgrade your
+installation by simply updating the checked out git repository.
+
+If you want a full installation that is not linked to your
+git checkout, just omit the ``-e`` option from the above commands.
+
+#### Upgrading from a git checkout
+
+If you installed BuildStream from a local git checkout using `-e` option, all
+you need to do to upgrade BuildStream is to update your local git checkout:
+
+```
+cd /path/to/buildstream
+git pull --rebase
+```
+
+If you did not specify the `-e` option at install time or the dependancies
+have changed, you will need to cleanly reinstall BuildStream:
+
+```
+pip3 uninstall buildstream
+cd /path/to/buildstream
+git pull --rebase
+pip3 install --user .
+```
+
+If BuildStream has added any dependencies since the last upgrade,
+you will need to uninstall and reinstall to ensure those dependencies
+are met, regardless of whether you have used the `-e` option at
+install time.
+
+<a id="install_tarball"></a>
+
+### Installing from tarball
+
+Tarballs are available on the [download page](download.html).
+
+You will additionally require:
+
+- pip for python3 (only required for setup)
+- Python 3 development libraries and headers
+
+Run the following commands from the unpacked tarball:
+
+```
+pip3 install --user .
+```
+
+This will install buildstream's pure python dependencies into
+your user's homedir in `~/.local` and will run BuildStream directly
+from the git checkout directory.
+
+Keep following the instructions below to ensure that the ``bst``
+command is in your `PATH` and to enable bash completions for it.
 
 <a id="post_install"></a>
 ## Post install setup
