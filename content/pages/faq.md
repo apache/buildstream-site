@@ -1,8 +1,6 @@
 title: Frequently Asked Questions
 save_as: faq.html
 
-## FAQ (Frequently Asked Qesutions)
-
 [TOC]
 
 ## About BuildStream
