@@ -32,7 +32,7 @@ A.5.- Who is developing BuildStream?
 
 U.1.- I want to give BuildStream a try. Where can I get it?
 
-We recommend for new users to follow our [installation guide]({filename}installation.md).
+New users should follow the [installation guide]({filename}installation.md).
 
 U.2.- Which BuildStream version should I try?
 
