@@ -20,7 +20,7 @@ STATIC_PATHS = [
 TIMEZONE = 'Europe/London'
 DEFAULT_LANG = 'en'
 
-THEME = 'theme'
+THEME = 'alchemy-theme/alchemy'
 DEFAULT_PAGINATION = 10
 
 MENUITEMS = (
