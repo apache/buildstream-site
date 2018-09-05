@@ -7,6 +7,7 @@ from get_releases import DownloadTable
 AUTHOR = 'BuildStream'
 SITENAME = 'BuildStream, the software integration tool'
 SITEURL = ''
+RELATIVE_URLS = True
 
 ARTICLE_URL = 'articles/{date:%Y}/{slug}/'
 ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}/index.html'
@@ -23,11 +24,11 @@ THEME = 'theme'
 DEFAULT_PAGINATION = 10
 
 MENUITEMS = (
-    ('Portfolio', '/portfolio.html'),
-    ('Install', '/install.html'),
-    ('Updates', '/updates.html'),
-    ('Community', '/community.html'),
-    ('FAQ', '/faq.html'),
+    ('Portfolio', 'portfolio.html'),
+    ('Install', 'install.html'),
+    ('Updates', 'updates.html'),
+    ('Community', 'community.html'),
+    ('FAQ', 'faq.html'),
 )
 
 MARKDOWN = {
