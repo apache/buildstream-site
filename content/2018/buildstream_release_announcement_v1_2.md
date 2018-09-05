@@ -2,7 +2,7 @@ Title: BuildStream 1.2 is out!
 Date: 2018-09-05 12:00
 Category: release
 Tags: 1.2,
-Slug: BuildStream-1.2-is-out!
+Slug: buildstream-1.2-is-out
 Authors: toscalix
 Summary: BuildStream 1.2 has been released with new features and siginificant improvements.
 

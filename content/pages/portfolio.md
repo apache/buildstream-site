@@ -8,7 +8,7 @@ save_as: portfolio.html
 [TOC]
 
 <!-- Short explanation about what the BuildStream project ships (outcomes) and who they are for: snapshots, releases and master  -->
-The BuildStream project develops, deliver and maintain an integration toolset called BuildStream specially designed for software application developers and integrators of complex systems that follow modern delivery methodologies to ship software that should be in production for a long time. At the same time, as Free Software project, BuildStream ships versions of the tools set advancing the features that will be shipped in the future for those who want to evaluate where the toolset is heading or test them. Finally, BuildStream toolset development mostly takes place in the master branch of the buildstream repository, which the project refers to as Master. 
+The BuildStream project develops, deliver and maintain an integration toolset called BuildStream specially designed for software application developers and integrators of complex systems that follow modern delivery methodologies to ship software that should be in production for a long time. At the same time, as Free Software project, BuildStream ships versions of the tools set advancing the features that will be shipped in the future for those who want to evaluate where the toolset is heading or test them. Finally, BuildStream toolset development mostly takes place in the master branch of the buildstream repository, which the project refers to as Master.
 
 So BuildStream portfolio includes three deliverables:
 
@@ -18,7 +18,7 @@ So BuildStream portfolio includes three deliverables:
 
 BuildStream relies on a sister project in order to be able to build at scale, called BuildGrid.
 
-## BuildStream for those interesting in building applications and integrating systems 
+## BuildStream for those interesting in building applications and integrating systems
 
 <!-- Releases: description. Who is for. State clearly which one is the latest release. -->
 
@@ -28,7 +28,7 @@ Currently, the latest BuildStream release is <object style="vertical-align: midd
 
 In order to learn more about this specific release, the following links will be of help:
 
-* The publication of BuildStream releases is announced on this website through a [Release Announcement](articles/2018/BuildStream-1.2-is-out!/index.html).
+* The publication of BuildStream releases is announced on this website through a [Release Announcement](articles/2018/buildstream-1.2-is-out/).
 * You can find [What's New](feature.html) on each release by reading the release feature page, which includes also relevant information for those who want to consider installing BuildStream for the very first time.
 * In order to Download and Install/Deploy BuildStream the next recommended step is to visit the [releases page](releases.html) and the [Installation and Deployment Instructions](install.html) which will provide you a step by step guidance on the process.
 * If you encounter any problem through this process, please visit the [Known Issues](known-issues.html) page. Hopefully you will find your problem described there together with a workaround to overcome it while the BuildStream developers fix the issue. A link to the issue tracker will allow you to follow the progress on it.
@@ -36,7 +36,7 @@ In order to learn more about this specific release, the following links will be 
 
 A more technical and detailed description of BuildStream features, architecture, components, etc. can be found in [BuildStream In Detail](detail.html).
 
-## Interested in trying out the latest features ? 
+## Interested in trying out the latest features ?
 
 BuildStream delivers Development Snapshots regularly for developers and integrators interested in evaluating what is coming and testing it. These snapshots are announced through the BuildStream community mailing list. These snapshots include those developed features that will be shipped in the next BuildStream Release that require validation or will benefit from further testing. But it is not a specific version for testers but an early version of what will be released later on.
 
