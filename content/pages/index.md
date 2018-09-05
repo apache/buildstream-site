@@ -14,7 +14,7 @@ chipsets.
 
 Our core users are application developers and system integrators who create
 production-ready software systems that need to be maintained efficiently and
-reliably over the long term.
+reliably in the long term.
 
 New to BuildStream? Find out more in our
 [Frequently Asked Questions](faq.html) page.
