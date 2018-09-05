@@ -21,4 +21,4 @@ BuildStream aims to be the default integration solution for integrators of compl
 
 ## About BuildStream
 
-BuildStream is a Free Software project. You can learn more about what it is by visiting the [Frequently Asked Questions](https://buildstream.build/faq.html#about-buildstream) page and the [BuildStream Project](https://buildstream.build/community.html) page. If you are interested in learning more about what BuildStream delivers, please visit our [BuildStream Portfolio](https://buildstream.build/portfolio.html) page.
+BuildStream is a Free Software project. You can learn more about what it is by visiting the [Frequently Asked Questions](faq.html#about-buildstream) page and the [BuildStream Project](community.html) page. If you are interested in learning more about what BuildStream delivers, please visit our [BuildStream Portfolio](portfolio.html) page.
