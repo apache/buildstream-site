@@ -24,7 +24,7 @@ The BuildStream project welcome and promotes the participation and contributions
 * If you are interested in testing the new features developed by the BuildStream community, install/deploy the latest [Development Snapshot].
       * It would be great to hear back about your experience. Join us on the #buildstream channel on the [GNOME IRC server] or the [BuildStream Community] mailing list. Feel free to provide support to other users through these channels.
             * You might also be interested in checking the [mailing list archive].
-      * One of the most valuable ways to participate is [reporting potential bugs]. You can find a detailed explanation about how to do so in the [FAQ](faq.html).
+      * One of the most valuable ways to participate is [reporting potential bugs]. You can find a detailed explanation about how to do so in the [FAQ]({filename}faq.md).
 * Develop BuildStream
       * The [buildstream repository] on gitlab hosts the code base. Sign-up on [Gitlab.com] and request becoming a member of the [BuildStream Group].
       * Make sure you read and understand the BuildStream [development policies and guidelines].
@@ -37,9 +37,9 @@ The BuildStream project welcome and promotes the participation and contributions
 [Code of Conduct]: https://wiki.gnome.org/action/show/Foundation/CodeOfConduct?action=show&redirect=CodeOfConduct
 [LGPL2.1]: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html
 [CC-BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/
-[use BuildStream]: install.html
-[Development Snapshot]: releases.html#development-snapshots
-[reporting potential bugs]: faq.html#contribute-to-buildstream
+[use BuildStream]: {filename}installation.md
+[Development Snapshot]: {filename}releases.md#development-snapshots
+[reporting potential bugs]: {filename}faq.md#contribute-to-buildstream
 [GNOME IRC server]: https://wiki.gnome.org/Community/GettingInTouch/IRC
 [BuildStream Community]: https://mail.gnome.org/mailman/listinfo/buildstream-list
 [mailing list archive]: https://mail.gnome.org/archives/buildstream-list/

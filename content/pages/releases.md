@@ -19,7 +19,7 @@ Latest version:
 <object style="vertical-align: middle" data="https://buildstream.gitlab.io/buildstream/_static/release.svg" type="image/svg+xml">
 (your browser does not support SVG, please find releases at [https://download.gnome.org/sources/BuildStream/](https://download.gnome.org/sources/BuildStream/).
 </object>
-[See the new features](feature.html).
+[See the new features]({filename}feature_page.md).
 
 | Version | URL | SHA256 |
 |:-------:|:---:|:------:|

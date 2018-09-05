@@ -25,8 +25,8 @@ by following the <a href="docker_install.html">Docker install guide</a>.
 BuildStream is available on a limited number of Linux distributions already,
 here are some simple instructions to install BuildStream for these distributions.
 
- * [Arch Linux](package_install.html#arch)
- * [Fedora](package_install.html#fedora)
+ * [Arch Linux]({filename}package_installation.md#arch)
+ * [Fedora]({filename}package_installation.md#fedora)
 
 ## From source
 
@@ -34,17 +34,17 @@ If BuildStream is not available on your distribution of choice, or if your
 distribution does not have a recent enough version of BuildStream yet, you will
 need to install from source code.
 
-First follow the [guide to install the dependencies for your distribution](source_install.html#installing_dependencies), and then use
+First follow the [guide to install the dependencies for your distribution]({filename}source_installation.md#installing_dependencies), and then use
 one of the following techniques to install from source:
 
-* [PyPI (recommended)](source_install.html#install_pypi)
-* [Tarball](source_install.html#install_tarball)
-* [Git](source_install.html#install_git)
+* [PyPI (recommended)]({filename}source_installation.md#install_pypi)
+* [Tarball]({filename}source_installation.md#install_tarball)
+* [Git]({filename}source_installation.md#install_git)
 
-Then finish with the [post installation](source_install.html#post_install).
+Then finish with the [post installation]({filename}source_installation.md#post_install).
 
 ## Using Docker
 
 BuildStream provides a docker image which allows you to easily run
 BuildStream inside a Docker container. To use the Docker container
-please follow [these instructions](docker_install.html).
+please follow [these instructions]({filename}docker_installation.md).

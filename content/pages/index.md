@@ -17,4 +17,4 @@ production-ready software systems that need to be maintained efficiently and
 reliably in the long term.
 
 New to BuildStream? Find out more in our
-[Frequently Asked Questions](faq.html) page.
+[Frequently Asked Questions]({filename}faq.md) page.

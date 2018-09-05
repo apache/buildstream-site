@@ -95,18 +95,18 @@ The best way to request an enhancement to BuildStream is to present it the [Comm
 [CC-BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/
 [BuildGrid]: https://gitlab.com/BuildGrid/buildgrid
 [Apache v2.0]: https://gitlab.com/BuildGrid/buildgrid/blob/master/LICENSE
-[Community]: community.html 
-[Releases]: releases.html
-[BuildStream Portfolio]: portfolio.html
-[Install]: install.html
-[PyPI]: source_install.html#install_pypi
-[Known Issues]: known-issues.html
+[Community]: {filename}community.md
+[Releases]: {filename}releases.md
+[BuildStream Portfolio]: {filename}portfolio.md
+[Install]: {filename}installation.md
+[PyPI]: {filename}source_installation.md#install_pypi
+[Known Issues]: {filename}known_issues.md
 [Community mailing list]: https://mail.gnome.org/mailman/listinfo/buildstream-list
 [IRC]: irc://irc.gnome.org/#buildstream
-[BuildStream In Detail]: detail.html
+[BuildStream In Detail]: {filename}buildstream_in_detail.md
 [tutorials and examples]: https://buildstream.gitlab.io/buildstream/main_using.html
 [issue on gitlab]: https://gitlab.com/BuildStream/buildstream/issues/new
-[Install from source]: installation.html#install_from_source
+[Install from source]: {filename}installation.md#install_from_source
 [Participate in the BuildStream project]: https://buildstream.build/community.html#participate-in-the-buildstream-project
 [Features Addition]: https://buildstream.gitlab.io/buildstream/HACKING.html#feature-additions
 [technical documentation]: https://buildstream.gitlab.io/buildstream/index.html
