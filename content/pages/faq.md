@@ -38,12 +38,12 @@ New users should follow the [installation guide](install.html).
 
 U.2.- Which BuildStream version should I try?
 
-New users should get what the [installation guide](install.html)
-recommends, which might depends on their platform.
+New users should get what the [installation guide]({filename}installation.md)
+recommends, which may be dependant on their platform.
 
-For users requiring the last features, install the latest release
+For users requiring the latest features, install the latest release
 version from source. For contributors, or those wanting to test coming
-up features, use the last development snapshot. See the [releases](releases.html).
+up features, use the latest development snapshot. See the [releases](release.html).
 
 U.3.- How do I install BuildStream?
 
