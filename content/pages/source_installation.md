@@ -32,7 +32,7 @@ The default plugins with extra host dependencies are:
 - patch
 - tar
 
-## Arch Linux
+### Arch Linux
 
 Install the dependencies with:
 
