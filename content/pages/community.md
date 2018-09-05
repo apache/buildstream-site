@@ -1,5 +1,5 @@
 title: Community
-save_as: community.html
+slug: community
 
 <!-- This is the so called project page  -->
 [TOC]

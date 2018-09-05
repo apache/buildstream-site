@@ -1,5 +1,5 @@
 title: Welcome to the BuildStream project
-save_as: index.html
+slug: index
 
 BuildStream is a Free Software tool for integrating software stacks.
 

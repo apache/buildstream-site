@@ -1,5 +1,5 @@
 title: Frequently Asked Questions
-save_as: faq.html
+slug: faq
 
 [TOC]
 

@@ -1,5 +1,5 @@
 title: BuildStream Portfolio
-save_as: portfolio.html
+slug: portfolio
 
 <!-- This page explains what the BuildStream project do and the project outcomes: Master (including dev snapshots) and releases. It will also talk about BuildGrid and mention the relation with freedesktop-sdk when it comes to outcomes -->
 

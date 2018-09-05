@@ -9,6 +9,8 @@ SITENAME = 'BuildStream, the software integration tool'
 SITEURL = ''
 RELATIVE_URLS = True
 
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
 ARTICLE_URL = 'articles/{date:%Y}/{slug}/'
 ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}/index.html'
 INDEX_SAVE_AS = 'updates.html'

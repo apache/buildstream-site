@@ -1,5 +1,5 @@
 title: Releases
-save_as: releases.html
+slug: releases
 
 <a id="install_semantic_versioning"></a>
 

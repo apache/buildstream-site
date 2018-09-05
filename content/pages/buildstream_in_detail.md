@@ -1,5 +1,5 @@
 title: BuildStream in Detail
-save_as: detail.html
+slug: detail
 
 [TOC]
 

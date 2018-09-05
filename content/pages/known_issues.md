@@ -1,5 +1,5 @@
 title: Known Issues
-save_as: known-issues.html
+slug: known-issues
 
 <!-- Known issues page page. Check the content structure to better understand the relation with other pages: https://gitlab.com/BuildStream/nosoftware/alignment/blob/master/content_design/content_structure_proposal_description.md#buildstream-in-detail -->
 
