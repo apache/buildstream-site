@@ -4,7 +4,6 @@ slug: feature
 <!-- Feature page. Check the content structure to better understand the relation with other pages: https://gitlab.com/BuildStream/nosoftware/alignment/blob/master/content_design/content_structure_proposal_description.md -->
 
 
-
 [_TOC_]
 
 ## Release highlights
@@ -13,55 +12,61 @@ slug: feature
 
 Intro paragraph
 
-Feature 1, Feature 2 and Feature 3 paragrapgh description
+Feature 1, Feature 2 and Feature 3 paragraph description
 
-Why you should try it out.
+#### CAS Artifact Cache
 
-## What's new
+<!-- TODO -->
+
+#### Source Mirroring
+
+<!-- TODO -->
+
+#### Include directive
+
+<!-- TODO -->
+
+#### Summary
+Why you should try it out. <!-- TODO -->
 
 <!-- Table 1.0 vs 1.2 The idea is to reflect evolution and to inform about the updates in features, components and plugins or other elements   -->
 
-What's new - Feature table: 
+### What's new - Feature table:
 
 <!-- List key features for the general audience, then those for our target market and audience. Those who are only partially supported and will be fully supported in the next major version, too.   -->
 
 
+|                                          Feature                                          |                                       Detail                                      |
+|:-----------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------:|
+|                                            CAS                                            |                        Switched to CAS based artifact cache                       |
+| [Source Mirroring](https://buildstream.gitlab.io/buildstream/format_project.html#mirrors) | Added functionality and configuration for providing multiple mirror for a source. |
+|  [Include directive](https://buildstream.gitlab.io/buildstream/format_intro.html#include) |                 Elements can now include content from other files.                |
 
+<br/>
 
-| Feature      | v 1.0           | v 2.0       |
-| :----------: | :------:     | :----------------------: |
-|  CAS         |              | Implemented x and y. z missing |
-|              |              |                |
-|              |              |                |
-| Cell 1       | Cell 2   | Cell 3             | 
-| Cell 7       | Cell 8   | Cell 9             | 
-
-
-
-What's new software components table:
+### What's new software components table:
 
 <!-- List key software components for the general audience, then those for our target market and audience. There are people that has installed in their machines software versions that might collide or not be appropiate for running BuildStream. We need to let them know here.   -->
 
-| Component      | v 1.0           | v 2.0       |
-| :----------: | :------:     | :----------------------: |
-|           |     v2.7         |  v2.8  |
-|              |              |                |
-|              |              |                |
-| Cell 1       | Cell 2   | Cell 3             | 
-| Cell 7       | Cell 8   | Cell 9             | 
+<!-- TODO -->
+| Component | v 1.1 | v 1.2 |
+|:---------:|:-----:|:-----:|
+|    v2.7   |  v2.8 |       |
 
-What's new -  plugins and third party software table:
+<br/>
+
+### What's new -  plugins and third party software table:
 
 <!-- List key plugins and external software components that enable interesting or complementary features we partly or entirely rely on. for the general audience, then those for our target market and audience. Those who are only partially supported and will be fully supported in the next major version, too.   -->
 
-| Component      | v 1.0           | v 2.0       |
-| :----------: | :------:     | :----------------------: |
-|           |     v2.7         |  v2.8  |
-|              |              |                |
-|              |              |                |
-| Cell 1       | Cell 2   | Cell 3             | 
-| Cell 7       | Cell 8   | Cell 9             | 
+|                                  Plugin                                  |                     Detail                     |
+|:------------------------------------------------------------------------:|:----------------------------------------------:|
+|  [remote](https://buildstream.gitlab.io/buildstream/sources/remote.html) |    Source for staging files from remote urls   |
+|   [make](https://buildstream.gitlab.io/buildstream/elements/make.html)   |         BuildElement for using GNU make        |
+|     [deb](https://buildstream.gitlab.io/buildstream/sources/deb.html)    |   Source for staging files from .deb packages  |
+| [filter](https://buildstream.gitlab.io/buildstream/elements/filter.html) | Extract a subset of files from another element |
 
+<br/>
 
 ## Try BuildStream 1.2 out!
 

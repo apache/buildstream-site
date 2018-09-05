@@ -25,6 +25,7 @@ Latest version:
 |:-------:|:---:|:------:|
 _download_table_stable:| [{version}]({anouncement}) | [{basename}]({uri}) | {sha256} |
 
+<br/>
 ## Development snapshots
 
 Latest version:
