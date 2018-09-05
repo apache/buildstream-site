@@ -33,14 +33,19 @@ MENUITEMS = (
 
 MARKDOWN = {
     'extensions': [
-        DownloadTable()
+        DownloadTable(),
+        'markdown.extensions.toc',
+        'markdown.extensions.extra',
+        'markdown.extensions.codehilite'
     ],
     'extension_configs': {
         'markdown.extensions.toc': {
             'title': 'Table of contents:'
         },
         'markdown.extensions.extra': {},
-        'markdown.extensions.codehilite': {}
+        'markdown.extensions.codehilite': {
+            'css_class': 'highlight'
+        }
     },
 }
 
