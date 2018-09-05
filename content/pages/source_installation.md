@@ -46,8 +46,8 @@ For the default plugins:
     sudo pacman -S bzr git lzip ostree patch python-gobject
 
 The package *python-arpy* is required by the deb source plugin. This is not
-obtainable via `pacman`, you must get *python-arpy* from AUR:
-(https://aur.archlinux.org/packages/python-arpy/)[https://aur.archlinux.org/packages/python-arpy/]
+obtainable via `pacman`, you must get
+[python-arpy from AUR](https://aur.archlinux.org/packages/python-arpy/)
 
 To install:
 
