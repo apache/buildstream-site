@@ -126,3 +126,9 @@ hr {
     margin-right: 10px;
   }
 }
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px 5px;
+}
