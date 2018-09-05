@@ -51,17 +51,17 @@ obtainable via `pacman`, you must get *python-arpy* from AUR:
 
 To install:
 
-   :::shell
-   wget https://aur.archlinux.org/cgit/aur.git/snapshot/python-arpy.tar.gz
-   tar -xvf python-arpy.tar.gz
-   cd python-arpy
-   makepkg -si
+    :::shell
+    wget https://aur.archlinux.org/cgit/aur.git/snapshot/python-arpy.tar.gz
+    tar -xvf python-arpy.tar.gz
+    cd python-arpy
+    makepkg -si
 
 ### Debian
 
 Install the dependencies with:
 
-    ::shll
+    :::shell
     sudo apt-get install \
         python3 fuse bubblewrap \
         python3-pip python3-dev
