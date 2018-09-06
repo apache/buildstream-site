@@ -1,5 +1,5 @@
-title: BuildStream Portfolio
-slug: portfolio
+title: About BuildStream
+save_as: about.html
 
 <!-- This page explains what the BuildStream project do and the project outcomes: Master (including dev snapshots) and releases. It will also talk about BuildGrid and mention the relation with freedesktop-sdk when it comes to outcomes -->
 
@@ -10,7 +10,7 @@ slug: portfolio
 <!-- Short explanation about what the BuildStream project ships (outcomes) and who they are for: snapshots, releases and master  -->
 The BuildStream project develops, deliver and maintain an integration toolset called BuildStream specially designed for software application developers and integrators of complex systems that follow modern delivery methodologies to ship software that should be in production for a long time. At the same time, as Free Software project, BuildStream ships versions of the tools set advancing the features that will be shipped in the future for those who want to evaluate where the toolset is heading or test them. Finally, BuildStream toolset development mostly takes place in the master branch of the buildstream repository, which the project refers to as Master.
 
-So BuildStream portfolio includes three deliverables:
+So the About BuildStream page includes three deliverables:
 
 * BuildStream releases, which target software application and system integrators.
 * Development snapshots, which target testers and those interested in evaluate what's coming.
@@ -18,7 +18,7 @@ So BuildStream portfolio includes three deliverables:
 
 BuildStream relies on a sister project in order to be able to build at scale, called BuildGrid.
 
-## BuildStream for those interesting in building applications and integrating systems
+## Building applications and integrating systems
 
 <!-- Releases: description. Who is for. State clearly which one is the latest release. -->
 
@@ -36,7 +36,7 @@ In order to learn more about this specific release, the following links will be 
 
 A more technical and detailed description of BuildStream features, architecture, components, etc. can be found in [BuildStream In Detail]({filename}buildstream_in_detail.md).
 
-## Interested in trying out the latest features ?
+## Latest features
 
 BuildStream delivers Development Snapshots regularly for developers and integrators interested in evaluating what is coming and testing it. These snapshots are announced through the BuildStream community mailing list. These snapshots include those developed features that will be shipped in the next BuildStream Release that require validation or will benefit from further testing. But it is not a specific version for testers but an early version of what will be released later on.
 
@@ -48,7 +48,7 @@ If you are interested in these Development Snapshots we recommend you the follow
 * Download it and [Install/Deploy]({filename}installation.md#installing) it or update it if you already have a previous snapshot installed. Visit the [Known Issues]({filename}known_issues.md) page if you have any issue during the installation or deployment process.
 * Go to the [specific section of the FAQ]({filename}faq.md#contribute-to-buildstream) where you will find how to reach out to the developers, get the code or open a bug in case you detect an issue and want to report.
 
-## Interested in developing BuildStream?
+## Developing BuildStream
 
 <!-- Description about what you can find in Master and who is for (contributors) -->
 
@@ -67,7 +67,7 @@ For example, for a given version number `X.Y.Z`
 
 If you are [installing from git]({filename}source_installation.md#install_git), please look for the latest tag to ensure you're getting the latest release.
 
-## Interesting links
+## Links
 
 <!--  Link section: links to important content for those who might be thinking about becoming users. Provide context for each link, at least a sentence. -->
 

@@ -44,7 +44,7 @@ U.2.- Which BuildStream version should I try?
 
 **Development Snapshots** are created for those interested in evaluating BuildStream's new features and testing them. Again, it is important that you install the latest Snapshot.
 
-Visit the [BuildStream Portfolio] page to know about these deliverables.
+Visit the [About BuildStream] page to know about these deliverables.
 
 U.3.- How do I install BuildStream?
 
@@ -97,7 +97,7 @@ The best way to request an enhancement to BuildStream is to present it the [Comm
 [Apache v2.0]: https://gitlab.com/BuildGrid/buildgrid/blob/master/LICENSE
 [Community]: {filename}community.md
 [Releases]: {filename}releases.md
-[BuildStream Portfolio]: {filename}portfolio.md
+[About BuildStream]: {filename}about.md
 [Install]: {filename}installation.md
 [PyPI]: {filename}source_installation.md#install_pypi
 [Known Issues]: {filename}known_issues.md

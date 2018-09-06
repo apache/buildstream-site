@@ -26,7 +26,7 @@ THEME = 'alchemy-theme/alchemy'
 DEFAULT_PAGINATION = 10
 
 MENUITEMS = (
-    ('Portfolio', 'portfolio.html'),
+    ('About', 'about.html'),
     ('Install', 'install.html'),
     ('Updates', 'updates.html'),
     ('Community', 'community.html'),
