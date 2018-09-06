@@ -1,9 +1,6 @@
 title: Community
 slug: community
 
-<!-- This is the so called project page  -->
-[TOC]
-
 ## BuildStream Manifest
 
 Coming soon.
