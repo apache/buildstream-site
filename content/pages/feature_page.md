@@ -3,11 +3,11 @@ slug: feature
 
 <!-- Feature page. Check the content structure to better understand the relation with other pages: https://gitlab.com/BuildStream/nosoftware/alignment/blob/master/content_design/content_structure_proposal_description.md -->
 
-## BuildStream 1.2
 
-[[_TOC_]]
 
-### Release highlights
+[_TOC_]
+
+## Release highlights
 
 <!-- Text focused on those who can become users and current users, that is, we need to assume they have some technical knowledge. This text should mention and include a short description of the 2 or 3 features that makes a difference, that makes this release worth it. -->
 
@@ -17,7 +17,7 @@ Feature 1, Feature 2 and Feature 3 paragrapgh description
 
 Why you should try it out.
 
-### What's new
+## What's new
 
 <!-- Table 1.0 vs 1.2 The idea is to reflect evolution and to inform about the updates in features, components and plugins or other elements   -->
 
@@ -63,23 +63,39 @@ What's new -  plugins and third party software table:
 | Cell 7       | Cell 8   | Cell 9             | 
 
 
-### Download and install
+## Try BuildStream 1.2 out!
 
-Paragraph pointing people to what they have to do in order to download and install BuildStream. Consider the difference between  release and snapshots as well as the different platforms we currently support.
+If you want to try BuildStream 1.2 you must go through these two pages carefully:
 
-<!-- This paragraph is to provide context and redirect readers to the right content, not to duplicate content from other pages or documentation. Remember the target audience is people wanting to install BuildStream for the first time.   -->
+* Until BuildStream gets official support from major distributions, the recommended way to [install BuildStream 1.2] is through [PyPI].
+* All releases sources, including BuildStream 1.2, are available for [download].
 
-### Important Links
+The issues which may impact your experience early on are documented in the [Known Issues] page, with workarounds and links to the issue tickets, so you can keep up to date with developments.
 
-List and provide context to the main links required by a new user to consume BuildStream. Do not repeat the ones from the previous section. Recommend to go through the below pages in the proposed order.
+Feel free to take a look at our [bug list] if you do not find a solution for the issue you have, join the #buildstream [IRC channel] to get immediate support or join the BuildStream [Community mailing list] and ask questions there if they need to be more elaborate.
 
-<!-- Based on the critical path the order is Known issues, FAQ, BuildStream in detail   -->
+## I have installed BuildStream 1.2, now what?
 
-* Known issues: short description about what is this page for and why should visit it.
-* FAQ: short description about what is this page for and why should visit it. Insist on the section that has to be read (user section, the second. Link to that one, not to the title of the page.)
-* BuildStream In Detail: short description about what is this page for and why should visit it.
+Have you already installed BuildStream 1.2 successfully? Then the next step should be to try the [Hello World! example] to get a sense of how the tool works. There are [more complex examples] you can try out next.
 
-Further links:
-* News file (on gitlab): short description (for context).
-* Readme file (on gitlab): short description (for context).
-* Roadmap: short description (for context).
+Find out more about BuildStream features, architecture and further technical details on the [BuildStream In Detail] page.
+
+## Further resources
+
+For further information about BuildStream check:
+
+* [buildstream] repository includes the code of the core application.
+* Check the [FAQ] for further questions.
+
+
+[download]: https://buildstream.build/releases.html
+[install BuildStream 1.2]: https://buildstream.build/install.html
+[PyPI]: https://buildstream.build/source_install.html#install_pypi
+[Known Issues]: https://buildstream.build/known-issues.html
+[IRC channel]: irc://irc.gnome.org/#buildstream
+[bug list]: https://gitlab.com/BuildStream/buildstream/boards/580462?=&label_name[]=Bug
+[Community mailing list]: https://mail.gnome.org/mailman/listinfo/buildstream-list
+[Hello World! example]: https://buildstream.gitlab.io/buildstream/tutorial/first-project.html
+[more complex examples]: https://buildstream.gitlab.io/buildstream/using_examples.html
+[BuildStream In Detail]: https://buildstream.build/detail.html
+[buildstream]: https://gitlab.com/BuildStream/buildstream
