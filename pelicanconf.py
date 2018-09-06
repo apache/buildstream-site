@@ -41,9 +41,6 @@ MARKDOWN = {
         'markdown.extensions.codehilite'
     ],
     'extension_configs': {
-        'markdown.extensions.toc': {
-            'title': 'Table of contents:'
-        },
         'markdown.extensions.extra': {},
         'markdown.extensions.codehilite': {
             'css_class': 'highlight'
