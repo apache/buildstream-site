@@ -13,7 +13,7 @@ PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 ARTICLE_URL = 'articles/{date:%Y}/{slug}/'
 ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}/index.html'
-INDEX_SAVE_AS = 'updates.html'
+INDEX_SAVE_AS = 'news.html'
 STATIC_PATHS = [
     '.well-known/acme-challenge',
     'favicon.ico',
@@ -28,7 +28,7 @@ DEFAULT_PAGINATION = 10
 MENUITEMS = (
     ('About', 'about.html'),
     ('Install', 'install.html'),
-    ('Updates', 'updates.html'),
+    ('News', 'news.html'),
     ('Community', 'community.html'),
     ('FAQ', 'faq.html'),
 )
