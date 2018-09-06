@@ -2,3 +2,4 @@ pelican
 markdown
 typogrify
 pygments
+pylinkvalidator

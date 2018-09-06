@@ -7,6 +7,9 @@ before_script:
 test:
   script:
   - make html
+  - make serve &
+  - sleep 0.2
+  - pylinkvalidate.py -P 127.0.0.1:8000
   artifacts:
     paths:
     - output/
