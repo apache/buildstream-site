@@ -1,5 +1,5 @@
 title: About BuildStream
-save_as: about.html
+slug: about
 
 <!-- This page explains what the BuildStream project do and the project outcomes: Master (including dev snapshots) and releases. It will also talk about BuildGrid and mention the relation with freedesktop-sdk when it comes to outcomes -->
 
@@ -8,13 +8,13 @@ save_as: about.html
 [TOC]
 
 <!-- Short explanation about what the BuildStream project ships (outcomes) and who they are for: snapshots, releases and master  -->
-The BuildStream project develops, deliver and maintain an integration toolset called BuildStream specially designed for software application developers and integrators of complex systems that follow modern delivery methodologies to ship software that should be in production for a long time. At the same time, as Free Software project, BuildStream ships versions of the tools set advancing the features that will be shipped in the future for those who want to evaluate where the toolset is heading or test them. Finally, BuildStream toolset development mostly takes place in the master branch of the buildstream repository, which the project refers to as Master.
+The BuildStream project develops, delivers and maintains an integration toolset called BuildStream specially designed for software application developers and integrators of complex systems that follow modern delivery methodologies to ship software that should be in production for a long time. At the same time, as Free Software project, BuildStream ships versions of the tools set advancing the features that will be shipped in the future for those who want to evaluate where the toolset is heading or test them. Finally, BuildStream toolset development mostly takes place in the master branch of the buildstream repository, which the project refers to as Master.
 
-So the About BuildStream page includes three deliverables:
+We provide:
 
-* BuildStream releases, which target software application and system integrators.
-* Development snapshots, which target testers and those interested in evaluate what's coming.
-* Master, which target contributors who participate in the BuildStream development.
+* BuildStream releases, for software application developers and system integrators.
+* Development snapshots, for BuilStream testers and users who are interested in evaluating what's coming.
+* Master, for contributors who participate in the BuildStream development.
 
 BuildStream relies on a sister project in order to be able to build at scale, called BuildGrid.
 
@@ -22,7 +22,7 @@ BuildStream relies on a sister project in order to be able to build at scale, ca
 
 <!-- Releases: description. Who is for. State clearly which one is the latest release. -->
 
-BuildStream releases are "ready to use" versions of the toolset that will receive maintenance patches and security fixes for some time. This deliverable is recommended for those who need a version of BuildStream for production environments.
+BuildStream releases are "ready to use" versions, that will receive maintenance patches and security fixes for some time. Releases are recommended for those who need a version of BuildStream for production environments.
 
 Currently, the latest BuildStream release is <object style="vertical-align: middle" data="https://buildstream.gitlab.io/buildstream/_static/release.svg" type="image/svg+xml"></object>.
 
