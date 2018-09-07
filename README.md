@@ -26,7 +26,7 @@ certificate:
 ```
 git clone https://github.com/certbot/certbot
 cd certbot
-./letsencrypt-auto certonly -a manual -d buildstream.build
+./letsencrypt-auto certonly -a manual -d buildstream.build -d www.buildstream.build
 ```
 
 Do not press `enter` yet. On another terminal, follow the instructions
@@ -46,9 +46,10 @@ After the CI pipeline finishes and the website is redeployed, go back to
 the first terminal and press `enter`. This will generate new
 `fullchain.pem` and `privkey.pem` files.
 
-Finally, go to domain settings [page][domain-settings-page] and replace
-_Certificate (PEM)_ with updated `fullchain.pem` and _Key (PEM)_ with
-updated `privkey.pem`.
+Finally, go to domain settings [page][buildstream.build-settings] and
+replace _Certificate (PEM)_ with updated `fullchain.pem` and
+_Key (PEM)_ with updated `privkey.pem`. Do the same for the for the
+subdomain on the settings [page][www.buildstream.build-settings].
 
 Test the new certificate by accessing <https://buildstream.build> and
 verifying that no warnings are shown regarding the certificate.
@@ -56,4 +57,5 @@ verifying that no warnings are shown regarding the certificate.
 [pelican-install]: http://docs.getpelican.com/en/3.6.3/install.html
 [lets-encrypt]: https://letsencrypt.org/
 [certboot]: https://certbot.eff.org/
-[domain-settings-page]: https://gitlab.com/BuildStream/website/pages/domains/buildstream.build/edit
+[buildstream.build-settings]: https://gitlab.com/BuildStream/website/pages/domains/buildstream.build/edit
+[www.buildstream.build-settings]: https://gitlab.com/BuildStream/website/pages/domains/wwww.buildstream.build/edit
