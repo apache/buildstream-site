@@ -5,7 +5,7 @@ slug: feature
 
 ## Release highlights
 
-BuildStream 1.2 is the second Release delivered by the BuildStream project which incorporates a new CAS artifact cache based on bazel remote APIs. This new feature significantly reduces build times. In addition, a new structure of the tool's configuration file, together with new capabilities to fetch from multiple sources, increase BuildStream flexibility. 
+BuildStream 1.2 is the second Release delivered by the BuildStream project which incorporates a new CAS artifact cache based on bazel remote APIs. This new feature significantly reduces build times. In addition, improved customisation through the tool's configuration file, together with new capabilities to fetch from multiple sources, increase the flexibility of BuildStream. 
 
 Over the last eight months, BuildStream has seen significant improvement, adding several minor features which provide a better onboarding experience to new users while still improving productivity in everyday workflows for application developers and integrators.
 
@@ -33,10 +33,9 @@ Jonathan Maw is the main developer of this feature.
 
 <!-- TODO -->
 
-## Features
+## What's new in BuildStream 1.2
 
-<!-- List key features for the general audience, then those for our target market and audience. Those who are only partially supported and will be fully supported in the next major version, too.   -->
-
+New and updated features:
 
 |      Feature             |  v1.0   |    v1.2   |               Notes               |
 |:------------------------:|:-------:|:---------:|:---------------------------------:|
@@ -51,12 +50,8 @@ Jonathan Maw is the main developer of this feature.
 
 <br/>
 
+New an updated software components:
 
-### Software components
-
-<!-- List key software components for the general audience, then those for our target market and audience. There are people that has installed in their machines software versions that might collide or not be appropiate for running BuildStream. We need to let them know here.   -->
-
-<!-- TODO -->
 | Component | v 1.0 | v 1.2 |
 |:---------:|:-----:|:-----:|
 |   Python    |  v3.4+ |   v3.5+    |
@@ -67,9 +62,7 @@ Jonathan Maw is the main developer of this feature.
 
 <br/>
 
-### Plugins and third party software
-
-<!-- List key plugins and external software components that enable interesting or complementary features we partly or entirely rely on. for the general audience, then those for our target market and audience. Those who are only partially supported and will be fully supported in the next major version, too.   -->
+New and updated plugins and third party software:
 
 |                                  Plugin                        |                     Detail                     |
 |:--------------------------------------------------------------:|:----------------------------------------------:|
