@@ -1,70 +1,82 @@
 title: feature page
 slug: feature
 
-<!-- Feature page. Check the content structure to better understand the relation with other pages: https://gitlab.com/BuildStream/nosoftware/alignment/blob/master/content_design/content_structure_proposal_description.md -->
-
-
 [_TOC_]
 
 ## Release highlights
 
-<!-- Text focused on those who can become users and current users, that is, we need to assume they have some technical knowledge. This text should mention and include a short description of the 2 or 3 features that makes a difference, that makes this release worth it. -->
+BuildStream 1.2 is the second Release delivered by the BuildStream project which incorporates a new CAS artifact cache based on bazel remote APIs. This new feature significantly reduces build times. In addition, a new structure of the tool's configuration file, together with new capabilities to fetch from multiple sources, increase BuildStream flexibility. 
 
-Intro paragraph
+Over the last eight months, BuildStream has seen significant improvement, adding several minor features which provide a better onboarding experience to new users while still improving productivity in everyday workflows for application developers and integrators.
 
-Feature 1, Feature 2 and Feature 3 paragraph description
+The technical documentation has been improved and extended accordingly with the code, the processes and practices to manage the project itself are more robust so we can maintain high levels of productivity while increasing the number of contributors and the project has taken the first step to have a website that help us to raise awareness about the project.
 
-#### CAS Artifact Cache
+A sister project, [BuildGrid], has been created in order to allow BuildStream to "build at scale" and our association with [Freedesktop-SDK] has allowed BuildStream to test and improve the user experience and reliability.
 
-<!-- TODO -->
-
-#### Source Mirroring
+### CAS Artifact Cache
 
 <!-- TODO -->
 
-#### Include directive
+### Source Mirroring
+
+Source Mirroring is a way to ensure that sources can be pulled from multiple different URLs. This is useful to users in cases such as:
+
+* The upstream repository is occasionally unreachable
+* The upstream repository has low bandwidth
+* The BuildStream user has a local mirror that doesn't necessarily hold the latest refs.
+
+With source mirroring, as long as the source's URL uses an alias, fetching your sources from a different place is as simple as specifying a new mirror in project.conf.
+
+Jonathan Maw is the main developer of this feature.
+
+### Include directive
 
 <!-- TODO -->
 
-#### Summary
-Why you should try it out. <!-- TODO -->
-
-<!-- Table 1.0 vs 1.2 The idea is to reflect evolution and to inform about the updates in features, components and plugins or other elements   -->
-
-### What's new - Feature table:
+## Features
 
 <!-- List key features for the general audience, then those for our target market and audience. Those who are only partially supported and will be fully supported in the next major version, too.   -->
 
 
-|                                          Feature                                          |                                       Detail                                      |
-|:-----------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------:|
-|                                            CAS                                            |                        Switched to CAS based artifact cache                       |
-| [Source Mirroring](https://buildstream.gitlab.io/buildstream/format_project.html#mirrors) | Added functionality and configuration for providing multiple mirror for a source. |
-|  [Include directive](https://buildstream.gitlab.io/buildstream/format_intro.html#include) |                 Elements can now include content from other files.                |
+|      Feature             |  v1.0   |    v1.2   |               Notes               |
+|:------------------------:|:-------:|:---------:|:---------------------------------:|
+| [CAS] based artifact cache |         |   New   |  Switched to [CAS] based artifact cache from OSTree based cache  |
+| [Source Mirroring]       |         |   New     |   Added functionality and configuration for providing multiple mirrors for any source. |
+|  [Include directive]     |         |   New     |  Elements can now include content from other files.                |
+| Add junction support for subprojects   |   |   |                                   |
+|  Workspace incremental builds  |   |           |                                   |
+|  Element and source configuratrion overrides   |   |   |                           |
+| Sanbox configuration     |         |           |                                   |
+|  Reference storage       |         |           |                                   |
 
 <br/>
 
-### What's new software components table:
+
+### Software components
 
 <!-- List key software components for the general audience, then those for our target market and audience. There are people that has installed in their machines software versions that might collide or not be appropiate for running BuildStream. We need to let them know here.   -->
 
 <!-- TODO -->
-| Component | v 1.1 | v 1.2 |
+| Component | v 1.0 | v 1.2 |
 |:---------:|:-----:|:-----:|
-|    v2.7   |  v2.8 |       |
+|   Python    |  v3.4+ |   v3.5+    |
+|   Component b         |    |    |
+|   Component c         |    |    |
+|   Component d         |    |    |
+
 
 <br/>
 
-### What's new -  plugins and third party software table:
+### Plugins and third party software
 
 <!-- List key plugins and external software components that enable interesting or complementary features we partly or entirely rely on. for the general audience, then those for our target market and audience. Those who are only partially supported and will be fully supported in the next major version, too.   -->
 
-|                                  Plugin                                  |                     Detail                     |
-|:------------------------------------------------------------------------:|:----------------------------------------------:|
-|  [remote](https://buildstream.gitlab.io/buildstream/sources/remote.html) |    Source for staging files from remote urls   |
-|   [make](https://buildstream.gitlab.io/buildstream/elements/make.html)   |         BuildElement for using GNU make        |
-|     [deb](https://buildstream.gitlab.io/buildstream/sources/deb.html)    |   Source for staging files from .deb packages  |
-| [filter](https://buildstream.gitlab.io/buildstream/elements/filter.html) | Extract a subset of files from another element |
+|                                  Plugin                        |                     Detail                     |
+|:--------------------------------------------------------------:|:----------------------------------------------:|
+|  [remote] |        Source for staging files from remote urls   |                                                |
+|  [make]   |             BuildElement for using GNU make        |                                                |
+|  [deb]    |       Source for staging files from .deb packages  |                                                |
+| [filter]  |     Extract a subset of files from another element |                                                |
 
 <br/>
 
@@ -81,7 +93,7 @@ Feel free to take a look at our [bug list] if you do not find a solution for the
 
 ## I have installed BuildStream 1.2, now what?
 
-Have you already installed BuildStream 1.2 successfully? Then the next step should be to try the [Hello World! example] to get a sense of how the tool works. There are [more complex examples] you can try out next.
+Have you already installed BuildStream 1.2 successfully? Then the next step should be to try the [Hello World! example] to get a sense of how the tool works. There are [more complex examples] you can try next.
 
 Find out more about BuildStream features, architecture and further technical details on the [BuildStream In Detail] page.
 
@@ -92,7 +104,15 @@ For further information about BuildStream check:
 * [buildstream] repository includes the code of the core application.
 * Check the [FAQ] for further questions.
 
-
+[BuildGrid]: https://buildgrid.gitlab.io/buildgrid/
+[Freedesktop-SDK]: https://gitlab.com/freedesktop-sdk
+[CAS]: https://en.wikipedia.org/wiki/Content-addressable_storage
+[Source Mirroring]: https://buildstream.gitlab.io/buildstream/format_project.html#mirrors
+[Include directive]: https://buildstream.gitlab.io/buildstream/format_intro.html#include
+[remote]: https://buildstream.gitlab.io/buildstream/sources/remote.html
+[make]: https://buildstream.gitlab.io/buildstream/elements/make.html
+[deb]: https://buildstream.gitlab.io/buildstream/sources/deb.html
+[filter]: https://buildstream.gitlab.io/buildstream/elements/filter.html
 [download]: https://buildstream.build/releases.html
 [install BuildStream 1.2]: https://buildstream.build/install.html
 [PyPI]: https://buildstream.build/source_install.html#install_pypi
