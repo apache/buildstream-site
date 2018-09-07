@@ -31,6 +31,7 @@ MENUITEMS = (
     ('News', 'news.html'),
     ('Community', 'community.html'),
     ('FAQ', 'faq.html'),
+    ('Documentation', 'http://buildstream.gitlab.io/buildstream/'),
 )
 
 MARKDOWN = {
