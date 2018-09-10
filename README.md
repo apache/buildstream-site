@@ -58,4 +58,4 @@ verifying that no warnings are shown regarding the certificate.
 [lets-encrypt]: https://letsencrypt.org/
 [certboot]: https://certbot.eff.org/
 [buildstream.build-settings]: https://gitlab.com/BuildStream/website/pages/domains/buildstream.build/edit
-[www.buildstream.build-settings]: https://gitlab.com/BuildStream/website/pages/domains/wwww.buildstream.build/edit
+[www.buildstream.build-settings]: https://gitlab.com/BuildStream/website/pages/domains/www.buildstream.build/edit
