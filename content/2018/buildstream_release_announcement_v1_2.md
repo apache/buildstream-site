@@ -24,7 +24,7 @@ BuildStream is a Free Software project. You can learn more about what it is by v
 [CAS]: https://en.wikipedia.org/wiki/Content-addressable_storage
 [bazel remote APIs]: https://github.com/bazelbuild/remote-apis
 [what's new]: {filename}../pages/feature_page.md
-[install or update]]: {filename}../pages/source_installation.md#install_pypi
+[install or update]: {filename}../pages/source_installation.md#install_pypi
 [Frequently Asked Questions]: {filename}../pages/faq.md
 [BuildStream Project]: {filename}../pages/community.md
 [About BuildStream]: {filename}../pages/about.md
