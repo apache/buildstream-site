@@ -5,7 +5,7 @@ slug: feature
 
 ## Release highlights
 
-BuildStream 1.2 is the second Release delivered by the BuildStream project which incorporates a new CAS artifact cache based on bazel remote APIs. This new feature significantly reduces build times. In addition, improved customisation through the tool's configuration file, together with new capabilities to fetch from multiple sources, increase the flexibility of BuildStream. 
+BuildStream 1.2 is the second Release delivered by the BuildStream project which incorporates a new CAS artifact cache based on bazel remote APIs. This new feature not just prevent files duplication but also opens the door to have remote execution which will significantly reduces build times. In addition, improved customisation through the tool's configuration file, together with new capabilities to fetch from multiple sources, increase the flexibility of BuildStream. 
 
 Over the last eight months, BuildStream has seen significant improvement, adding several minor features which provide a better onboarding experience to new users while still improving productivity in everyday workflows for application developers and integrators.
 
@@ -31,7 +31,11 @@ Jonathan Maw is the main developer of this feature.
 
 ### Include directive
 
-<!-- TODO -->
+Include directive
+
+BuildStream is highly configurable and project confguration can become large. When using multiple subprojects, part of the configuration would need to be replicated. Maintaining changes could then be challenging. The include directive can be used to split project configuration into fragments which can be shared large across projects using junctions. Then only one file contains an aspect of configuration for multiple projects.
+
+Elements can also use the include directive. For example, similar elements can be factorized. Or elements from subprojects can be imported and tweaked.
 
 ## What's new in BuildStream 1.2
 
