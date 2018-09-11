@@ -7,17 +7,19 @@ slug: known-issues
 
 <!-- Known issues should include in the ticket the workaround since we will route users to it -->
 
-## Known issues
+This page lists the issues that has been identified as harmful for those installing BuildStream or early on when using BuildStream. When available, a workaround is offered. In any case, the BuildStream community is working to fix them.
 
-This page lists the issues that has been identified by the BuildStream team or by the community that might affect you in early stages of the BuildStream usage or that might have a significnat impact in certain actions. When available, a workaround is offered. In any case, the BuildStream community is working to fix them.
+### BuildStream 1.2 known issue
 
-### BuildStream 1.2
-
-* #XXX (Title) <!-- The title does not need to match the bug one. It needs to be easy to identify by its impact.  -->
-   * (Description): <!-- Add a description about the impact of the bug, not about the technical details. Remember to include the workaround on the ticket description. -->
-* #XXX (Title) <!-- The title does not need to match the bug one. It needs to be easy to identify by its impact.  -->
-   * (Description): <!-- Add a description about the impact of the bug, not about the technical details. Remember to include the workaround on the ticket description. -->
-* #XXX (Title) <!-- The title does not need to match the bug one. It needs to be easy to identify by its impact.  -->
-   * (Description): <!-- Add a description about the impact of the bug, not about the technical details. Remember to include the workaround on the ticket description. -->
-* #XXX (Title) <!-- The title does not need to match the bug one. It needs to be easy to identify by its impact.  -->
-   * (Description): <!-- Add a description about the impact of the bug, not about the technical details. Remember to include the workaround on the ticket description. -->
+* #XXX (Title) <!-- The title does not need to match the bug one. It needs to be easy to identify by its impact. Add the link to the issue tracker ticket so the state is updated here.  -->
+   * Impact Description: <!-- Add a description about the impact of the bug, not about the technical details.  -->
+   * Workaround: <!-- Remember to include the workaround on the ticket description. -->
+* #XXX (Title) <!-- The title does not need to match the bug one. It needs to be easy to identify by its impact. Add the link to the issue tracker ticket so the state is updated here.  -->
+   * Impact Description: <!-- Add a description about the impact of the bug, not about the technical details.  -->
+   * Workaround: <!-- Remember to include the workaround on the ticket description. -->
+* #XXX (Title) <!-- The title does not need to match the bug one. It needs to be easy to identify by its impact. Add the link to the issue tracker ticket so the state is updated here.  -->
+   * Impact Description: <!-- Add a description about the impact of the bug, not about the technical details.  -->
+   * Workaround: <!-- Remember to include the workaround on the ticket description. -->
+* #XXX (Title) <!-- The title does not need to match the bug one. It needs to be easy to identify by its impact. Add the link to the issue tracker ticket so the state is updated here.  -->
+   * Impact Description: <!-- Add a description about the impact of the bug, not about the technical details.  -->
+   * Workaround: <!-- Remember to include the workaround on the ticket description. -->
