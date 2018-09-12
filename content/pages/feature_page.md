@@ -41,16 +41,16 @@ Elements can also use the include directive. For example, similar elements can b
 
 New and updated features:
 
-|      Feature             |  v1.0   |    v1.2   |               Notes               |
-|:------------------------:|:-------:|:---------:|:---------------------------------:|
-| [CAS] based artifact cache |         |   New   |  Switched to [CAS] based artifact cache from OSTree based cache  |
-| [Source Mirroring]       |         |   New     |   Added functionality and configuration for providing multiple mirrors for any source. |
-|  [Include directive]     |         |   New     |  Elements can now include content from other files.                |
-| Add junction support for subprojects   |   |   |                                   |
-|  Workspace incremental builds  |   |           |                                   |
-|  Element and source configuratrion overrides   |   |   |                           |
-| Sanbox configuration     |         |           |                                   |
-|  Reference storage       |         |           |                                   |
+| Feature                                     | v1.0 | v1.2 | Notes                                                                                  |
+|:-------------------------------------------:|:----:|:----:|:--------------------------------------------------------------------------------------:|
+| [CAS] based artifact cache                  |      | New  | Switched to [CAS] based artifact cache from OSTree based cache                         |
+| [Source Mirroring]                          |      | New  | Added functionality and configuration for providing multiple mirrors for any source.   |
+| [Include directive]                         |      | New  | Elements can now include content from other files.                                     |
+| Add junction support for subprojects        |      |      |                                                                                        |
+| Workspace incremental builds                |      | New  | Up-to-date files will no longer be rebuilt for workspaced elements.                    |
+| Element and source configuratrion overrides |      | New  | It is now possible to set and override global configuration options for plugins.       |
+| Sanbox configuration                        |      | New  | The user/group ID of sandbox processes can now be set in `project.conf`.               |
+| Reference storage                           |      | New  | Instead of inline declarations, an external file can now be used to store source refs. |
 
 <br/>
 
