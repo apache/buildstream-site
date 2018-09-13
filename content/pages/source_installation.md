@@ -30,6 +30,7 @@ The default plugins with extra host dependencies are:
 - git
 - ostree
 - patch
+- pip
 - tar
 
 ### Arch Linux
