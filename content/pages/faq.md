@@ -18,7 +18,7 @@ BuildStream targets application software developers and system integrators who r
 
 #### Why should I use BuildStream?
 
-The motivation behind the development of BuildStream is to create a modern continuous integration tool suitable for corporate environments where applications and systems needs to be maintained for some for a long term. At the same time the daily usage of the tool needs to be cost effective, not just during development but also during maintenance stages so BuildStream combines flexibility and power through highly configurable features and good dosis of automation. 
+The motivation behind the development of BuildStream is to create a modern continuous integration tool suitable for corporate environments where applications and systems needs to be maintained for some for a long term. At the same time the daily usage of the tool needs to be cost effective, not just during development but also during maintenance stages so BuildStream combines flexibility and power through highly configurable features and good dosis of automation.
 
 BuildStream might be an interesting option to those who like to build their systems and applications getting several outputs like packages, images or containers, from a single set of definitions and instructions, reducing maintenance efforts. BuildStream is also a tough contender in environments where complex integration workflows are required as well as in organizations that have adopted continuous delivery principles.
 
@@ -30,7 +30,7 @@ The sister project [BuildGrid], which is not part of the GNOME Foundation, is pu
 
 #### Who is developing BuildStream?
 
-BuildStream is developed by a community of professionals, several of which have prior experience in the development of Open Source integration tools. The BuildStream project is inclusive so people with different skills and levels of experience are welcome to participate. Visit our [Community] page to find out more. 
+BuildStream is developed by a community of professionals, several of which have prior experience in the development of Open Source integration tools. The BuildStream project is inclusive so people with different skills and levels of experience are welcome to participate. Visit our [Community] page to find out more.
 
 ## Use BuildStream
 
@@ -58,7 +58,7 @@ If after following the installation instructions from the [Install] guide and ch
 
 #### I have BuildStream installed, now what?
 
-Take a look at our [tutorials and examples] to learn more about how to use BuildStream. If you are interesting in learning more about BuildStream capabilities, take a look at the [BuildStream In Detail] page. 
+Take a look at our [tutorials and examples] to learn more about how to use BuildStream. If you are interesting in learning more about BuildStream capabilities, take a look at the [BuildStream In Detail] page.
 
 ## Contribute to BuildStream
 
@@ -69,7 +69,7 @@ Take a look at our [tutorials and examples] to learn more about how to use Build
 * If that is not the case, you will need to become a Member of the [buildstream] repository in order to report a bug.
       * You can do that directly thorugh Gitlab
       * You can request becoming a Member through the [Community mailing list].
-* Go back to the issue tracker and open a new ticket using the bug template. 
+* Go back to the issue tracker and open a new ticket using the bug template.
 
 #### Where can I get the development snapshot of BuildStream?
 
@@ -107,6 +107,6 @@ The best way to request an enhancement to BuildStream is to present it the [Comm
 [tutorials and examples]: https://buildstream.gitlab.io/buildstream/main_using.html
 [issue on gitlab]: https://gitlab.com/BuildStream/buildstream/issues/new
 [Install from source]: {filename}installation.md#install_from_source
-[Participate in the BuildStream project]: https://buildstream.build/community.html#participate-in-the-buildstream-project
+[Participate in the BuildStream project]: {filename}community.md#participate-in-the-buildstream-project
 [Features Addition]: https://buildstream.gitlab.io/buildstream/HACKING.html#feature-additions
 [technical documentation]: https://buildstream.gitlab.io/buildstream/index.html
