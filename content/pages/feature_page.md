@@ -110,15 +110,15 @@ For further information about BuildStream check:
 [make]: https://buildstream.gitlab.io/buildstream/elements/make.html
 [deb]: https://buildstream.gitlab.io/buildstream/sources/deb.html
 [filter]: https://buildstream.gitlab.io/buildstream/elements/filter.html
-[download]: https://buildstream.build/releases.html
-[install BuildStream 1.2]: https://buildstream.build/install.html
-[PyPI]: https://buildstream.build/source_install.html#install_pypi
-[Known Issues]: https://buildstream.build/known-issues.html
+[download]: {filename}releases.md
+[install BuildStream 1.2]: {filename}installation.md
+[PyPI]: {filename}source_installation.md#install_pypi
+[Known Issues]: {filename}known_issues.md
 [IRC channel]: irc://irc.gnome.org/#buildstream
 [bug list]: https://gitlab.com/BuildStream/buildstream/boards/580462?=&label_name[]=Bug
 [Community mailing list]: https://mail.gnome.org/mailman/listinfo/buildstream-list
 [Hello World! example]: https://buildstream.gitlab.io/buildstream/tutorial/first-project.html
 [more complex examples]: https://buildstream.gitlab.io/buildstream/using_examples.html
-[BuildStream In Detail]: https://buildstream.build/detail.html
+[BuildStream In Detail]: {filename}buildstream_in_detail.md
 [buildstream]: https://gitlab.com/BuildStream/buildstream
 [FAQ]: {filename}faq.md
