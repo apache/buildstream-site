@@ -4,7 +4,42 @@ import json
 import re
 import os
 import pickle
+import tempfile
+import subprocess
 from html.parser import HTMLParser
+from contextlib import contextmanager
+
+
+class GitRepos:
+
+    def __init__(self, uri):
+        self._repo = None
+        self._uri = uri
+
+    def _ensure_cloned(self):
+        if not self._repo:
+            self._repo = tempfile.TemporaryDirectory()
+            subprocess.check_call(['git', 'clone', self._uri, self._repo.name])
+
+    def get_git_hash(self, version):
+        self._ensure_cloned()
+        return subprocess.check_output(['git', 'log', '-1', '--pretty=format:%H', version],
+                                       cwd=self._repo.name).decode('ascii')
+
+    def cleanup(self):
+        if self._repo:
+            self._repo.cleanup()
+            self._repo = None
+
+
+@contextmanager
+def git_repos(uri):
+    repo = GitRepos(uri)
+    try:
+        yield repo
+    finally:
+        repo.cleanup()
+
 
 class ExtractLinks(HTMLParser):
     def __init__(self):
@@ -120,30 +155,32 @@ class DownloadTablePP(markdown.preprocessors.Preprocessor):
             traceback.print_exc()
             release_anouncements = {}
 
-        output = []
-        for line in lines:
-            if line.startswith('_download_table_stable:') or line.startswith('_download_table_unstable:'):
-                stable = line.startswith('_download_table_stable:')
-                _, pattern = line.split(':', 1)
-                for version, tarball, news in get_versions(stable=stable):
-                    env = {}
-                    env['version'] = '.'.join(map(str, version))
-                    env['uri'] = tarball[0]
-                    env['basename'] = os.path.basename(urllib.parse.urlparse(tarball[0]).path)
-                    env['sha256'] = tarball[1]
-                    if news:
-                        env['news'] = news[0]
-                        env['news-basename'] = os.path.basename(urllib.parse.urlparse(news[0]).path)
-                    else:
-                        env['news'] = ''
-                        env['news-basename'] = ''
-                    env['anouncement'] = release_anouncements.get(env['version'], '')
-                    newline = pattern.format(**env)
-                    newline = re.sub(r'[[](?P<txt>[^]]*)[]][(][)]', r'\g<txt>', newline)
-                    output.append(newline)
-            else:
-                output.append(line)
-        return output
+        with git_repos('https://gitlab.com/BuildStream/buildstream.git') as repos:
+            output = []
+            for line in lines:
+                if line.startswith('_download_table_stable:') or line.startswith('_download_table_unstable:'):
+                    stable = line.startswith('_download_table_stable:')
+                    _, pattern = line.split(':', 1)
+                    for version, tarball, news in get_versions(stable=stable):
+                        env = {}
+                        env['version'] = '.'.join(map(str, version))
+                        env['uri'] = tarball[0]
+                        env['basename'] = os.path.basename(urllib.parse.urlparse(tarball[0]).path)
+                        env['sha256'] = tarball[1]
+                        if news:
+                            env['news'] = news[0]
+                            env['news-basename'] = os.path.basename(urllib.parse.urlparse(news[0]).path)
+                        else:
+                            env['news'] = ''
+                            env['news-basename'] = ''
+                        env['anouncement'] = release_anouncements.get(env['version'], '')
+                        env['git-hash'] = repos.get_git_hash(env['version'])
+                        newline = pattern.format(**env)
+                        newline = re.sub(r'[[](?P<txt>[^]]*)[]][(][)]', r'\g<txt>', newline)
+                        output.append(newline)
+                else:
+                    output.append(line)
+            return output
 
 class DownloadTable(markdown.Extension):
     def extendMarkdown(self, md, md_globals):
