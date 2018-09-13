@@ -1,7 +1,7 @@
 image: python:3.7-alpine
 
 before_script:
-- apk add --update make
+- apk add --update make git
 - pip3 install -r requirements.txt
 
 test:
