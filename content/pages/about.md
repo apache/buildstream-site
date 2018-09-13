@@ -27,7 +27,7 @@ Currently, the latest BuildStream release is <object style="vertical-align: midd
 In order to learn more about this specific release, the following links will be of help:
 
 * The publication of BuildStream releases is announced on this website through a [Release Announcement](articles/2018/buildstream-1.2-is-out/).
-* You can find [What's New]({filename}feature_page.md) on each release by reading the release feature page, which includes also relevant information for those who want to consider installing BuildStream for the very first time.
+* You can find [What's New]({filename}feature_page-1.2.md) on each release by reading the release feature page, which includes also relevant information for those who want to consider installing BuildStream for the very first time.
 * In order to Download and Install/Deploy BuildStream the next recommended step is to visit the [releases page]({filename}releases.md) and the [Installation and Deployment Instructions]({filename}installation.md) which will provide you a step by step guidance on the process.
 * If you encounter any problem through this process, please visit the [Known Issues]({filename}known_issues.md) page. Hopefully you will find your problem described there together with a workaround to overcome it while the BuildStream developers fix the issue. A link to the issue tracker will allow you to follow the progress on it.
 * Finally, the recommendation is to visit the [FAQ]({filename}faq.md#use-buildstream) (Frequently Asked Questions) page in order to find out more about BuildStream, how to get in contact with those who might help you, where can I find examples of how to use the tool and further interesting information.

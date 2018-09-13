@@ -1,5 +1,9 @@
-title: feature page
+title: Features
 slug: feature
+<!--
+The latest feature page should have the slug `feature`
+Other feature pages should follow the pattern `feature-x.y`
+-->
 
 [TOC]
 
