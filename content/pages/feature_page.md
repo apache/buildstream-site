@@ -121,3 +121,4 @@ For further information about BuildStream check:
 [more complex examples]: https://buildstream.gitlab.io/buildstream/using_examples.html
 [BuildStream In Detail]: https://buildstream.build/detail.html
 [buildstream]: https://gitlab.com/BuildStream/buildstream
+[FAQ]: {filename}faq.md
