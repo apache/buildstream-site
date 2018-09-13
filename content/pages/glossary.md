@@ -10,14 +10,19 @@ slug: glossary
 ### B
 
 * build: <!-- vs integration -->
-* BuildStream: <!-- the tool -->
-* buildstream: <!-- the repo -->
-* BuildStream Project: 
+* BuildStream: The tool commonly executed through the use of the `bst` command. <!-- the tool -->
+* buildstream: The [code repository] for the BuildStream tool. <!-- the repo -->
+* BuildStream Project:
 * BuildStream Community
 
 ### D
 
 * Definitions: <!-- vs receipe -->
+
+### E
+
+* Element: A single component of a BuildStream project. Each `.bst` file is an element.
+    * Various [element kinds] exist and new elements can be added as [plugins]
 
 ### I
 
@@ -25,16 +30,28 @@ slug: glossary
 
 ### M
 
-* Master:
+* Master: Master is the bleeding edge version of BuildStream.
+    * Note that no guarantees are made regarding the stability of master.
 
 ### P
 
-* Pipeline: 
+* Pipeline:
 
-### R 
+### R
 
 * Recipe:
 
+### S
+
+* Source: An input to an element.
+    * Various [source kinds] exist and new sources can be added as [plugins]
+
 ### W
 
-* Workspace: 
+* Workspace: A controlled environment for developing buildstream projects.
+
+
+[code repository]: https://www.gitlab.com/buildstream/buildstream
+[source kinds]: https://buildstream.gitlab.io/buildstream/core_plugins.html#sources
+[element kinds]: https://buildstream.gitlab.io/buildstream/core_plugins.html
+[plugins]: https://buildstream.gitlab.io/buildstream/buildstream.plugin.html
