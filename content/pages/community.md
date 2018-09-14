@@ -48,7 +48,7 @@ The BuildStream project welcome and promotes the participation and contributions
 [GNOME IRC server]: https://wiki.gnome.org/Community/GettingInTouch/IRC
 [BuildStream Community]: https://mail.gnome.org/mailman/listinfo/buildstream-list
 [mailing list archive]: https://mail.gnome.org/archives/buildstream-list/
-[repository buildstream]: https://gitlab.com/BuildStream/buildstream
+[buildstream repository]: https://gitlab.com/BuildStream/buildstream
 [Gitlab.com]: https://www.gitlab.com
 [BuildStream Group]: https://gitlab.com/BuildStream
 [development policies and guidelines]: https://buildstream.gitlab.io/buildstream/HACKING.html
