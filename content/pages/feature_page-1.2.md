@@ -35,8 +35,6 @@ Jonathan Maw is the main developer of this feature.
 
 ### Include directive
 
-Include directive
-
 BuildStream is highly configurable and project confguration can become large. When using multiple subprojects, part of the configuration would need to be replicated. Maintaining changes could then be challenging. The include directive can be used to split project configuration into fragments which can be shared large across projects using junctions. Then only one file contains an aspect of configuration for multiple projects.
 
 Elements can also use the include directive. For example, similar elements can be factorized. Or elements from subprojects can be imported and tweaked.
