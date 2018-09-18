@@ -11,6 +11,17 @@ This page lists the issues that has been identified as harmful for those install
 
 ### BuildStream 1.2 known issue
 
+* BuildStream/buildstream#609 Cache server running out of space
+  * Impact Description:
+    This affects only cache servers. Administrators should be aware of
+    this issue.  The cache is cleaned up automatically. However at
+    some point the cache continues to fill up and fails to clean older
+    artifacts.  This issue is a priority for 1.2.
+
+  * Workaround:
+    Clean up manually the cache directory when disk resources get low.
+    This directory is the one pass as parameter to `bst-artifact-server`.
+
 * #XXX (Title) <!-- The title does not need to match the bug one. It needs to be easy to identify by its impact. Add the link to the issue tracker ticket so the state is updated here.  -->
    * Impact Description: <!-- Add a description about the impact of the bug, not about the technical details.  -->
    * Workaround: <!-- Remember to include the workaround on the ticket description. -->
