@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*- #
 import sys
 
-sys.path.append('.')
+sys.path.append('plugins')
 from get_releases import DownloadTable
 from gitlab_links import GitlabLinks
 
