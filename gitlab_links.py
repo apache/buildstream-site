@@ -37,10 +37,7 @@ class GitlabLinksPP(markdown.preprocessors.Preprocessor):
 
     def run(self, lines):
         try:
-            out = []
-            for line in lines:
-                out.append(issue_syntax.sub(self._replace, line))
-            return out
+            return [issue_syntax.sub(self._replace, line) for line in lines]
         except:
             import traceback
             traceback.print_exc()
