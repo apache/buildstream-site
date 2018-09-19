@@ -20,7 +20,7 @@ class GitlabLinksPP(markdown.preprocessors.Preprocessor):
         url = urllib.parse.urljoin('https://gitlab.com', path)
 
         with urllib.request.urlopen(url) as f:
-            issue = json.load(f)
+            issue = json.loads(f.read().decode('utf-8'))
             web_url = issue.get('web_url')
             out = '#{}'.format(m.group('issue'))
 
