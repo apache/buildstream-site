@@ -19,7 +19,20 @@ A sister project, [BuildGrid], has been created in order to allow BuildStream to
 
 ### CAS Artifact Cache
 
-<!-- TODO -->
+As part of the preparatory work for Remote Execution BuildStream has moved from an OSTree-based artifact cache to a [Bazel CAS]-based artifact cache.
+
+This should not affect users directly, but it has a few nice side-effects:
+
+* BuildStream no longer depends on OSTree, making it easier to install
+  * OSTree sources are of course still supported, and projects with
+    such elements still require OSTree
+* Artifact servers are now easier to set up, more robust, and support TLS
+* CAS replaces the tar cache on non-Linux UNIX, drastically improving
+  performance and allowing access to artifact servers
+
+Jürg Billeter is the main developer of this feature.
+
+More improvements will come as work on Remote Execution continues - watch this space!
 
 ### Source Mirroring
 
@@ -105,6 +118,7 @@ For further information about BuildStream check:
 
 [BuildGrid]: https://buildgrid.gitlab.io/buildgrid/
 [Freedesktop-SDK]: https://gitlab.com/freedesktop-sdk
+[Bazel CAS]: https://docs.bazel.build/versions/master/remote-caching.html
 [CAS]: https://en.wikipedia.org/wiki/Content-addressable_storage
 [Source Mirroring]: https://buildstream.gitlab.io/buildstream/format_project.html#mirrors
 [Include directive]: https://buildstream.gitlab.io/buildstream/format_intro.html#include
