@@ -20,7 +20,7 @@ This page lists the issues that has been identified as harmful for those install
 
   * Workaround:
     Clean up manually the cache directory when disk resources get low.
-    This directory is the one pass as parameter to `bst-artifact-server`.
+    This directory is the one passed as parameter to `bst-artifact-server`.
 
 * #XXX (Title) <!-- The title does not need to match the bug one. It needs to be easy to identify by its impact. Add the link to the issue tracker ticket so the state is updated here.  -->
    * Impact Description: <!-- Add a description about the impact of the bug, not about the technical details.  -->
