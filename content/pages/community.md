@@ -35,7 +35,11 @@ The BuildStream project welcome and promotes the participation and contributions
 * Very cool but I am not a developer!
       * As mentioned above, BuildStream welcomes contributors of all skill sets. You can add value [reviewing and developing contents], helping out on the [website], doing translations, promoting the tool etc. Join the mailing list, open a ticket, show up in one of our meetings, ping us through IRC or reach out to a community member at any event... everybody is welcome.
 
-      
+## BuildStream Infrastructure
+
+The infrastructure used by the BuildStream project can be found at [this][infra] wiki page.
+
+
 [GNOME Foundation]: https://wiki.gnome.org/Foundation/Bylaws
 [Code of Conduct]: https://wiki.gnome.org/action/show/Foundation/CodeOfConduct?action=show&redirect=CodeOfConduct
 [LGPL2.1]: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html
@@ -58,3 +62,4 @@ The BuildStream project welcome and promotes the participation and contributions
 [BuildStream calendar]: https://calendar.google.com/calendar?cid=Y29kZXRoaW5rLmNvLnVrX21wZ2FoMHVqNTM4aG5ic2Y0bDdiNHJjaHRzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
 [reviewing and developing contents]: https://buildstream.gitlab.io/buildstream/main_about.html
 [website]: https://gitlab.com/BuildStream/website
+[infra]: https://wiki.gnome.org/Projects/BuildStream/Infrastructure
