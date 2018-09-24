@@ -92,6 +92,14 @@ New and updated plugins and third party software:
 
 <br/>
 
+## Incompatibilities with BuildStream 1.0.x
+
+If you already use 1.0.x in your project, take into account the following:
+
+* Project configuration file (project.conf) does not push to cache servers by default anymore, you have to specify "push: true" (See https://gitlab.com/BuildStream/buildstream/issues/224)
+* The cache-key has been changed (See https://gitlab.com/BuildStream/buildstream/issues/326)
+* Changes in the default value of build-root (See https://gitlab.com/BuildStream/buildstream/issues/414)
+
 ## Try BuildStream 1.2 out!
 
 If you want to try BuildStream 1.2 you must go through these two pages carefully:
