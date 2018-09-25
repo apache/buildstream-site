@@ -11,6 +11,27 @@ This page lists the issues that has been identified as harmful for those install
 
 ### BuildStream 1.2 known issue
 
+* BuildStream/buildstream#624 BuildStream fails to view logs with utf-8 characters
+  * Impact Description:
+    When inspecting a build log that contains a utf-8 character using
+    the BuildStream UI, BuildStream may crash.
+
+  * Workaround:
+    View the logs manually by opening the relevant file in
+    `$HOME/.cache/buildstream/logs`.
+
+* BuildStream/buildstream#622 `bst shell --build` will fail on only-pulled elements
+  * Impact Description:
+    BuildStream will fail to create a shell with the `--build` flag on
+    an element that has only been pulled from a remote cache, and
+    never been fetched locally.
+
+  * Workaround:
+    Manually fetch the sources for the element using `bst fetch --deps
+    all <element>`. The `--deps all` flag is required since
+    BuildStream will refuse to fetch sources for an element with an
+    artifact.
+
 * BuildStream/buildstream#609 Cache server running out of space
   * Impact Description:
     This affects only cache servers. Administrators should be aware of
@@ -22,15 +43,32 @@ This page lists the issues that has been identified as harmful for those install
     Clean up manually the cache directory when disk resources get low.
     This directory is the one passed as parameter to `bst-artifact-server`.
 
-* #XXX (Title) <!-- The title does not need to match the bug one. It needs to be easy to identify by its impact. Add the link to the issue tracker ticket so the state is updated here.  -->
-   * Impact Description: <!-- Add a description about the impact of the bug, not about the technical details.  -->
-   * Workaround: <!-- Remember to include the workaround on the ticket description. -->
-* #XXX (Title) <!-- The title does not need to match the bug one. It needs to be easy to identify by its impact. Add the link to the issue tracker ticket so the state is updated here.  -->
-   * Impact Description: <!-- Add a description about the impact of the bug, not about the technical details.  -->
-   * Workaround: <!-- Remember to include the workaround on the ticket description. -->
-* #XXX (Title) <!-- The title does not need to match the bug one. It needs to be easy to identify by its impact. Add the link to the issue tracker ticket so the state is updated here.  -->
-   * Impact Description: <!-- Add a description about the impact of the bug, not about the technical details.  -->
-   * Workaround: <!-- Remember to include the workaround on the ticket description. -->
-* #XXX (Title) <!-- The title does not need to match the bug one. It needs to be easy to identify by its impact. Add the link to the issue tracker ticket so the state is updated here.  -->
-   * Impact Description: <!-- Add a description about the impact of the bug, not about the technical details.  -->
-   * Workaround: <!-- Remember to include the workaround on the ticket description. -->
+* BuildStream/buildstream#551 BuildStream pushes just-pulled artifacts back
+  * Impact Description:
+    This affects users who push and pull to artifact servers. Under
+    yet-undetermined circumstances, BuildStream will push an artifact
+    that has just been pulled back to the server. This problem is
+    rare, and mostly harmless. A fix will likely arrive at the same
+    time as one for BuildStream/buildstream#609.
+
+  * Workaround:
+    None
+
+* BuildStream/buildstream#525 The "quit" option does not work when interrupting a build
+  * Impact Description:
+
+    This affects all builds with the BuildStream client. When
+    interrupting a build with `ctrl-C`, the "quit" option will not
+    actually exit BuildStream, and the build will continue as normal.
+
+  * Workaround:
+    Wait until important jobs complete and use the "terminate" option instead.
+
+* BuildStream/buildstream#524 Fetching from OSTree repos sometimes fails with "Too many open files"
+  * Impact Description:
+    This only affects projects with OSTree source elements. When
+    fetching many elements simultaneously, BuildStream may
+    occasionally fail with "too many open files".
+
+  * Workaround:
+    Fetch fewer elements before running the full pipeline.
