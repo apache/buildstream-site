@@ -8,9 +8,9 @@ Bazel, OBS, Reproducible Builds, Yocto, Baserock, Buildroot, Aboriginal, GNOME
 Continuous, JHBuild, Flatpak Builder and Android repo.
 
 BuildStream supports multiple build-systems (e.g. autotools, cmake, cpan, distutils,
-make, meson, qmake), and can create outputs in a range of formats (e.g. debian
-packages, flatpak runtimes, sysroots, system images) for multiple platforms and
-chipsets.
+make, meson, qmake, pip) through its [core plugins].
+[External plugins] allow the creation of a range of output formats (e.g. debian packages,
+flatpak runtimes, system images) for multiple platforms and chipsets.
 
 Our core users are application developers and system integrators who create
 production-ready software systems that need to be maintained efficiently and
@@ -18,3 +18,6 @@ reliably in the long term.
 
 New to BuildStream? Find out more in our
 [Frequently Asked Questions]({filename}faq.md) page.
+
+[core plugins]: https://docs.buildstream.build/core_plugins.html
+[External plugins]: https://buildstream.gitlab.io/bst-external/
