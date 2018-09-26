@@ -71,12 +71,15 @@ New and updated features:
 
 New an updated software components:
 
-| Component | v 1.0 | v 1.2 |
-|:---------:|:-----:|:-----:|
-|   Python    |  v3.4+ |   v3.5+    |
-|   Component b         |    |    |
-|   Component c         |    |    |
-|   Component d         |    |    |
+| Component   | v 1.0 | v 1.2     |
+|:-----------:|:-----:|:---------:|
+| Python      | v3.4+ | v3.5+     |
+| Bubblewrap  | Any   | v0.1.2+   |
+| ruamel.yaml | Any   | v0.15.51- |
+| blessings   | Any   | Removed   |
+| jinja2      | Any   | v2.10-    |
+| protobuf    | N/A   | v3.5-     |
+| grpcio      | N/A   | v1.10-    |
 
 
 <br/>
