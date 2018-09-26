@@ -61,7 +61,7 @@ New and updated features:
 | [CAS] based artifact cache                  |      | New  | Switched to [CAS] based artifact cache from OSTree based cache                         |
 | [Source Mirroring]                          |      | New  | Added functionality and configuration for providing multiple mirrors for any source.   |
 | [Include directive]                         |      | New  | Elements can now include content from other files.                                     |
-| Add junction support for subprojects        |      |      |                                                                                        |
+| Add junction support for subprojects        |      | New  | Elements can now be configured to depend on elements from other projects               |
 | Workspace incremental builds                |      | New  | Up-to-date files will no longer be rebuilt for workspaced elements.                    |
 | Element and source configuratrion overrides |      | New  | It is now possible to set and override global configuration options for plugins.       |
 | Sanbox configuration                        |      | New  | The user/group ID of sandbox processes can now be set in `project.conf`.               |
