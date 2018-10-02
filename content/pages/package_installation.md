@@ -14,8 +14,9 @@ have packaged BuildStream.
 Packages for Arch exist in [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages).
 Two different package versions are available:
 
- - Latest release: [buildstream](https://aur.archlinux.org/packages/buildstream)
- - Latest development snapshot: [buildstream-git](https://aur.archlinux.org/packages/buildstream-git)
+ - BuildStream latest release: [buildstream](https://aur.archlinux.org/packages/buildstream)
+ - BuildStream latest development snapshot: [buildstream-git](https://aur.archlinux.org/packages/buildstream-git)
+ - BuildStream-external plugins latest release: [bst-external](https://aur.archlinux.org/packages/bst-external)
 
 <a id="fedora"></a>
 
