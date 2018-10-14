@@ -153,8 +153,7 @@ python package as a regular user.
 
 Since we only ever publish [release versions]({filename}releases.md) on
 PyPI, it is currently recommended to use this installation path. This will
-ensure that you always have the latest recommended version of BuildStream that
-we recommend.
+ensure that you always have the version of BuildStream that we recommend.
 
 To install from PyPI, you will additionally require:
 
