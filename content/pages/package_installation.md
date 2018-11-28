@@ -16,6 +16,9 @@ Two different package versions are available:
 
  - BuildStream latest release: [buildstream](https://aur.archlinux.org/packages/buildstream)
  - BuildStream latest development snapshot: [buildstream-git](https://aur.archlinux.org/packages/buildstream-git)
+
+The external plugins are available as well:
+
  - BuildStream-external plugins latest release: [bst-external](https://aur.archlinux.org/packages/bst-external)
 
 <a id="fedora"></a>
