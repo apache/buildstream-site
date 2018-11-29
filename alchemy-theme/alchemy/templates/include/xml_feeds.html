@@ -13,7 +13,7 @@
         href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}">{% endif %}
 {% if CATEGORY_FEED_ATOM and category %}
   <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
-        href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|format(category.slug) }}">{% endif %}
+        href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM }}">{% endif %}
 {% if CATEGORY_FEED_RSS and category %}
   <link rel="alternate" type="application/rss+xml" title="Categories RSS Feed"
         href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS|format(category.slug) }}">{% endif %}
