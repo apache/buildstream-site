@@ -191,7 +191,7 @@ class DownloadTablePP(markdown.preprocessors.Preprocessor):
                         env['anouncement'] = release_anouncements.get(env['version'], '')
                         env['git-hash'] = repos.get_git_hash(env['version'])
                         newline = pattern.format(**env)
-                        newline = re.sub(r'[[](?P<txt>[^]]*)[]][(][)]', r'\g<txt>', newline)
+                        newline = re.sub(r'\[(?P<txt>[^]]*)\][(][)]', r'\g<txt>', newline)
                         output.append(newline)
                 else:
                     output.append(line)
