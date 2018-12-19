@@ -34,8 +34,9 @@ If BuildStream is not available on your distribution of choice, or if your
 distribution does not have a recent enough version of BuildStream yet, you will
 need to install from source code.
 
-First follow the [guide to install the dependencies for your distribution]({filename}source_installation.md#installing_dependencies), and then use
-one of the following techniques to install from source:
+- [Install the dependencies for your distribution]({filename}source_installation.md#installing_dependencies)
+
+Then use one of the following techniques to install from source:
 
 * [PyPI (recommended)]({filename}source_installation.md#install_pypi)
 * [Tarball]({filename}source_installation.md#install_tarball)
