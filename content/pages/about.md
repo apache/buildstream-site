@@ -32,7 +32,7 @@ In order to learn more about this specific release, the following links will be 
 * If you encounter any problem through this process, please visit the [Known Issues]({filename}known_issues.md) page. Hopefully you will find your problem described there together with a workaround to overcome it while the BuildStream developers fix the issue. A link to the issue tracker will allow you to follow the progress on it.
 * Finally, the recommendation is to visit the [FAQ]({filename}faq.md#use-buildstream) (Frequently Asked Questions) page in order to find out more about BuildStream, how to get in contact with those who might help you, where can I find examples of how to use the tool and further interesting information.
 
-A more technical and detailed description of BuildStream features, architecture, components, etc. can be found in [BuildStream In Detail]({filename}buildstream_in_detail.md).
+A more technical and detailed description of BuildStream features, architecture, components, etc. can be found in [BuildStream documentation] website.
 
 ## Latest features
 
@@ -72,3 +72,5 @@ If you are [installing from git]({filename}source_installation.md#install_git), 
 * To learn more about the Free Software community aspects of the BuildStream project, visit the [Community page]({filename}community.md).
 * To learn more about the promotion activities the BuildStream project does and their impact please visit BuildStream Out There (coming soon).
 * [BuildGrid](https://gitlab.com/BuildGrid/buildgrid) is a remote execution service. The project's goal is to be able to execute build jobs remotely on a grid of computers in order to massively speed up build times. It is designed to work with but not exclusively BuildStream.
+
+[BuildStream documentation]: https://docs.buildstream.build/

@@ -118,7 +118,7 @@ Feel free to take a look at our [bug list] if you do not find a solution for the
 
 Have you already installed BuildStream 1.2 successfully? Then the next step should be to try the [Hello World! example] to get a sense of how the tool works. There are [more complex examples] you can try next.
 
-Find out more about BuildStream features, architecture and further technical details on the [BuildStream In Detail] page.
+Find out more about BuildStream features, architecture and further technical details on the [BuildStream documentation] website.
 
 ## Further resources
 
@@ -146,6 +146,6 @@ For further information about BuildStream check:
 [Community mailing list]: https://mail.gnome.org/mailman/listinfo/buildstream-list
 [Hello World! example]: https://buildstream.gitlab.io/buildstream/tutorial/first-project.html
 [more complex examples]: https://buildstream.gitlab.io/buildstream/using_examples.html
-[BuildStream In Detail]: {filename}buildstream_in_detail.md
+[BuildStream documentation]: https://docs.buildstream.build/
 [buildstream]: https://gitlab.com/BuildStream/buildstream
 [FAQ]: {filename}faq.md

@@ -58,7 +58,7 @@ If after following the installation instructions from the [Install] guide and ch
 
 #### I have BuildStream installed, now what?
 
-Take a look at our [tutorials and examples] to learn more about how to use BuildStream. If you are interesting in learning more about BuildStream capabilities, take a look at the [BuildStream In Detail] page.
+Take a look at our [tutorials and examples] to learn more about how to use BuildStream. If you are interesting in learning more about BuildStream capabilities, take a look at the [BuildStream documentation] website.
 
 ## Contribute to BuildStream
 
@@ -103,7 +103,7 @@ The best way to request an enhancement to BuildStream is to present it the [Comm
 [Known Issues]: {filename}known_issues.md
 [Community mailing list]: https://mail.gnome.org/mailman/listinfo/buildstream-list
 [IRC]: irc://irc.gnome.org/#buildstream
-[BuildStream In Detail]: {filename}buildstream_in_detail.md
+[BuildStream documentation]: https://docs.buildstream.build/
 [tutorials and examples]: https://buildstream.gitlab.io/buildstream/main_using.html
 [issue on gitlab]: https://gitlab.com/BuildStream/buildstream/issues/new
 [Install from source]: {filename}installation.md#install_from_source
