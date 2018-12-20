@@ -25,11 +25,9 @@ The external plugins are available as well:
 
 ## Fedora
 
-BuildStream is not yet in the official Fedora repositories, but you can
-install it from a Copr:
+BuildStream is in the official Fedora repositories, starting with Fedora 28:
 
     :::shell
-    sudo dnf copr enable bochecha/buildstream
     sudo dnf install buildstream
 
 Optionally, install the `buildstream-docs` package to have the BuildStream
