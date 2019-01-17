@@ -23,6 +23,13 @@ The external plugins are available as well:
 
 <a id="fedora"></a>
 
+## Debian
+
+BuildStream is available in Debian Sid:
+
+   :::shell
+   apt install buildstream
+
 ## Fedora
 
 BuildStream is in the official Fedora repositories, starting with Fedora 28:

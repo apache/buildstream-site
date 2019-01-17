@@ -26,6 +26,7 @@ BuildStream is available on a limited number of Linux distributions already,
 here are some simple instructions to install BuildStream for these distributions.
 
  * [Arch Linux]({filename}package_installation.md#arch)
+ * [Debian]({filename}package_installation.md#debian)
  * [Fedora]({filename}package_installation.md#fedora)
 
 ## From source
