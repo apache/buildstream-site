@@ -25,7 +25,7 @@ The external plugins are available as well:
 
 ## Debian
 
-BuildStream is available in Debian Sid:
+BuildStream is available in Debian Buster (testing) and Sid:
 
    :::shell
    apt install buildstream
