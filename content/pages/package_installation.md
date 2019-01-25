@@ -30,6 +30,11 @@ BuildStream is available in Debian Buster (testing) and Sid:
    :::shell
    apt install buildstream
 
+The external plugins are available as well:
+
+   :::shell
+   apt install python3-bst-external
+
 ## Fedora
 
 BuildStream is in the official Fedora repositories, starting with Fedora 28:
