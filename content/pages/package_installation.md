@@ -44,3 +44,15 @@ BuildStream is in the official Fedora repositories, starting with Fedora 28:
 
 Optionally, install the `buildstream-docs` package to have the BuildStream
 documentation in Devhelp or GNOME Builder.
+
+## Ubuntu
+
+BuildStream is available in Ubuntu 19.04 and later:
+
+    :::shell
+    apt install buildstream
+
+The external plugins are available as well:
+
+    :::shell
+    apt install python3-bst-external
