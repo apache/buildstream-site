@@ -27,13 +27,13 @@ The external plugins are available as well:
 
 BuildStream is available in Debian Buster (testing) and Sid:
 
-   :::shell
-   apt install buildstream
+    :::shell
+    apt install buildstream
 
 The external plugins are available as well:
 
-   :::shell
-   apt install python3-bst-external
+    :::shell
+    apt install python3-bst-external
 
 ## Fedora
 
