@@ -22,8 +22,10 @@ by following the <a href="docker_install.html">Docker install guide</a>.
 
 ## From your Linux distribution
 
-BuildStream is available on a limited number of Linux distributions already,
-here are some simple instructions to install BuildStream for these distributions.
+BuildStream is available on a limited number of Linux distributions already:
+[![Packaging status](https://repology.org/badge/vertical-allrepos/buildstream.svg)](https://repology.org/metapackage/buildstream/versions)
+
+Here are some simple instructions to install BuildStream on some of those distributions:
 
  * [Arch Linux]({filename}package_installation.md#arch)
  * [Debian]({filename}package_installation.md#debian)
