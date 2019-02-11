@@ -28,7 +28,7 @@ The default plugins with extra host dependencies are:
 - bzr
 - deb
 - git
-- ostree
+- ostree >= v2017.8 with introspection data
 - patch
 - pip
 - tar
