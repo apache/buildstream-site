@@ -41,3 +41,14 @@ Two Docker volumes are set up by the `bst-here` script:
 
 These are necessary so that your BuildStream cache and configuration files
 persist between invocations of `bst-here`.
+
+By default, the `latest` tag of the `buildstream/buildstream` image will be
+used. This tag tracks the latest stable release of BuildStream. You can choose
+to use a different tag using the `-j` option.  For example, you can run the
+nightly build of BuildStream like so:
+
+    ::shell
+    bst-here -j nightly
+
+More details on image variants can be found
+[here](https://hub.docker.com/r/buildstream/buildstream).
