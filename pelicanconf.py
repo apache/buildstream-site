@@ -7,6 +7,7 @@ from gitlab_links import GitlabLinks
 
 AUTHOR = 'BuildStream'
 SITENAME = 'BuildStream, the software integration tool'
+SITEIMAGE = '/site-logo/BuildStream-logo-emblem-blue.png width=140 height=140'
 SITEURL = ''
 RELATIVE_URLS = True
 
@@ -18,6 +19,7 @@ INDEX_SAVE_AS = 'news.html'
 STATIC_PATHS = [
     '.well-known/acme-challenge',
     'favicon.ico',
+    'site-logo/BuildStream-logo-emblem-blue.png'
 ]
 
 TIMEZONE = 'Europe/London'
