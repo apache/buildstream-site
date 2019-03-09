@@ -24,7 +24,13 @@ by following the <a href="docker_install.html">Docker install guide</a>.
 
 BuildStream is available on a limited number of Linux distributions already:
 
-[![Packaging status](https://repology.org/badge/vertical-allrepos/buildstream.svg)](https://repology.org/metapackage/buildstream/versions)
+* BuildStream:
+
+[![BuildStream](https://repology.org/badge/vertical-allrepos/buildstream.svg)](https://repology.org/metapackage/buildstream/versions)
+
+* BuilsStream external plugins (bst-external):
+
+[![BuildStream plugins](https://repology.org/badge/vertical-allrepos/bst-external.svg)](https://repology.org/metapackage/bst-external/versions)
 
 [Instructions to install BuildStream for some of these distributions]({filename}package_installation.md)
 
