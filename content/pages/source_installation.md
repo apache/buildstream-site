@@ -208,7 +208,7 @@ Run the following commands:
     git clone https://gitlab.com/BuildStream/buildstream.git
     cd buildstream
     git checkout <desired release tag>
-    pip3 install --user -e .
+    pip3 install --user .
 
 This will install buildstream's pure python dependencies into
 your user's homedir in `~/.local` and will run BuildStream directly
@@ -217,11 +217,6 @@ from the git checkout directory.
 Keep following the instructions below to ensure that the `bst`
 command is in your `PATH` and to enable bash completions for it.
 
-We recommend the `-e` option because you can upgrade your
-installation by simply updating the checked out git repository.
-
-If you want a full installation that is not linked to your
-git checkout, just omit the `-e` option from the above commands.
 
 #### Upgrading from a git checkout
 
@@ -230,21 +225,11 @@ you need to do to upgrade BuildStream is to update your local git checkout:
 
     :::shell
     cd /path/to/buildstream
-    git pull --rebase
-
-If you did not specify the `-e` option at install time or the dependancies
-have changed, you will need to cleanly reinstall BuildStream:
-
-    :::shell
-    pip3 uninstall buildstream
-    cd /path/to/buildstream
-    git pull --rebase
+    git pull
     pip3 install --user .
 
-If BuildStream has added any dependencies since the last upgrade,
-you will need to uninstall and reinstall to ensure those dependencies
-are met, regardless of whether you have used the `-e` option at
-install time.
+This will also pull in eventual dependencies that might have been added
+to BuildStream in the meantime.
 
 <a id="install_tarball"></a>
 
