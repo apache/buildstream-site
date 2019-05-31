@@ -28,6 +28,7 @@ The default plugins with extra host dependencies are:
 - bzr
 - deb
 - git
+- ostree
 - patch
 - pip
 - tar
@@ -43,7 +44,7 @@ Install the dependencies with:
 For the default plugins:
 
     :::shell
-    sudo pacman -S bzr git lzip patch
+    sudo pacman -S bzr git lzip patch ostree python-gobject
 
 The package *python-arpy* is required by the deb source plugin. This is not
 obtainable via `pacman`, you must get
@@ -87,7 +88,9 @@ At this point you should be able to get the system requirements for the default 
 
     :::shell
     sudo apt install \
-        bzr git lzip patch python3-arpy
+        bzr git lzip patch python3-arpy python3-gi
+    sudo apt install -t stretch-backports \
+        gir1.2-ostree-1.0 ostree
 
 #### Buster or Sid
 
@@ -96,7 +99,7 @@ to get the system requirements for the default plugins installed::
 
     :::shell
     sudo apt-get install \
-        lzip git bzr patch python3-arpy
+        lzip git bzr patch python3-arpy gir1.2-ostree-1.0 ostree python3-gi
 
 ### Fedora
 
@@ -112,7 +115,7 @@ For the default plugins:
 
     :::shell
     dnf install -y \
-        bzr git lzip patch
+        bzr git lzip patch ostree python3-gobject
     pip3 install --user arpy
 
 ### Ubuntu
@@ -130,12 +133,12 @@ For the default plugins:
 
     :::shell
     sudo apt install \
-        bzr git lzip patch python3-arpy
+        bzr git lzip patch python3-arpy gir1.2-ostree-1.0 ostree python3-gi
 
 #### Ubuntu 16.04 LTS
 
 On Ubuntu 16.04, [bubblewrap](https://github.com/projectatomic/bubblewrap/)
-is not available in the official repositories.
+or [ostree](https://github.com/ostreedev/ostree) are not available in the official repositories.
 You will need to install them in whichever way you see fit. Refer the the upstream documentation
 for advice on this.
 
