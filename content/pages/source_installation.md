@@ -19,6 +19,8 @@ BuildStream requires the following base system requirements:
 - bubblewrap >= 0.1.2
 - fuse2
 
+BuildStream master also requires buildbox-casd: [Install BuildBox]
+
 BuildStream also depends on the host tools for the Source plugins.
 Refer to the respective source plugin documentation for host tool
 requirements of specific plugins.
@@ -319,3 +321,5 @@ to your `~/.bash_completion`:
     }
 
     complete -F _bst_completion -o nospace bst;
+
+[Install BuildBox]: {filename}buildbox_installation.md
