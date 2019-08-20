@@ -10,7 +10,8 @@ and it has to be manually installed.
 
 ## Install binary
 
-Linux x86-64 users can download a statically linked binary: [buildbox-casd-x86_64-linux.tar.xz]
+Linux x86-64 users can download a statically linked binary: [buildbox-casd-x86_64-linux.tar.xz]<br/>
+`sha256sum e926e6defdeb1ff0b71df856d50ed02142f01e19360a1bfe57ec586a1b66145e`
 
 The tarball contains a single binary `buildbox-casd`, which should be extracted
 into a directory in `PATH`, e.g., `~/.local/bin`.
