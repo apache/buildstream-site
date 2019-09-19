@@ -11,7 +11,7 @@ and it has to be manually installed.
 ## Install binary
 
 Linux x86-64 users can download a statically linked binary: [buildbox-casd-x86_64-linux.tar.xz]<br/>
-`sha256sum 8abef7e3bc935368efd32aff77fa0e0839ef7866f397166f380a612139d22189`
+`sha256sum 025352fead8c5770d4ee1f71e79325a69a7bf63a9f25b490163297a210a731e7`
 
 The tarball contains a single binary `buildbox-casd`, which should be extracted
 into a directory in `PATH`, e.g., `~/.local/bin`.
@@ -66,16 +66,16 @@ can't be guaranteed yet. The commit SHAs below have been tested with BuildStream
     :::shell
     git clone https://gitlab.com/BuildGrid/buildbox/buildbox-common.git
     cd buildbox-common
-    git checkout e2589e4b9f8ffa2bc183300c84cd1940d229fb38
+    git checkout 0.0.2
     cmake -DBUILD_TESTING=OFF -Bbuild
     make -C build
     make -C build install
 
     git clone https://gitlab.com/BuildGrid/buildbox/buildbox-casd.git
     cd buildbox-casd
-    git checkout dc59692877fcec86e520daa8725513efb93b331c
+    git checkout 0.0.2
     cmake -DBUILD_TESTING=OFF -Bbuild
     make -C build
     make -C build install
 
-[buildbox-casd-x86_64-linux.tar.xz]: https://buildbox-casd-binaries.nyc3.cdn.digitaloceanspaces.com/buildbox-casd-x86_64-linux-20190904-4169f21b.tar.xz
+[buildbox-casd-x86_64-linux.tar.xz]: https://buildbox-casd-binaries.nyc3.cdn.digitaloceanspaces.com/buildbox-casd-x86_64-linux-20190919-bc3eeb4b.tar.xz
