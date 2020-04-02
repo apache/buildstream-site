@@ -11,7 +11,7 @@ and it has to be manually installed.
 ## Install binaries
 
 Linux x86-64 users can download statically linked binaries: [buildbox-x86_64-linux.tar.xz]<br/>
-`sha256sum 0d4f7d5f20e9c2c048d1a9af6f7d94eae2b6325273f6d76596eaed098a76fc35`
+`sha256sum 253cb8d65948e40bb2ff56a0f22557d4a7ed2676196ec6bdbca29d70eafec76a`
 
 The tarball contains the binaries `buildbox-casd`, `buildbox-fuse` and
 `buildbox-run-bubblewrap`, which should be extracted into a directory in `PATH`,
@@ -35,8 +35,6 @@ buildbox-casd depends on the following:
     :::shell
     sudo apt install cmake uuid-dev libssl-dev \
         libprotobuf-dev protobuf-compiler libgrpc++-dev protobuf-compiler-grpc
-
-On Debian 9 the stretch-backports repository is required for protobuf and gRPC.
 
 On Ubuntu 18.04 LTS protobuf and gRPC have to be built from source.
 
@@ -68,16 +66,16 @@ can't be guaranteed yet. The tags below have been tested with BuildStream.
     :::shell
     git clone https://gitlab.com/BuildGrid/buildbox/buildbox-common.git
     cd buildbox-common
-    git checkout 0.0.6
+    git checkout 0.0.7
     cmake -DBUILD_TESTING=OFF -Bbuild
     make -C build
     make -C build install
 
     git clone https://gitlab.com/BuildGrid/buildbox/buildbox-casd.git
     cd buildbox-casd
-    git checkout 0.0.6
+    git checkout 0.0.7
     cmake -DBUILD_TESTING=OFF -Bbuild
     make -C build
     make -C build install
 
-[buildbox-x86_64-linux.tar.xz]: https://buildbox-casd-binaries.nyc3.cdn.digitaloceanspaces.com/buildbox-x86_64-linux-20200203-48361da7.tar.xz
+[buildbox-x86_64-linux.tar.xz]: https://buildbox-casd-binaries.nyc3.cdn.digitaloceanspaces.com/buildbox-x86_64-linux-0.0.7-253cb8d6.tar.xz
