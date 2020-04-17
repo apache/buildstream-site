@@ -269,6 +269,44 @@ from the git checkout directory.
 Keep following the instructions below to ensure that the ``bst``
 command is in your `PATH` and to enable bash completions for it.
 
+### Installing in virtual environments
+
+You can consider installing BuildStream in a [Virtual Environment] if you want
+to install multiple versions of BuildStream, or to isolate BuildStream and its
+dependencies from other Python packages.
+
+Here is how to install BuildStream stable and development snapshot releases in
+virtual environments of their own.
+
+    :::shell
+    # Install BuildStream stable in an environment called "venv-bst-stable"
+    python3 -m venv venv-bst-stable
+    venv-bst-stable/bin/pip install BuildStream
+
+    # Install BuildStream latest development snapshot in an environment
+    # called "venv-bst-latest"
+    python3 -m venv venv-bst-latest
+    venv-bst-latest/bin/pip install --pre BuildStream
+
+To start using BuildStream from the desired environment, you will need to
+activate it first. Activating it will automatically add `bst` to your `PATH`
+and set up other necessary environment variables.
+
+    :::shell
+    # Use BuildStream stable from venv-bst-stable
+    source venv-bst-stable/bin/activate
+    bst --version
+
+    # Use BuildStream latest from venv-bst-latest
+    source venv-bst-latest/bin/activate
+    bst --version
+
+    # Once you are done, remember to deactivate the virtual environment
+    deactivate
+
+If you do not want to manage your virtual environments manually, you can
+consider using [pipx].
+
 <a id="post_install"></a>
 ## Post install setup
 
@@ -323,3 +361,5 @@ to your `~/.bash_completion`:
     complete -F _bst_completion -o nospace bst;
 
 [Install BuildBox]: {filename}buildbox_installation.md
+[Virtual Environment]: https://docs.python.org/3/tutorial/venv.html
+[pipx]: https://pipxproject.github.io/pipx/
