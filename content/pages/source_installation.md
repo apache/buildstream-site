@@ -15,7 +15,7 @@ for installing these dependencies.
 
 BuildStream requires the following base system requirements:
 
-- python3 >= 3.5
+- python3 >= 3.6
 - bubblewrap >= 0.1.2
 - fuse2
 
