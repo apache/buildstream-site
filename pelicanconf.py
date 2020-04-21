@@ -19,6 +19,7 @@ INDEX_SAVE_AS = 'news.html'
 STATIC_PATHS = [
     '.well-known/acme-challenge',
     'favicon.ico',
+    'images',
     'site-logo/BuildStream-logo-emblem-blue.png'
 ]
 

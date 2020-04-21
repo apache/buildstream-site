@@ -45,8 +45,7 @@ The infrastructure used by the BuildStream project can be found at [this][infra]
 [LGPL2.1]: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html
 [CC-BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/
 [Development Snapshot]: {filename}releases.md#development-snapshots
-[beaver image]: https://gitlab.com/BuildStream/nosoftware/communication/tree/master/logo_icon
-<!-- /BuildStream/nosoftware/communication/tree/master/logo_icon does not work as link -->
+[beaver image]: {static}/images/buildstream-beaver.jpg
 [dreamstime.com]: https://www.dreamstime.com/royalty-free-stock-images-vector-cartoon-beaver-plumber-wrench-image16167719
 [Dreamstime's "Royalty Free" license]: https://www.dreamstime.com/terms.php#creditline
 [GNOME IRC server]: https://wiki.gnome.org/Community/GettingInTouch/IRC
