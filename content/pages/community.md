@@ -15,7 +15,7 @@ BuildStream code and technical documentation is licensed under the [LGPL2.1] lic
 
 ## Branding
 
-* The project does not have a logo yet. 
+* The project logo is the [blue waterwheel], created specially for BuildStream.
 * The project mascot is a beaver and it is using a [beaver image], which was purchased from [dreamstime.com] and can be used under [Dreamstime's "Royalty Free" license].
 
 ## Participate in the BuildStream project
@@ -46,6 +46,7 @@ The infrastructure used by the BuildStream project can be found at [this][infra]
 [CC-BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/
 [Development Snapshot]: {filename}releases.md#development-snapshots
 [beaver image]: {static}/images/buildstream-beaver.jpg
+[blue waterwheel]: {static}/site-logo/BuildStream-logo-emblem-blue.png
 [dreamstime.com]: https://www.dreamstime.com/royalty-free-stock-images-vector-cartoon-beaver-plumber-wrench-image16167719
 [Dreamstime's "Royalty Free" license]: https://www.dreamstime.com/terms.php#creditline
 [GNOME IRC server]: https://wiki.gnome.org/Community/GettingInTouch/IRC
