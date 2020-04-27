@@ -1,5 +1,5 @@
-title: BuildStream inside Docker
-slug: docker_install
+title: BuildStream inside a container
+slug: container_install
 
 If your system cannot provide the base system requirements for BuildStream, then it is possible to run buildstream within a Docker image.
 

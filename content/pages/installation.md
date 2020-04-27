@@ -14,8 +14,8 @@ platforms, along with any installation related materials.
 <div class="note">
 <p>
 BuildStream is currently only supported natively on Linux. Users of
-Unix-like systems where Docker is available can still use BuildStream
-by following the <a href="docker_install.html">Docker install guide</a>.
+Unix-like systems where OCI technology is available can still use BuildStream
+by following the <a href="container_install.html">Container install</a> guide.
 </p>
 </div>
 
@@ -50,8 +50,10 @@ Then use one of the following techniques to install from source:
 
 Then finish with the [post installation]({filename}source_installation.md#post_install).
 
-## Using Docker
+## Using Containers (Toolbox, Docker)
 
-BuildStream provides a docker image which allows you to easily run
-BuildStream inside a Docker container. To use the Docker container
-please follow [these instructions]({filename}docker_installation.md).
+The BuildStream project provides a container image which allows you to run
+different versions of the BuildStream tool, without having to install any
+dependencies.
+
+- [Container install]({filename}container_install.md)
