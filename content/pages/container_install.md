@@ -1,14 +1,25 @@
 title: BuildStream inside a container
 slug: container_install
 
-If your system cannot provide the base system requirements for BuildStream, then it is possible to run buildstream within a Docker image.
+If your system cannot provides the base requirements, it is possible to run
+BuildStream within a container.  This gives you an easy way to get started
+using BuildStream on any Unix-like platform where containers are available,
+including macOS.
 
-The BuildStream project provides
-[Docker images](https://hub.docker.com/r/buildstream/buildstream)
-containing BuildStream and its dependencies.
-This gives you an easy way to get started using BuildStream on any Unix-like
-platform where Docker is available, including Mac OS X.
+The BuildStream project provides [container images on Docker
+Hub](https://hub.docker.com/r/buildstream/buildstream).
 
+## Toolbox
+[Toolbox](https://github.com/containers/toolbox) spawns interactive containers,
+using podman.
+
+You can create and enter a BuildStream toolbox with the following commands:
+
+    ::shell
+    toolbox create -i docker.io/buildstream/buildstream:dev
+    toolbox enter buildstream-dev
+
+## Docker
 We recommend using the
 [`bst-here` wrapper script](https://gitlab.com/BuildStream/buildstream/blob/master/contrib/bst-here)
 which automates the necessary container setup. You can download it and make
