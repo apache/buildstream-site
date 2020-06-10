@@ -12,7 +12,7 @@ installed.
 ## Install binaries
 
 Linux x86-64 users can download statically linked binaries: [buildbox-x86_64-linux.tar.xz]<br/>
-`sha256sum 1e3b6f8e7ac3e33324ba3683cd562b5aa2f3db5bbeae03aa706ac9d85104d9aa`
+`sha256sum 983edf113e945ab723a9ddfd4c00dd855db0175c81373dbc0ad809045e5801a3`
 
 The tarball contains the binaries `buildbox-casd`, `buildbox-fuse`,
 `buildbox-run-bubblewrap` and the symlink `buildbox-run`, which should be
@@ -71,15 +71,15 @@ been tested with BuildStream.
     :::shell
     git clone https://gitlab.com/BuildGrid/buildbox/buildbox-common.git
     cd buildbox-common
-    git checkout 0.0.8
+    git checkout 0.0.9
     cmake -DBUILD_TESTING=OFF -Bbuild
     make -C build
     make -C build install
 
     git clone https://gitlab.com/BuildGrid/buildbox/buildbox-casd.git
     cd buildbox-casd
-    git checkout 0.0.8
-    cmake -DBUILD_TESTING=OFF -Bbuild
+    git checkout 0.0.9
+    cmake -DBUILD_TESTING=OFF -DBUILD_BENCHMARK=OFF -Bbuild
     make -C build
     make -C build install
 
@@ -100,4 +100,4 @@ been tested with BuildStream.
     # Configure buildbox-run-bubblewrap as default buildbox-run implementation
     ln -sv buildbox-run-bubblewrap /usr/local/bin/buildbox-run
 
-[buildbox-x86_64-linux.tar.xz]: https://buildbox-casd-binaries.nyc3.cdn.digitaloceanspaces.com/buildbox-x86_64-linux-0.0.8-1e3b6f8e.tar.xz
+[buildbox-x86_64-linux.tar.xz]: https://buildbox-casd-binaries.nyc3.cdn.digitaloceanspaces.com/buildbox-x86_64-linux-0.0.9-983edf11.tar.xz
