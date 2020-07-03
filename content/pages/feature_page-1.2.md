@@ -112,7 +112,7 @@ If you want to try BuildStream 1.2 you must go through these two pages carefully
 
 The issues which may impact your experience early on are documented in the [Known Issues] page, with workarounds and links to the issue tickets, so you can keep up to date with developments.
 
-Feel free to take a look at our [bug list] if you do not find a solution for the issue you have, join the #buildstream [IRC channel] to get immediate support or join the BuildStream [Community mailing list] and ask questions there if they need to be more elaborate.
+Feel free to take a look at our [bug list] if you do not find a solution for the issue you have, join the #buildstream [IRC channel] to get immediate support or join the BuildStream community [mailing list] and ask questions there if they need to be more elaborate.
 
 ## I have installed BuildStream 1.2, now what?
 
@@ -143,7 +143,7 @@ For further information about BuildStream check:
 [Known Issues]: {filename}known_issues.md
 [IRC channel]: irc://irc.gnome.org/#buildstream
 [bug list]: https://gitlab.com/BuildStream/buildstream/boards/580462?=&label_name[]=Bug
-[Community mailing list]: https://mail.gnome.org/mailman/listinfo/buildstream-list
+[mailing list]: https://lists.apache.org/list.html?dev@buildstream.apache.org
 [Hello World! example]: https://buildstream.gitlab.io/buildstream/tutorial/first-project.html
 [more complex examples]: https://buildstream.gitlab.io/buildstream/using_examples.html
 [BuildStream documentation]: https://docs.buildstream.build/

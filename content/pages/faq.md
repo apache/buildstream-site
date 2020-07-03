@@ -101,7 +101,7 @@ The best way to request an enhancement to BuildStream is to present it the [Comm
 [Install]: {filename}installation.md
 [PyPI]: {filename}source_installation.md#install_pypi
 [Known Issues]: {filename}known_issues.md
-[Community mailing list]: https://mail.gnome.org/mailman/listinfo/buildstream-list
+[Community mailing list]: https://lists.apache.org/list.html?dev@buildstream.apache.org
 [IRC]: irc://irc.gnome.org/#buildstream
 [BuildStream documentation]: https://docs.buildstream.build/
 [tutorials and examples]: https://buildstream.gitlab.io/buildstream/main_using.html

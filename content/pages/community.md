@@ -24,8 +24,7 @@ The BuildStream project welcome and promotes the participation and contributions
 
 * The most obvious way to participate is to [use BuildStream]({filename}installation.md).
 * If you are interested in testing the new features developed by the BuildStream community, install/deploy the latest [Development Snapshot].
-      * It would be great to hear back about your experience. Join us on the #buildstream channel on the [GNOME IRC server] or the [BuildStream Community] mailing list. Feel free to provide support to other users through these channels.
-            * You might also be interested in checking the [mailing list archive].
+      * It would be great to hear back about your experience. Join us on the #buildstream channel on the [GNOME IRC server] or the BuildStream community [mailing list]. Feel free to provide support to other users through these channels.
       * One of the most valuable ways to participate is [reporting potential bugs]({filename}faq.md#contribute-to-buildstream). You can find a detailed explanation about how to do so in the [FAQ]({filename}faq.md).
 * Develop BuildStream
       * The [buildstream repository] on gitlab hosts the code base. Sign-up on [Gitlab.com] and request becoming a member of the [BuildStream Group].
@@ -33,7 +32,7 @@ The BuildStream project welcome and promotes the participation and contributions
       * We recommend you to start by evaluating and potentially fixing [simple bugs], then move into reviewing [Merge Requests] already submitted and once you gain enough confidence, start submitting patches.
 * Every [BuildStream meeting] is open to contributors, users and those simply interested in the project. Check the [BuildStream calendar] to find out about the next meeting.
 * Very cool but I am not a developer!
-      * As mentioned above, BuildStream welcomes contributors of all skill sets. You can add value [reviewing and developing contents], helping out on the [website], doing translations, promoting the tool etc. Join the mailing list, open a ticket, show up in one of our meetings, ping us through IRC or reach out to a community member at any event... everybody is welcome.
+      * As mentioned above, BuildStream welcomes contributors of all skill sets. You can add value [reviewing and developing contents], helping out on the [website], doing translations, promoting the tool etc. Join the [mailing list], open a ticket, show up in one of our meetings, ping us through IRC or reach out to a community member at any event... everybody is welcome.
 
 ## BuildStream Infrastructure
 
@@ -50,8 +49,7 @@ The infrastructure used by the BuildStream project can be found at [this][infra]
 [dreamstime.com]: https://www.dreamstime.com/royalty-free-stock-images-vector-cartoon-beaver-plumber-wrench-image16167719
 [Dreamstime's "Royalty Free" license]: https://www.dreamstime.com/terms.php#creditline
 [GNOME IRC server]: https://wiki.gnome.org/Community/GettingInTouch/IRC
-[BuildStream Community]: https://mail.gnome.org/mailman/listinfo/buildstream-list
-[mailing list archive]: https://mail.gnome.org/archives/buildstream-list/
+[mailing list]: https://lists.apache.org/list.html?dev@buildstream.apache.org
 [buildstream repository]: https://gitlab.com/BuildStream/buildstream
 [Gitlab.com]: https://www.gitlab.com
 [BuildStream Group]: https://gitlab.com/BuildStream
