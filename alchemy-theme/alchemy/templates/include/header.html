@@ -23,6 +23,8 @@
             {% endif %}
 	    {% if link.startswith('http') %}
               <li class="list-inline-item"><a href="{{ link }}">{{ title }}</a></li>
+	    {% elif link.startswith('irc') %}
+              <li class="list-inline-item"><a href="{{ link }}">{{ title }}</a></li>
             {% else %}
               <li class="list-inline-item"><a href="{{ SITEURL }}/{{ link }}">{{ title }}</a></li>
             {% endif %}

@@ -30,13 +30,13 @@ THEME = 'alchemy-theme/alchemy'
 DEFAULT_PAGINATION = 10
 
 MENUITEMS = (
-    ('About', 'about.html'),
     ('Install', 'install.html'),
+    ('Documentation&#8599', 'https://docs.buildstream.build'),
+    ('Source&#8599', 'https://gitlab.com/BuildStream/buildstream'),
+    ('Contributing&#8599', 'https://gitlab.com/BuildStream/buildstream/-/blob/master/CONTRIBUTING.rst'),
+    ('Mailing List&#8599', 'https://lists.apache.org/list.html?dev@buildstream.apache.org'),
+    ('IRC&#8599', 'irc://irc.gnome.org/#buildstream'),
     ('News', 'news.html'),
-    ('Community', 'community.html'),
-    ('FAQ', 'faq.html'),
-    ('Documentation &#8599', 'https://docs.buildstream.build'),
-    ('Source &#8599', 'https://gitlab.com/BuildStream/buildstream'),
 )
 
 MARKDOWN = {
