@@ -1,6 +1,8 @@
 title: Install
 slug: install
 
+[TOC]
+
 <object style="vertical-align: middle" data="https://buildstream.gitlab.io/buildstream/_static/release.svg" type="image/svg+xml">
 (your browser does not support SVG, please find releases at [https://download.gnome.org/sources/BuildStream/](https://download.gnome.org/sources/BuildStream/).
 </object>
@@ -11,13 +13,9 @@ slug: install
 This page provides instructions for installing BuildStream on various
 platforms, along with any installation related materials.
 
-<div class="note">
-<p>
 BuildStream is currently only supported natively on Linux. Users of
 Unix-like systems where OCI technology is available can still use BuildStream
-by following the <a href="container_install.html">Container install</a> guide.
-</p>
-</div>
+by following the [Container Install] guide.
 
 
 ## From your Linux distribution
@@ -32,28 +30,63 @@ BuildStream is available on a limited number of Linux distributions already:
 
 [![BuildStream plugins](https://repology.org/badge/vertical-allrepos/bst-external.svg)](https://repology.org/metapackage/bst-external/versions)
 
-[Instructions to install BuildStream for some of these distributions]({filename}package_installation.md)
+## Instructions to install BuildStream for some of these distributions
 
-## From source
+<a id="arch"></a>
 
-If BuildStream is not available on your distribution of choice, or if your
-distribution does not have a recent enough version of BuildStream yet, you will
-need to install from source code.
+### Arch Linux
 
-- [Install the dependencies for your distribution]({filename}source_installation.md#installing_dependencies)
+Packages for Arch exist in [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages).
+Two different package versions are available:
 
-Then use one of the following techniques to install from source:
+ - BuildStream latest release: [buildstream](https://aur.archlinux.org/packages/buildstream)
+ - BuildStream latest development snapshot: [buildstream-git](https://aur.archlinux.org/packages/buildstream-git)
 
-* [PyPI (recommended)]({filename}source_installation.md#install_pypi)
-* [Tarball]({filename}source_installation.md#install_tarball)
-* [Git]({filename}source_installation.md#install_git)
+The external plugins are available as well:
 
-Then finish with the [post installation]({filename}source_installation.md#post_install).
+ - BuildStream-external plugins latest release: [bst-external](https://aur.archlinux.org/packages/bst-external)
 
-## Using Containers (Toolbox, Docker)
+<a id="fedora"></a>
 
-The BuildStream project provides a container image which allows you to run
-different versions of the BuildStream tool, without having to install any
-dependencies.
+### Debian
 
-- [Container install]({filename}container_install.md)
+BuildStream is available in Debian Buster (testing) and Sid:
+
+    :::shell
+    apt install buildstream
+
+The external plugins are available as well:
+
+    :::shell
+    apt install python3-bst-external
+
+### Fedora
+
+BuildStream is in the official Fedora repositories, starting with Fedora 28:
+
+    :::shell
+    sudo dnf install buildstream
+
+Optionally, install the `buildstream-docs` package to have the BuildStream
+documentation in Devhelp or GNOME Builder.
+
+### Ubuntu
+
+BuildStream is available in Ubuntu 19.04 and later:
+
+    :::shell
+    apt install buildstream
+
+The external plugins are available as well:
+
+    :::shell
+    apt install python3-bst-external
+
+## Advanced / Developer Installation Instructions
+
+For other installation options (such as installing dependencies and building
+BuildStream from source) visit the [BuildStream docs] and follow the
+installation instructions there.
+
+[Container Install]: https://gitlab.com/BuildStream/buildstream-docker-images/-/blob/master/USING.md
+[BuildStream docs]: https://docs.buildstream.build
