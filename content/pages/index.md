@@ -76,11 +76,10 @@ a range of ISAs including x86\_32, x86\_64, ARMv7, ARMv8, MIPS.
 
 Features:
 
-* declarative build instructions & definitions
-* builds in a controlled, reproducible sandboxed environment.
-* provides traceability and reproducibility even for stacks of
-hundreds/thousands of components.
-* tracks changes and only rebuilds the things that have changed.
+* Declarative format: Comprehensive YAML project format
+* Sandboxed build environment: no host tools or network access in builds, geared towards reproducibility
+* Efficient: tested for efficiency with projects consisting of 10s of thousands of modules
+* Build artifact caching: Avoid building the same element twice when the inputs are identical, share cached results with your peers.
 
 
 ## How do I get BuildStream?
