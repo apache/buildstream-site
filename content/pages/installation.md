@@ -3,10 +3,10 @@ slug: install
 
 [TOC]
 
-<object style="vertical-align: middle" data="https://buildstream.gitlab.io/buildstream/_static/release.svg" type="image/svg+xml">
+<object style="vertical-align: middle" data="https://docs.buildstream.build/master/_static/release.svg" type="image/svg+xml">
 (your browser does not support SVG, please find releases at [https://download.gnome.org/sources/BuildStream/](https://download.gnome.org/sources/BuildStream/).
 </object>
-<object style="vertical-align: middle" data="https://buildstream.gitlab.io/buildstream/_static/snapshot.svg" type="image/svg+xml">
+<object style="vertical-align: middle" data="https://docs.buildstream.build/master/_static/snapshot.svg" type="image/svg+xml">
 (your browser does not support SVG, please find releases at [https://download.gnome.org/sources/BuildStream/](https://download.gnome.org/sources/BuildStream/).
 </object>
 
