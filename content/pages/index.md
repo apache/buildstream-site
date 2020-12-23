@@ -37,10 +37,10 @@ href="https://gitlab.com/freedesktop-sdk/freedesktop-sdk">
  </div>
  <br>
  <div style="margin:10px; vertical-align:bottom; text-align:center">
-  <a href="https://bitbucket.org/carbonOS/tree">
+  <a href="https://gitlab.com/carbonOS/build-meta">
     <img src="/images/CarbonOS_logo.png"
      width="100">
-   <br>CarbonOS
+   <br>carbonOS
   </a>
  </div>
  <br>
