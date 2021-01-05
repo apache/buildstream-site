@@ -103,14 +103,13 @@ features developed by the community.
 
 #### How can I get involved with Buildstream Development?
 
-First, request developer access to the [BuildStream Group] on Gitlab. The main
-repository is called [buildstream] and development happens on the Master
-branch. Following modern delivery practices, Master should always work.
+The main repository is [buildstream] and development happens on the master
+branch. Following modern delivery practices, master should always work.
 
 We suggest starting with basic bug fixes, and working up to new feature
-development. (New features should always be discussed on the mailing lists,
-before being submitted as Merge Requests). See the project's
-[contributing page] for details.
+development. New features should always be discussed on the mailing lists,
+before being submitted as pull requests, see the project's [contributing page]
+for details.
 
 #### How can I get involved with the Community?
 
@@ -126,6 +125,5 @@ events.
 [mailing list]: https://lists.apache.org/list.html?dev@buildstream.apache.org
 [IRC channel]: irc://irc.gnome.org/#buildstream
 [GNOME IRC server]: https://wiki.gnome.org/Community/GettingInTouch/IRC
-[BuildStream Group]: https://gitlab.com/BuildStream
-[buildstream]: https://gitlab.com/BuildStream/buildstream
-[contributing page]: https://gitlab.com/BuildStream/buildstream/-/blob/master/CONTRIBUTING.rst
+[buildstream]: https://github.com/apache/buildstream
+[contributing page]: https://github.com/apache/buildstream/tree/master/CONTRIBUTING.rst

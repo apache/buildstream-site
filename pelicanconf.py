@@ -28,8 +28,8 @@ DEFAULT_PAGINATION = 10
 MENUITEMS = (
     ('Install', 'install.html'),
     ('Documentation&#8599', 'https://docs.buildstream.build'),
-    ('Source&#8599', 'https://gitlab.com/BuildStream/buildstream'),
-    ('Contributing&#8599', 'https://gitlab.com/BuildStream/buildstream/-/blob/master/CONTRIBUTING.rst'),
+    ('Source&#8599', 'https://github.com/apache/buildstream'),
+    ('Contributing&#8599', 'https://github.com/apache/buildstream/tree/master/CONTRIBUTING.rst'),
     ('Mailing List&#8599', 'https://lists.apache.org/list.html?dev@buildstream.apache.org'),
     ('IRC&#8599', 'irc://irc.gnome.org/#buildstream'),
     ('News', 'news.html'),
