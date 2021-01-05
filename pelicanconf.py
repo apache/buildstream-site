@@ -3,7 +3,6 @@ import sys
 
 sys.path.append('plugins')
 from get_releases import DownloadTable
-from gitlab_links import GitlabLinks
 
 AUTHOR = 'BuildStream'
 SITENAME = 'BuildStream, the software integration tool'
@@ -42,7 +41,6 @@ MENUITEMS = (
 MARKDOWN = {
     'extensions': [
         DownloadTable(),
-        GitlabLinks(),
         'markdown.extensions.toc',
         'markdown.extensions.extra',
         'markdown.extensions.codehilite'
