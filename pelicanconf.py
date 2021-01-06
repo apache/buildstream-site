@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*- #
 import sys
 
-sys.path.append('plugins')
-from get_releases import DownloadTable
-
 AUTHOR = 'BuildStream'
 SITENAME = 'BuildStream, the software integration tool'
 SITEIMAGE = '/site-logo/BuildStream-logo-emblem-blue.png width=140 height=140'
@@ -40,7 +37,6 @@ MENUITEMS = (
 
 MARKDOWN = {
     'extensions': [
-        DownloadTable(),
         'markdown.extensions.toc',
         'markdown.extensions.extra',
         'markdown.extensions.codehilite'
