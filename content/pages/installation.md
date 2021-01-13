@@ -1,14 +1,9 @@
 title: Install
 slug: install
 
-[TOC]
+[![Release](https://docs.buildstream.build/master/_static/release.svg)](https://docs.buildstream.build/master/_static/release.html) [![Snapshot](https://docs.buildstream.build/master/_static/snapshot.svg)](https://docs.buildstream.build/master/_static/snapshot.html)
 
-<object style="vertical-align: middle" data="https://docs.buildstream.build/master/_static/release.svg" type="image/svg+xml">
-(your browser does not support SVG, please find releases at [https://download.gnome.org/sources/BuildStream/](https://download.gnome.org/sources/BuildStream/).
-</object>
-<object style="vertical-align: middle" data="https://docs.buildstream.build/master/_static/snapshot.svg" type="image/svg+xml">
-(your browser does not support SVG, please find releases at [https://download.gnome.org/sources/BuildStream/](https://download.gnome.org/sources/BuildStream/).
-</object>
+[TOC]
 
 This page provides instructions for installing BuildStream on various
 platforms, along with any installation related materials.
