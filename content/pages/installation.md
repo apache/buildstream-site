@@ -60,7 +60,12 @@ The external plugins are available as well:
 BuildStream is in the official Fedora repositories, starting with Fedora 28:
 
     :::shell
-    sudo dnf install buildstream
+    dnf install buildstream
+
+The external plugins are available as well:
+
+    :::shell
+    dnf install bst-external
 
 Optionally, install the `buildstream-docs` package to have the BuildStream
 documentation in Devhelp or GNOME Builder.
