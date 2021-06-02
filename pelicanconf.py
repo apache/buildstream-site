@@ -32,7 +32,6 @@ MENUITEMS = (
     ('Contributing&#8599', 'https://github.com/apache/buildstream/tree/master/CONTRIBUTING.rst'),
     ('Mailing List&#8599', 'https://lists.apache.org/list.html?dev@buildstream.apache.org'),
     ('IRC&#8599', 'irc://irc.gnome.org/#buildstream'),
-    ('News', 'news.html'),
 )
 
 MARKDOWN = {
