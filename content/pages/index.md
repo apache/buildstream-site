@@ -24,6 +24,7 @@ Buildstream is currently used by multiple software projects, including:
   <a
 href="https://gitlab.com/freedesktop-sdk/freedesktop-sdk">
     <img src="/images/Freedesktop-sdk_logo.png"
+     alt="Freedesktop-SDK logo"
      width="100">
     <br>Freedesktop-sdk
   </a>
@@ -32,6 +33,7 @@ href="https://gitlab.com/freedesktop-sdk/freedesktop-sdk">
  <div style="margin:10px; vertical-align:bottom; text-align:center">
   <a href="https://gitlab.gnome.org/GNOME/gnome-build-meta/">
     <img src="/images/Gnome-build-meta_logo.png"
+     alt="GNOME logo"
      width="100">
     <br>Gnome-build-meta</a>
  </div>
@@ -39,6 +41,7 @@ href="https://gitlab.com/freedesktop-sdk/freedesktop-sdk">
  <div style="margin:10px; vertical-align:bottom; text-align:center">
   <a href="https://gitlab.com/carbonOS/build-meta">
     <img src="/images/CarbonOS_logo.png"
+     alt="CarbonOS logo"
      width="100">
    <br>carbonOS
   </a>
@@ -47,6 +50,7 @@ href="https://gitlab.com/freedesktop-sdk/freedesktop-sdk">
  <div style="margin:10px; vertical-align:bottom; text-align:center">
   <a href="https://gitlab.com/libreml/libreml">
     <img src="/images/Libreml_logo.png"
+     alt="LibreML logo"
      width="100">
     <br>Libreml
   </a>
@@ -55,6 +59,7 @@ href="https://gitlab.com/freedesktop-sdk/freedesktop-sdk">
  <div style="margin:10px; vertical-align:bottom; text-align:center">
   <a href="https://github.com/WebKit/webkit/tree/master/Tools/buildstream">
     <img src="/images/WebKitGTK_logo.png"
+     alt="WebKitGTK logo"
      width="100">
    <br> WebKitGTK SDK
   </a>
