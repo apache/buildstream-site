@@ -86,6 +86,21 @@ for details.
 
 See our [install page]({filename}installation.md) for details.
 
+## BuildStream 1 vs BuildStream 2
+
+There are two major versions of BuildStream currently supported.
+
+**BuildStream 2** is the latest version, stable since 2022 and recommended for
+all new projects.
+
+**BuildStream 1** is the "classic taste" version, stable and supported
+since 2018. No new feature development is planned for BuildStream 1.
+
+Projects declare which major version of BuildStream they require in their
+[project.conf file](https://docs.buildstream.build/master/format_project.html#minimum-version).
+There is a [porting guide](https://docs.buildstream.build/master/main_porting.html)
+to help migrating existing projects and installations to BuildStream 2.
+
 ## How do I get involved?
 
 BuildStream is a welcoming Free Software project, which means your participation
