@@ -3,90 +3,109 @@ slug: install
 
 [![Release](https://docs.buildstream.build/master/_static/release.svg)](https://docs.buildstream.build/master/_static/release.html) [![Snapshot](https://docs.buildstream.build/master/_static/snapshot.svg)](https://docs.buildstream.build/master/_static/snapshot.html)
 
-[TOC]
-
-This page provides instructions for installing BuildStream on various
-platforms, along with any installation related materials.
+This page is a "quick start" guide for installing BuildStream, with links
+to detailed instructions found in the reference documentation.
 
 BuildStream is currently only supported natively on Linux. Users of
 Unix-like systems where OCI technology is available can still use BuildStream
-by following the [Container Install] guide.
+by following the [Container Images](#container-images) guide.
 
+There are two major versions of BuildStream available. If you want to build a
+specific project, check its `project.conf` file for the
+[`min-version` setting](https://docs.buildstream.build/master/format_project.html#minimum-version)
+which will tell you whether it needs BuildStream 1 or BuildStream 2.
 
-## From your Linux distribution
+If you want BuildStream 1 and 2 on the same host, you'll need to use a
+[venv] as they cannot share a single Python environment. See the
+["Installing in virtual environments" guide](https://docs.buildstream.build/1.95/main_install.html#installing-in-virtual-environments)
+for instructions.
 
-BuildStream is available on a limited number of Linux distributions already:
+## Installing BuildStream 2
 
-* BuildStream:
+If your distribution has an up-to-date `buildstream` package >= 2.0, use that.
+[Repology] has a useful table of package versions.
 
-[![BuildStream](https://repology.org/badge/vertical-allrepos/buildstream.svg)](https://repology.org/metapackage/buildstream/versions)
+Otherwise, try installing from [PyPI] into your home directory:
 
-* BuilsStream external plugins (bst-external):
+    pip3 install --user 'BuildStream == 2.*'
 
-[![BuildStream plugins](https://repology.org/badge/vertical-allrepos/bst-external.svg)](https://repology.org/metapackage/bst-external/versions)
+Note that:
 
-## Instructions to install BuildStream for some of these distributions
+  * Some host packages are required which Pip cannot provide, see the list at:
+    https://docs.buildstream.build/master/main_install.html#installing-dependencies
 
-<a id="arch"></a>
+  * BuildStream 2 and its dependency `grpc` contain binary modules. The `pip
+    install` command will work differently depending on whether prebuilt
+    'wheel' packages are available for your platform, and may fail if it can't
+    build from source -- if this happens, follow the full build + install
+    procedure linked below.
 
-### Arch Linux
+The full build + install procedure for BuildStream 2 is documented in the
+reference manual's ["Installing" section](https://docs.buildstream.build/master/main_install.html).
 
-Packages for Arch exist in [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages).
-Two different package versions are available:
+## Installing BuildStream 1
 
- - BuildStream latest release: [buildstream](https://aur.archlinux.org/packages/buildstream)
- - BuildStream latest development snapshot: [buildstream-git](https://aur.archlinux.org/packages/buildstream-git)
+If your distribution has an up-to-date `buildstream` package < 2.0, use that.
+[Repology] has a useful table of package versions.
 
-The external plugins are available as well:
+Otherwise, install from [PyPI] into your home directory:
 
- - BuildStream-external plugins latest release: [bst-external](https://aur.archlinux.org/packages/bst-external)
+    pip3 install --user 'BuildStream == 1.*'
 
-<a id="fedora"></a>
+Some host packages are required beyond what Pip provides, see the list in
+the reference manual's
+["Installing dependencies" section](https://docs.buildstream.build/1.6/install_linux_distro.html#installing-dependencies)
 
-### Debian
+The full build + install procedure for BuildStream 1 is documented in the
+reference manual's
+["Installing from source" section](https://docs.buildstream.build/1.6/install_linux_distro.html#installing-from-source).
 
-BuildStream is available in Debian Buster (testing) and Sid:
+## Container Images
 
-    :::shell
-    apt install buildstream
+BuildStream can run inside container tools such as Docker, Podman, and Toolbx.
 
-The external plugins are available as well:
+Prebuilt images containing `bst` are available at
+[docker.io/buildstream/buildstream] via the [buildstream-docker-images]
+project. Please read that project's
+[USING.md file](https://gitlab.com/BuildStream/buildstream-docker-images/-/blob/master/USING.md)
+for usage instructions.
 
-    :::shell
-    apt install python3-bst-external
+Note that the Docker `--privileged` flag is usually needed, as BuildStream runs
+element build commands in a nested container.
 
-### Fedora
+## BuildStream Plugins
 
-BuildStream is in the official Fedora repositories, starting with Fedora 28:
+BuildStream is extensible via plugins written in Python. Projects should
+provide their own setup instructions they require specific plugins from the
+host.
 
-    :::shell
-    dnf install buildstream
+Here are some common plugin sets:
 
-The external plugins are available as well:
+Plugins for **BuildStream 2**:
 
-    :::shell
-    dnf install bst-external
+ * **buildstream-plugins**:
+   [documentation](https://apache.github.io/buildstream-plugins/),
+   [PyPI package](https://pypi.org/project/buildstream-plugins/),
+   [GitHub project](https://github.com/apache/buildstream-plugins/)
+ * **bst-plugins-container**:
+   [documentation](https://buildstream.gitlab.io/bst-plugins-container/),
+   [PyPI package](https://pypi.org/project/bst-plugins-container/),
+   [GitLab project](https://gitlab.com/BuildStream/bst-plugins-container)
+ * **bst-plugins-experimental**:
+   [documentation](https://buildstream.gitlab.io/bst-plugins-experimental),
+   [PyPI package](https://pypi.org/project/bst-plugins-experimental/),
+   [GitLab project](https://gitlab.com/BuildStream/bst-plugins-experimental)
 
-Optionally, install the `buildstream-docs` package to have the BuildStream
-documentation in Devhelp or GNOME Builder.
+Plugins for **BuildStream 1**:
 
-### Ubuntu
+  * **bst-external**:
+    [documentation](https://buildstream.gitlab.io/bst-external/),
+    [PyPI package](https://pypi.org/project/BuildStream-external/#history),
+    [GitLab project](https://gitlab.com/BuildStream/bst-external)
 
-BuildStream is available in Ubuntu 19.04 and later:
-
-    :::shell
-    apt install buildstream
-
-The external plugins are available as well:
-
-    :::shell
-    apt install python3-bst-external
-
-## Advanced / Developer Installation Instructions
-
-For other installation options (such as installing dependencies and building
-BuildStream from source) visit the [BuildStream docs] and follow the
-installation instructions there.
-
-[Container Install]: https://gitlab.com/BuildStream/buildstream-docker-images/-/blob/master/USING.md
+[buildstream-docker-images]: https://gitlab.com/BuildStream/buildstream-docker-images/
+[docker.io/buildstream/buildstream]: https://hub.docker.com/r/buildstream/buildstream
 [BuildStream docs]: https://docs.buildstream.build
+[Repology]: https://repology.org/project/buildstream/versions
+[PyPI]: https://www.pypi.org/project/BuildStream/
+[venv]: https://docs.python.org/3/library/venv.html
