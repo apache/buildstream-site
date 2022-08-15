@@ -5,8 +5,16 @@ slug: index
 
 BuildStream is a Free Software tool for building/integrating software stacks.
 It takes inspiration, lessons and use-cases from various projects including
-OBS, Reproducible Builds, Yocto, Baserock, Buildroot, Aboriginal, GNOME
-Continuous, JHBuild, Flatpak Builder and Android repo.
+[OBS](https://openbuildservice.org/),
+[Reproducible Builds](https://reproducible-builds.org/),
+[Yocto](https://www.yoctoproject.org/),
+[Baserock](https://baserock.org/),
+[Buildroot](https://buildroot.org/),
+[Aboriginal](https://www.landley.net/aboriginal/),
+[GNOME Continuous](https://wiki.gnome.org/Attic/GnomeContinuous),
+[JHBuild](https://www.freedesktop.org/wiki/Software/jhbuild/),
+[Flatpak Builder](https://docs.flatpak.org/en/latest/flatpak-builder.html) and
+[Android repo](https://gerrit.googlesource.com/git-repo/).
 
 BuildStream supports multiple build-systems (e.g. autotools, cmake, cpan,
 distutils, make, meson, qmake), and can create outputs in a range of formats
