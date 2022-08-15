@@ -108,11 +108,6 @@ We have a [mailing list], and an [IRC channel] on the [GNOME IRC server].
 Please also feel free to reach out to community members at conferences and at
 events.
 
-[BuildGrid]: https://gitlab.com/BuildGrid/buildgrid
-[Freedesktop-SDK]: https://gitlab.com/freedesktop-sdk/freedesktop-sdk
-[BuildStream docs]: https://docs.buildstream.build
-[install page]: {filename}installation.md
-[PyPi]: https://pypi.org/project/BuildStream/#history
 [mailing list]: https://lists.apache.org/list.html?dev@buildstream.apache.org
 [IRC channel]: irc://irc.gnome.org/#buildstream
 [GNOME IRC server]: https://wiki.gnome.org/Community/GettingInTouch/IRC
