@@ -71,28 +71,12 @@ href="https://gitlab.com/freedesktop-sdk/freedesktop-sdk">
 
 ## What can BuildStream do, and why should I use it?
 
-* BuildStream is fast and predictable, powerful and robust.
-* BuildStream can build complex systems at scale, in a continuous delivery
-envrionment.
-* BuildStream is extensible. You can adapt it to complex workflows, or to
-support your favourite build-system.
-* At the same time, BuildStream is simple enough to be installed locally to
-build a simple change in an application that's under heavy development.
-* BuildStream can create full systems and complete toolchains from scratch, for
-a range of ISAs including x86\_32, x86\_64, ARMv7, ARMv8, MIPS.
-
-Features:
-
-* Declarative format: Comprehensive YAML project format
-* Sandboxed build environment: no host tools or network access in builds, geared towards reproducibility
-* Efficient: tested for efficiency with projects consisting of 10s of thousands of modules
-* Build artifact caching: Avoid building the same element twice when the inputs are identical, share cached results with your peers.
-
+See ["Why should I use BuildStream?"](https://docs.buildstream.build/master/main_about.html#why-should-i-use-buildstream)
+for details.
 
 ## How do I get BuildStream?
 
 See our [install page]({filename}installation.md) for details.
-
 
 ## How do I get involved?
 
