@@ -31,8 +31,9 @@ Otherwise, try installing from [PyPI] into your home directory:
 
 Note that:
 
-  * Some host packages are required which Pip cannot provide, see the list at:
-    https://docs.buildstream.build/master/main_install.html#installing-dependencies
+  * Some host packages are required which Pip cannot provide, see the list in
+    the reference manual's
+    ["Installing Dependencies" section](https://docs.buildstream.build/master/main_install.html#installing-dependencies).
 
   * BuildStream 2 and its dependency `grpc` contain binary modules. The `pip
     install` command will work differently depending on whether prebuilt
