@@ -21,6 +21,20 @@ distutils, make, meson, qmake), and can create outputs in a range of formats
 (e.g. debian packages, flatpak runtimes, sysroots, system images) for multiple
 platforms and chipsets.
 
+## BuildStream 2 is now available
+
+BuildStream 2 has been released and effectively replaces BuildStream 1, which is
+now in maintenance mode and has no further feature development planned.
+
+Users are encouraged to follow the [porting guide](https://docs.buildstream.build/master/main_porting.html)
+to port their projects to the new API, and distributions are encouraged to ship
+BuildStream 2 in place of BuildStream 1.
+
+For a period of transition, we understand that users will need to use both BuildStream 1
+and BuildStream 2 in parallel, this can be done in various ways, such as using containers,
+or installing these into separate python virtual environments, as explained in the
+[install page](install.html)
+
 ## Who is using BuildStream?
 
 Our core users are application developers and system integrators who create
@@ -85,21 +99,6 @@ for details.
 ## How do I get BuildStream?
 
 See our [install page]({filename}installation.md) for details.
-
-## BuildStream 1 vs BuildStream 2
-
-There are two major versions of BuildStream currently supported.
-
-**BuildStream 2** is the latest version, stable since 2022 and recommended for
-all new projects.
-
-**BuildStream 1** is the "classic taste" version, stable and supported
-since 2018. No new feature development is planned for BuildStream 1.
-
-Projects declare which major version of BuildStream they require in their
-[project.conf file](https://docs.buildstream.build/master/format_project.html#minimum-version).
-There is a [porting guide](https://docs.buildstream.build/master/main_porting.html)
-to help migrating existing projects and installations to BuildStream 2.
 
 ## How do I get involved?
 

@@ -10,10 +10,20 @@ BuildStream is currently only supported natively on Linux. Users of
 Unix-like systems where OCI technology is available can still use BuildStream
 by following the [Container Images](#container-images) guide.
 
-There are two major versions of BuildStream available. If you want to build a
-specific project, check its `project.conf` file for the
-[`min-version` setting](https://docs.buildstream.build/master/format_project.html#minimum-version)
-which will tell you whether it needs BuildStream 1 or BuildStream 2.
+## Do you need BuildStream 2 or BuildStream 1?
+
+There are two major versions of BuildStream currently supported.
+
+**BuildStream 2** is the latest version, stable since 2022 and recommended for
+all new projects.
+
+**BuildStream 1** is the "classic taste" version, stable and supported
+since 2018. No new feature development is planned for BuildStream 1.
+
+If you want to build a specific project, check its `project.conf` file for the
+[`min-version` setting](https://docs.buildstream.build/master/format_project.html#minimum-version).
+If the setting is `2.0` or above you need BuildStream 2, if the setting is
+not present then you need BuildStream 1.
 
 If you want BuildStream 1 and 2 on the same host, you'll need to use a
 [venv] as they cannot share a single Python environment. See the
