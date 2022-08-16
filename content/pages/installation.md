@@ -17,7 +17,7 @@ which will tell you whether it needs BuildStream 1 or BuildStream 2.
 
 If you want BuildStream 1 and 2 on the same host, you'll need to use a
 [venv] as they cannot share a single Python environment. See the
-["Installing in virtual environments" guide](https://docs.buildstream.build/1.95/main_install.html#installing-in-virtual-environments)
+["Installing in virtual environments" guide](https://docs.buildstream.build/master/main_install.html#installing-in-virtual-environments)
 for instructions.
 
 ## Installing BuildStream 2
