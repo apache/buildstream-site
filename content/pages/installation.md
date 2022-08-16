@@ -46,10 +46,10 @@ Note that:
     ["Installing Dependencies" section](https://docs.buildstream.build/master/main_install.html#installing-dependencies).
 
   * BuildStream 2 and its dependency `grpc` contain binary modules. The `pip
-    install` command will work differently depending on whether prebuilt
-    'wheel' packages are available for your platform, and may fail if it can't
-    build from source -- if this happens, follow the full build + install
-    procedure linked below.
+    install` command will work differently depending on whether [prebuilt
+    'wheel' packages](https://pypi.org/project/BuildStream/#files) are
+    available for your platform, and may fail if it can't build from source --
+    if this happens, follow the full build + install procedure linked below.
 
 The full build + install procedure for BuildStream 2 is documented in the
 reference manual's ["Installing" section](https://docs.buildstream.build/master/main_install.html).
