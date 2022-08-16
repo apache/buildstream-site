@@ -24,7 +24,7 @@ platforms and chipsets.
 ## BuildStream 2 is now available
 
 BuildStream 2 has been released and effectively replaces BuildStream 1, which is
-now in maintenance mode and has no further feature development planned.
+now in maintenance mode and will no longer be actively developed.
 
 Users are encouraged to follow the [porting guide](https://docs.buildstream.build/master/main_porting.html)
 to port their projects to the new API, and distributions are encouraged to ship
