@@ -21,14 +21,15 @@ distutils, make, meson, qmake), and can create outputs in a range of formats
 (e.g. debian packages, flatpak runtimes, sysroots, system images) for multiple
 platforms and chipsets.
 
-## BuildStream 2 is now available
+## BuildStream 2 pre-releases are now available
 
-BuildStream 2 has been released and effectively replaces BuildStream 1, which is
-now in maintenance mode and will no longer be actively developed.
+BuildStream 2 is now in beta. BuildStream 2 will effectively replace
+BuildStream 1, which will soon enter maintenance mode and will no longer be
+actively developed.
 
-Users are encouraged to follow the [porting guide](https://docs.buildstream.build/master/main_porting.html)
-to port their projects to the new API, and distributions are encouraged to ship
-BuildStream 2 in place of BuildStream 1.
+Users are encouraged to test the beta releases. See the [install page](install.html)
+for how to install them. Consult the [porting guide](https://docs.buildstream.build/master/main_porting.html)
+for information on how to port your projects to the new API.
 
 For a period of transition, we understand that users will need to use both BuildStream 1
 and BuildStream 2 in parallel, this can be done in various ways, such as using containers,

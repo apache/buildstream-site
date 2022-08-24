@@ -12,32 +12,32 @@ by following the [Container Images](#container-images) guide.
 
 ## Do you need BuildStream 2 or BuildStream 1?
 
-There are two major versions of BuildStream currently supported.
+There will soon be two major versions of BuildStream.
 
-**BuildStream 2** is the latest version, stable since 2022 and recommended for
-all new projects.
+**BuildStream 2** is currently in beta and due for final release in late 2022.
+We recommend all new projects to use the BuildStream 2 pre-releases.
 
 **BuildStream 1** is the "classic taste" version, stable and supported
 since 2018. No new feature development is planned for BuildStream 1.
 
 If you want to build a specific project, check its `project.conf` file for the
 [`min-version` setting](https://docs.buildstream.build/master/format_project.html#minimum-version).
-If the setting is `2.0` or above you need BuildStream 2, if the setting is
-not present then you need BuildStream 1.
+If the setting is `2.0` or above you need a BuildStream 2 pre-release, if the
+setting is not present then you need BuildStream 1.
 
 If you want BuildStream 1 and 2 on the same host, you'll need to use a
 [venv] as they cannot share a single Python environment. See the
 ["Installing in virtual environments" guide](https://docs.buildstream.build/master/main_install.html#installing-in-virtual-environments)
 for instructions.
 
-## Installing BuildStream 2
+## Installing BuildStream 2 pre-releases
 
-If your distribution has an up-to-date `buildstream` package >= 2.0, use that.
-[Repology] has a useful table of package versions.
+If your distribution's 'unstable' stream has a `buildstream` package >= 1.95.2,
+use that. [Repology] has a useful table of package versions.
 
 Otherwise, try installing from [PyPI] into your home directory:
 
-    pip3 install --user 'BuildStream == 2.*'
+    pip3 install --user --pre BuildStream
 
 Note that:
 
@@ -46,8 +46,8 @@ Note that:
     ["Installing Dependencies" section](https://docs.buildstream.build/master/main_install.html#installing-dependencies).
 
   * BuildStream 2 and its dependency `grpc` contain binary modules. The `pip
-    install` command will work differently depending on whether [prebuilt
-    'wheel' packages](https://pypi.org/project/BuildStream/#files) are
+    install` command will work differently depending on whether
+    [prebuilt 'wheel' packages](https://pypi.org/project/BuildStream/#files) are
     available for your platform, and may fail if it can't build from source --
     if this happens, follow the full build + install procedure linked below.
 
@@ -56,7 +56,7 @@ reference manual's ["Installing" section](https://docs.buildstream.build/master/
 
 ## Installing BuildStream 1
 
-If your distribution has an up-to-date `buildstream` package < 2.0, use that.
+If your distribution has an up-to-date `buildstream` package == 1.6, use that.
 [Repology] has a useful table of package versions.
 
 Otherwise, install from [PyPI] into your home directory:
