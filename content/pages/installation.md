@@ -14,8 +14,8 @@ by following the [Container Images](#container-images) guide.
 
 There are two major versions of BuildStream currently supported.
 
-**BuildStream 2** is the latest version, stable since 2022 and recommended for
-all new projects.
+**Apache BuildStream 2** is the latest version, stable since 2022 and
+recommended for all new projects.
 
 **BuildStream 1** is the "classic taste" version, stable and supported
 since 2018. No new feature development is planned for BuildStream 1.

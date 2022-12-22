@@ -1,9 +1,11 @@
-title: Welcome to the BuildStream project
+title: Welcome to the Apache BuildStream project
 slug: index
 
 ## What is BuildStream?
 
-BuildStream is a Free Software tool for building/integrating software stacks.
+BuildStream is a tool for efficiently and correctly developing, building
+and integrating software stacks.
+
 It takes inspiration, lessons and use-cases from various projects including
 [OBS](https://openbuildservice.org/),
 [Reproducible Builds](https://reproducible-builds.org/),
@@ -21,7 +23,7 @@ distutils, make, meson, qmake), and can create outputs in a range of formats
 (e.g. debian packages, flatpak runtimes, sysroots, system images) for multiple
 platforms and chipsets.
 
-## BuildStream 2 is now available
+## Apache BuildStream 2 is now available
 
 BuildStream 2 has been released and effectively replaces BuildStream 1, which is
 now in maintenance mode and will no longer be actively developed.
@@ -102,7 +104,7 @@ See our [install page]({filename}installation.md) for details.
 
 ## How do I get involved?
 
-BuildStream is a welcoming Free Software project, which means your participation
+BuildStream is a welcoming open source project, which means your participation
 is one of the project goals. The BuildStream project welcomes and promotes the
 participation and contributions of any person.
 
@@ -116,8 +118,8 @@ features developed by the community.
 
 #### How can I get involved with Buildstream Development?
 
-The main repository is [buildstream] and development happens on the master
-branch. Following modern delivery practices, master should always work.
+The main repository is [buildstream] and development happens on the default
+branch. Following modern delivery practices, this branch should always work.
 
 We suggest starting with basic bug fixes, and working up to new feature
 development. New features should always be discussed on the mailing lists,
@@ -126,12 +128,9 @@ for details.
 
 #### How can I get involved with the Community?
 
-We have a [mailing list], and an [IRC channel] on the [GNOME IRC server].
-Please also feel free to reach out to community members at conferences and at
-events.
+Please join our [mailing list].  When attending events or conferences please do
+reach out to community members and introduce yourself.
 
 [mailing list]: https://lists.apache.org/list.html?dev@buildstream.apache.org
-[IRC channel]: irc://irc.gnome.org/#buildstream
-[GNOME IRC server]: https://wiki.gnome.org/Community/GettingInTouch/IRC
 [buildstream]: https://github.com/apache/buildstream
-[contributing page]: https://github.com/apache/buildstream/tree/master/CONTRIBUTING.rst
+[contributing page]: https://github.com/apache/buildstream/tree/HEAD/CONTRIBUTING.rst
