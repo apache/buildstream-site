@@ -3,25 +3,27 @@ slug: index
 
 ## What is BuildStream?
 
-BuildStream is a tool for efficiently and correctly developing, building
-and integrating software stacks.
+BuildStream is a powerful software integration tool that allows developers to automate the
+integration of software components including operating systems, and to streamline the software
+development and production process.
 
-It takes inspiration, lessons and use-cases from various projects including
-[OBS](https://openbuildservice.org/),
-[Reproducible Builds](https://reproducible-builds.org/),
-[Yocto](https://www.yoctoproject.org/),
-[Baserock](https://baserock.org/),
-[Buildroot](https://buildroot.org/),
-[Aboriginal](https://www.landley.net/aboriginal/),
-[GNOME Continuous](https://wiki.gnome.org/Attic/GnomeContinuous),
-[JHBuild](https://www.freedesktop.org/wiki/Software/jhbuild/),
-[Flatpak Builder](https://docs.flatpak.org/en/latest/flatpak-builder.html) and
-[Android repo](https://gerrit.googlesource.com/git-repo/).
+Some key capabilities of BuildStream include:
 
-BuildStream supports multiple build-systems (e.g. autotools, cmake, cpan,
-distutils, make, meson, qmake), and can create outputs in a range of formats
-(e.g. debian packages, flatpak runtimes, sysroots, system images) for multiple
-platforms and chipsets.
+* Defining software stacks in a declarative format: BuildStream allows users to define the steps
+  required to build and integrate software components, including fetching source code and building
+  dependencies.
+* Integrating with version control systems: BuildStream can be configured to fetch source code from
+  popular source code management solutions such as GitLab, GitHub, BitBucket as well as a range of
+  non-git technologies.
+* Supporting a wide range of build technologies: BuildStream supports a wide range of technologies,
+  including key programming languages like C, C++, Python, Rust and Java, as well as many build tools
+  including Make, CMake, Meson, distutils, pip and others.
+* Ability to create outputs in a range of formats: e.g. debian packages, flatpak runtimes, sysroots,
+  system images, for multiple platforms and chipsets.
+* Flexible architecture: BuildStream is designed to be flexible and extensible, allowing users to
+  customize their build and integration processes to meet their specific needs and tooling.
+* Enabling fast and reliable software delivery: By extensibly use of sandboxing techniques and by
+  its capability to distribute the build, BuildStream helps teams deliver high-quality software faster.
 
 ## Apache BuildStream 2 is now available
 
