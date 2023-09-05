@@ -1,0 +1,23 @@
+#
+# Configure github
+#
+github:
+
+  # Main features
+  features:
+    # Enable issue management
+    issues: true
+    # Enable projects for project management boards
+    projects: true
+
+  # Buttons
+  enabled_merge_buttons:
+    # Disable squash button:
+    squash: false
+    # enable merge button:
+    merge: true
+    # disable rebase button:
+    rebase: false
+
+  # Close branches when pull requests are merged
+  del_branch_on_merge: true
