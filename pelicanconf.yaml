@@ -1,0 +1,21 @@
+# Cargo-culted from https://infra.apache.org/asf-pelican-config.html
+
+site:
+  name: Apache BuildStream
+  description: BuildStream, the software integration tool
+  domain: buildstream.apache.org
+  # TODO: Replace with BuildStream logo
+  logo: images/logo.png
+  repository: https://github.com/apache/buildstream-site
+  trademarks: Apache, the Apache feather logo, and BuildStream are trademarks or registered trademarks
+
+theme: theme/apache
+
+genid:
+  unsafe: yes
+  metadata: yes
+  elements: yes
+  headings_depth: 4
+  permalinks: yes
+  toc_depth: 4
+  tables: yes
