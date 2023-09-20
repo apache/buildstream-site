@@ -30,8 +30,7 @@ github:
 # * https://infra.apache.org/asf-pelican-gettingstarted.html
 #
 pelican:
-  # TODO: Replace personal email with ??
-  notify: chandan@apache.org
+  notify: commits@kie.apache.org
   autobuild: preview/*
   target: asf-site
   theme: theme/apache
