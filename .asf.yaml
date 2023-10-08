@@ -31,10 +31,9 @@ github:
 #
 pelican:
   # TODO: Replace personal email with ??
-  notify: chandan@apache.org
+  notify: commits@buildstream.apache.org
   autobuild: preview/*
   target: asf-site
-  theme: theme/apache
   whoami: main
 
 #
