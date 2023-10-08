@@ -11,6 +11,9 @@ site:
 
 theme: theme
 
+content:
+  pages: pages
+
 genid:
   unsafe: yes
   metadata: yes
