@@ -9,7 +9,7 @@ site:
   repository: https://github.com/apache/buildstream-site
   trademarks: Apache, the Apache feather logo, and BuildStream are trademarks or registered trademarks
 
-theme: theme/apache
+theme: theme
 
 genid:
   unsafe: yes
