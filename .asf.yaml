@@ -22,6 +22,10 @@ github:
   # Close branches when pull requests are merged
   del_branch_on_merge: true
 
+  labels:
+    - website
+    - pelican
+
 #
 # Configure Pelican
 #
@@ -30,10 +34,10 @@ github:
 # * https://infra.apache.org/asf-pelican-gettingstarted.html
 #
 pelican:
-  # TODO: Replace personal email with ??
   notify: commits@buildstream.apache.org
   autobuild: preview/*
   target: asf-site
+  theme: theme/apache
   whoami: main
 
 #
@@ -41,5 +45,5 @@ pelican:
 #
 staging:
   profile: ~
-  whoami: asf-site
+  whoami: staging
   autostage: preview/*
