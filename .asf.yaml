@@ -37,7 +37,6 @@ pelican:
   notify: commits@buildstream.apache.org
   autobuild: preview/*
   target: asf-site
-  theme: theme/apache
   whoami: main
 
 #
