@@ -1,34 +1,169 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>[WIP] Apache BuildStream website - Apache BuildStream</title>
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/site.css" media="screen" />
-    <!--
-    -->
-</head>
-<body>
-    <div class="container">
-            <p>This website is under construction.</p>
-<p>The current website for this project can be found here: <a href="https://buildstream.build/">https://buildstream.build/</a></p>
+    <title>Welcome to the Apache BuildStream project - Apache BuildStream</title>
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/fontawesome.all.min.css" rel="stylesheet">
+<link href="/css/headerlink.css" rel="stylesheet">
+<link href="/css/foundation.css" rel="stylesheet">
+<script src="/highlight/highlight.min.js"></script>  </head>
+  <body class="d-flex flex-column h-100">
+  <main class="flex-shrink-0">
+      <div>
 
-    </div>
-        <div class="row">
-            <footer class="span8 offset2" align="center">
-                <ul>
-                    <li><a href="https://www.apache.org/licenses/">License</a></li>
-                    <li><a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li>
-                    <li><a href="https://www.apache.org/foundation/thanks.html">Thanks</a></li>
-                    <li><a href="https://www.apache.org/security/">Security</a></li>
-                    <li><a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy Policy</a></li>
-                    <li><a href="https://www.apache.org/">Apache Software Foundation</a></li>
-                </ul>
-                <p>Apache Buildsteam ,Buildstream,  Apache, the Apache feather logo, and the Apache Buildstream project logo are trademarks of The Apache Software Foundation.</p>
-                <p>All other marks mentioned may be trademarks or registered trademarks of their respective owners. </p>
-            </footer>
+<!-- nav bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"><img src="/images/logo.png" style="height: 32px;"/> Apache Buildstream</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarADP" aria-controls="navbarADP" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarADP">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://docs.buildstream.build/" target="_blank">API Documentation</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">ASF</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="https://www.apache.org/licenses/">License</a></li>
+                        <li><a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li>
+                        <li><a class="dropdown-item" href="https://www.apache.org/foundation/thanks.html">Thanks</a></li>
+                        <li><a class="dropdown-item" href="https://www.apache.org/security/">Security</a></li>
+                        <li><a class="dropdown-item" href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy Policy</a></li>
+                        <li><a class="dropdown-item" href="https://www.apache.org/">Apache Software Foundation</a></li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
-</body>
+</nav>    
+
+
+<!-- page contents -->
+<div id="contents">
+    <div class="bg-white p-5 rounded">
+        <div class="col-sm-8 mx-auto">
+          <h1>
+              Welcome to the Apache BuildStream project
+          </h1>
+              <h2>What is BuildStream?</h2>
+<p>BuildStream is a powerful software integration tool that allows developers to automate the
+integration of software components including operating systems, and to streamline the software
+development and production process.</p>
+<p>Some key capabilities of BuildStream include:</p>
+<ul>
+<li>Defining software stacks in a declarative format: BuildStream allows users to define the steps
+required to build and integrate software components, including fetching source code and building
+dependencies.</li>
+<li>Integrating with version control systems: BuildStream can be configured to fetch source code from
+popular source code management solutions such as GitLab, GitHub, BitBucket as well as a range of
+non-git technologies.</li>
+<li>Supporting a wide range of build technologies: BuildStream supports a wide range of technologies,
+including key programming languages like C, C++, Python, Rust and Java, as well as many build tools
+including Make, CMake, Meson, distutils, pip and others.</li>
+<li>Ability to create outputs in a range of formats: e.g. debian packages, flatpak runtimes, sysroots,
+system images, for multiple platforms and chipsets.</li>
+<li>Flexible architecture: BuildStream is designed to be flexible and extensible, allowing users to
+customize their build and integration processes to meet their specific needs and tooling.</li>
+<li>Enabling fast and reliable software delivery: By extensibly use of sandboxing techniques and by
+its capability to distribute the build, BuildStream helps teams deliver high-quality software faster.</li>
+</ul>
+<h2>Apache BuildStream 2 is now available</h2>
+<p>BuildStream 2 has been released and effectively replaces BuildStream 1, which is
+now in maintenance mode and will no longer be actively developed.</p>
+<p>Users are encouraged to follow the <a href="https://docs.buildstream.build/master/main_porting.html">porting guide</a>
+to port their projects to the new API, and distributions are encouraged to ship
+BuildStream 2 in place of BuildStream 1.</p>
+<p>For a period of transition, we understand that users will need to use both BuildStream 1
+and BuildStream 2 in parallel, this can be done in various ways, such as using containers,
+or installing these into separate python virtual environments, as explained in the
+<a href="installation.html">install page</a></p>
+<h2>Who is using BuildStream?</h2>
+<p>Our core users are application developers and system integrators who create
+production-ready software systems that need to be maintained efficiently and
+reliably in the long term.</p>
+<p>Buildstream is currently used by multiple software projects, including:</p>
+<div style="display:flex; align-items:flex-end">
+<div style="margin:10px; margin-left:0; vertical-align:bottom; text-align:center">
+<a href="https://gitlab.com/freedesktop-sdk/freedesktop-sdk">
+<img alt="Freedesktop-SDK logo" src="/images/Freedesktop-sdk_logo.png" width="100"/>
+<br/>Freedesktop-sdk
+  </a>
+</div>
+<br/>
+<div style="margin:10px; vertical-align:bottom; text-align:center">
+<a href="https://gitlab.gnome.org/GNOME/gnome-build-meta/">
+<img alt="GNOME logo" src="/images/Gnome-build-meta_logo.png" width="100"/>
+<br/>Gnome-build-meta</a>
+</div>
+<br/>
+<div style="margin:10px; vertical-align:bottom; text-align:center">
+<a href="https://gitlab.com/carbonOS/build-meta">
+<img alt="CarbonOS logo" src="/images/CarbonOS_logo.png" width="100"/>
+<br/>carbonOS
+  </a>
+</div>
+<br/>
+<div style="margin:10px; vertical-align:bottom; text-align:center">
+<a href="https://gitlab.com/libreml/libreml">
+<img alt="LibreML logo" src="/images/Libreml_logo.png" width="100"/>
+<br/>Libreml
+  </a>
+</div>
+<br/>
+<div style="margin:10px; vertical-align:bottom; text-align:center">
+<a href="https://github.com/WebKit/webkit/tree/master/Tools/buildstream">
+<img alt="WebKitGTK logo" src="/images/WebKitGTK_logo.png" width="100"/>
+<br/> WebKitGTK SDK
+  </a>
+</div>
+</div>
+<br/>
+<h2>What can BuildStream do, and why should I use it?</h2>
+<p>See <a href="https://docs.buildstream.build/master/main_about.html#why-should-i-use-buildstream">"Why should I use BuildStream?"</a>
+for details.</p>
+<h2>How do I get BuildStream?</h2>
+<p>See our <a href="installation.html">install page</a> for details.</p>
+<h2>How do I get involved?</h2>
+<p>BuildStream is a welcoming open source project, which means your participation
+is one of the project goals. The BuildStream project welcomes and promotes the
+participation and contributions of any person.</p>
+<p>The most obvious way to participate is to use BuildStream. If you do, then
+please tell us about your experiences so we can learn from your feedback,
+and tell other people about your exeriences too, so we can reach a larger user
+base.</p>
+<p>You can also install the latest development snapshots, and help us test new
+features developed by the community.</p>
+<h4>How can I get involved with Buildstream Development?</h4>
+<p>The main repository is <a href="https://github.com/apache/buildstream">buildstream</a> and development happens on the default
+branch. Following modern delivery practices, this branch should always work.</p>
+<p>We suggest starting with basic bug fixes, and working up to new feature
+development. New features should always be discussed on the mailing lists,
+before being submitted as pull requests, see the project's <a href="https://github.com/apache/buildstream/tree/HEAD/CONTRIBUTING.rst">contributing page</a>
+for details.</p>
+<h4>How can I get involved with the Community?</h4>
+<p>Please join our <a href="https://lists.apache.org/list.html?dev@buildstream.apache.org">mailing list</a>.  When attending events or conferences please do
+reach out to community members and introduce yourself.</p>
+
+        </div>
+      </div>
+    </div>    
+    <!-- footer -->
+    <div class="row">
+      <div class="large-12 medium-12 columns">
+        <p style="font-style: italic; font-size: 0.8rem; text-align: center;">
+          Copyright 2024, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.<br/>
+          Apache&reg; and the Apache feather logo are trademarks of The Apache Software Foundation...
+        </p>
+      </div>
+    </div>
+    <script type="application/ecmascript" src="/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"></script>      </div>
+  </main>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
 </html>

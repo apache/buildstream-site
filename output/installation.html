@@ -1,0 +1,161 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Install - Apache BuildStream</title>
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/fontawesome.all.min.css" rel="stylesheet">
+<link href="/css/headerlink.css" rel="stylesheet">
+<link href="/css/foundation.css" rel="stylesheet">
+<script src="/highlight/highlight.min.js"></script>  </head>
+  <body class="d-flex flex-column h-100">
+  <main class="flex-shrink-0">
+      <div>
+
+<!-- nav bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"><img src="/images/logo.png" style="height: 32px;"/> Apache Buildstream</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarADP" aria-controls="navbarADP" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarADP">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://docs.buildstream.build/" target="_blank">API Documentation</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">ASF</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="https://www.apache.org/licenses/">License</a></li>
+                        <li><a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li>
+                        <li><a class="dropdown-item" href="https://www.apache.org/foundation/thanks.html">Thanks</a></li>
+                        <li><a class="dropdown-item" href="https://www.apache.org/security/">Security</a></li>
+                        <li><a class="dropdown-item" href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy Policy</a></li>
+                        <li><a class="dropdown-item" href="https://www.apache.org/">Apache Software Foundation</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>    
+
+
+<!-- page contents -->
+<div id="contents">
+    <div class="bg-white p-5 rounded">
+        <div class="col-sm-8 mx-auto">
+          <h1>
+              Install
+          </h1>
+              <p><a href="https://docs.buildstream.build/master/_static/release.html"><img alt="Release" src="https://docs.buildstream.build/master/_static/release.svg"/></a> <a href="https://docs.buildstream.build/master/_static/snapshot.html"><img alt="Snapshot" src="https://docs.buildstream.build/master/_static/snapshot.svg"/></a></p>
+<p>This page is a "quick start" guide for installing BuildStream, with links
+to detailed instructions found in the reference documentation.</p>
+<p>BuildStream is currently only supported natively on Linux. Users of
+Unix-like systems where OCI technology is available can still use BuildStream
+by following the <a href="#container-images">Container Images</a> guide.</p>
+<h2>Do you need BuildStream 2 or BuildStream 1?</h2>
+<p>There are two major versions of BuildStream currently supported.</p>
+<p><strong>Apache BuildStream 2</strong> is the latest version, stable since 2022 and
+recommended for all new projects.</p>
+<p><strong>BuildStream 1</strong> is the "classic taste" version, stable and supported
+since 2018. No new feature development is planned for BuildStream 1.</p>
+<p>If you want to build a specific project, check its <code>project.conf</code> file for the
+<a href="https://docs.buildstream.build/master/format_project.html#minimum-version"><code>min-version</code> setting</a>.
+If the setting is <code>2.0</code> or above you need BuildStream 2, if the setting is
+not present then you need BuildStream 1.</p>
+<p>If you want BuildStream 1 and 2 on the same host, you'll need to use a
+<a href="https://docs.python.org/3/library/venv.html">venv</a> as they cannot share a single Python environment. See the
+<a href="https://docs.buildstream.build/master/main_install.html#installing-in-virtual-environments">"Installing in virtual environments" guide</a>
+for instructions.</p>
+<h2>Installing BuildStream 2</h2>
+<p>If your distribution has an up-to-date <code>buildstream</code> package &gt;= 2.0, use that.
+<a href="https://repology.org/project/buildstream/versions">Repology</a> has a useful table of package versions.</p>
+<p>Otherwise, try installing from <a href="https://www.pypi.org/project/BuildStream/">PyPI</a> into your home directory:</p>
+<pre><code>pip3 install --user 'BuildStream == 2.*'
+</code></pre>
+<p>Note that:</p>
+<ul>
+<li>
+<p>Some host packages are required which Pip cannot provide, see the list in
+the reference manual's
+<a href="https://docs.buildstream.build/master/main_install.html#installing-dependencies">"Installing Dependencies" section</a>.</p>
+</li>
+<li>
+<p>BuildStream 2 and its dependency <code>grpc</code> contain binary modules. The <code>pip install</code> command will work differently depending on whether <a href="https://pypi.org/project/BuildStream/#files">prebuilt
+'wheel' packages</a> are
+available for your platform, and may fail if it can't build from source --
+if this happens, follow the full build + install procedure linked below.</p>
+</li>
+</ul>
+<p>The full build + install procedure for BuildStream 2 is documented in the
+reference manual's <a href="https://docs.buildstream.build/master/main_install.html">"Installing" section</a>.</p>
+<h2>Installing BuildStream 1</h2>
+<p>If your distribution has an up-to-date <code>buildstream</code> package &lt; 2.0, use that.
+<a href="https://repology.org/project/buildstream/versions">Repology</a> has a useful table of package versions.</p>
+<p>Otherwise, install from <a href="https://www.pypi.org/project/BuildStream/">PyPI</a> into your home directory:</p>
+<pre><code>pip3 install --user 'BuildStream == 1.*'
+</code></pre>
+<p>Some host packages are required beyond what Pip provides, see the list in
+the reference manual's
+<a href="https://docs.buildstream.build/1.6/install_linux_distro.html#installing-dependencies">"Installing dependencies" section</a></p>
+<p>The full build + install procedure for BuildStream 1 is documented in the
+reference manual's
+<a href="https://docs.buildstream.build/1.6/install_linux_distro.html#installing-from-source">"Installing from source" section</a>.</p>
+<h2>Container Images</h2>
+<p>BuildStream can run inside container tools such as Docker, Podman, and Toolbx.</p>
+<p>Prebuilt images containing <code>bst</code> are available at
+<a href="https://hub.docker.com/r/buildstream/buildstream">docker.io/buildstream/buildstream</a> via the <a href="https://gitlab.com/BuildStream/buildstream-docker-images/">buildstream-docker-images</a>
+project. Please read that project's
+<a href="https://gitlab.com/BuildStream/buildstream-docker-images/-/blob/master/USING.md">USING.md file</a>
+for usage instructions.</p>
+<p>Note that the Docker <code>--privileged</code> flag is usually needed, as BuildStream runs
+element build commands in a nested container.</p>
+<h2>BuildStream Plugins</h2>
+<p>BuildStream is extensible via plugins written in Python. Projects should
+provide their own setup instructions they require specific plugins from the
+host.</p>
+<p>Here are some common plugin sets:</p>
+<p>Plugins for <strong>BuildStream 2</strong>:</p>
+<ul>
+<li><strong>buildstream-plugins</strong>:
+<a href="https://apache.github.io/buildstream-plugins/">documentation</a>,
+<a href="https://pypi.org/project/buildstream-plugins/">PyPI package</a>,
+<a href="https://github.com/apache/buildstream-plugins/">GitHub project</a></li>
+<li><strong>bst-plugins-container</strong>:
+<a href="https://buildstream.gitlab.io/bst-plugins-container/">documentation</a>,
+<a href="https://pypi.org/project/bst-plugins-container/">PyPI package</a>,
+<a href="https://gitlab.com/BuildStream/bst-plugins-container">GitLab project</a></li>
+<li><strong>bst-plugins-experimental</strong>:
+<a href="https://buildstream.gitlab.io/bst-plugins-experimental">documentation</a>,
+<a href="https://pypi.org/project/bst-plugins-experimental/">PyPI package</a>,
+<a href="https://gitlab.com/BuildStream/bst-plugins-experimental">GitLab project</a></li>
+</ul>
+<p>Plugins for <strong>BuildStream 1</strong>:</p>
+<ul>
+<li><strong>bst-external</strong>:
+<a href="https://buildstream.gitlab.io/bst-external/">documentation</a>,
+<a href="https://pypi.org/project/BuildStream-external/#history">PyPI package</a>,
+<a href="https://gitlab.com/BuildStream/bst-external">GitLab project</a></li>
+</ul>
+
+        </div>
+      </div>
+    </div>    
+    <!-- footer -->
+    <div class="row">
+      <div class="large-12 medium-12 columns">
+        <p style="font-style: italic; font-size: 0.8rem; text-align: center;">
+          Copyright 2024, <a href="https://www.apache.org/">The Apache Software Foundation</a>, Licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.<br/>
+          Apache&reg; and the Apache feather logo are trademarks of The Apache Software Foundation...
+        </p>
+      </div>
+    </div>
+    <script type="application/ecmascript" src="/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"></script>      </div>
+  </main>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
