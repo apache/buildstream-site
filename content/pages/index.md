@@ -27,8 +27,7 @@ Some key capabilities of BuildStream include:
 
 ## Apache BuildStream 2 is now available
 
-BuildStream 2 has been released and effectively replaces BuildStream 1, which is
-now in maintenance mode and will no longer be actively developed.
+BuildStream 2 has been released and replaces BuildStream 1, which is now end-of-life, and no longer works with Python greater than Python 3.11.x.
 
 Users are encouraged to follow the [porting guide](https://docs.buildstream.build/master/main_porting.html)
 to port their projects to the new API, and distributions are encouraged to ship
