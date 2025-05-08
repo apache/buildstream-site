@@ -17,8 +17,7 @@ There are two major versions of BuildStream currently supported.
 **Apache BuildStream 2** is the latest version, stable since 2022 and
 recommended for all new projects.
 
-**BuildStream 1** is the "classic taste" version, stable and supported
-since 2018. No new feature development is planned for BuildStream 1.
+**BuildStream 1** is end-of-life, and will not work on systems with a Python interpreter greater than 3.11.x.
 
 If you want to build a specific project, check its `project.conf` file for the
 [`min-version` setting](https://docs.buildstream.build/master/format_project.html#minimum-version).
