@@ -129,9 +129,10 @@ for details.
 
 #### How can I get involved with the Community?
 
-Please join our [mailing list].  When attending events or conferences please do
+Please join our [mailing list], or our [Matrix room].  When attending events or conferences please do
 reach out to community members and introduce yourself.
 
 [mailing list]: https://lists.apache.org/list.html?dev@buildstream.apache.org
 [buildstream]: https://github.com/apache/buildstream
 [contributing page]: https://github.com/apache/buildstream/tree/HEAD/CONTRIBUTING.rst
+[Matrix room]: https://matrix.to/#/#buildstream:matrix.org
