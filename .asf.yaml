@@ -33,6 +33,19 @@ github:
 # * https://infra.apache.org/project-site.html
 # * https://infra.apache.org/asf-pelican-gettingstarted.html
 #
+  rulesets:
+    - name: "Default Branch Protection"
+      type: branch
+      branches:
+        includes:
+          - "~DEFAULT_BRANCH"
+          - "release/*"
+          - "rel/*"
+        excludes: []
+      bypass_teams:
+        - root
+      restrict_deletion: true
+      restrict_force_push: true
 pelican:
   notify: commits@buildstream.apache.org
   autobuild: preview/*
@@ -43,6 +56,6 @@ pelican:
 # Staging website
 #
 staging:
-  profile: ~
+  profile:
   whoami: staging
   autostage: preview/*
