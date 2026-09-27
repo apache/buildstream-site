@@ -83,14 +83,6 @@ href="https://gitlab.com/freedesktop-sdk/freedesktop-sdk">
   </a>
  </div>
  <br>
- <div style="margin:10px; vertical-align:bottom; text-align:center">
-  <a href="https://github.com/WebKit/webkit/tree/master/Tools/buildstream">
-    <img src="/images/WebKitGTK_logo.png"
-     alt="WebKitGTK logo"
-     width="100">
-   <br> WebKitGTK SDK
-  </a>
- </div>
 </div>
 <br>
 
